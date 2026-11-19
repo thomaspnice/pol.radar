@@ -65,12 +65,12 @@ def collect(cfg, fetch=None):
     quellen = []
     for f in cfg.get("feeds", []):
         quellen.append(dict(name=f["name"], url=f["url"], seiten=f.get("seiten", 1), vt=bool(f.get("volltext")),
-                            kategorie=f.get("kategorie"), organisation=f.get("organisation"), google=False))
+                            kategorie=f.get("kategorie"), organisation=f.get("organisation"), google=False, streng=bool(f.get("streng"))))
     for q in cfg.get("google_news", []):
         d = q if isinstance(q, dict) else {"suche": q}
         url = f"https://news.google.com/rss/search?q={quote_plus(d['suche'])}&hl=de&gl=DE&ceid=DE:de"
         quellen.append(dict(name=f"Google News: {d['suche'].strip(chr(34))}", url=url, seiten=1, vt=False,
-                            kategorie=d.get("kategorie"), organisation=d.get("organisation"), google=True))
+                            kategorie=d.get("kategorie"), organisation=d.get("organisation"), google=True, streng=bool(d.get("streng"))))
 
     items, fehler = [], []
     for qd in quellen:
@@ -102,6 +102,7 @@ def collect(cfg, fetch=None):
                         "organisation": org,
                         "datum": entry_date(e).isoformat(),
                         "_vt": qd["vt"],
+                        "_streng": qd.get("streng", False),
                     })
                 if not entries:
                     break
@@ -115,7 +116,7 @@ def collect(cfg, fetch=None):
 def lade_begriffe(cfg):
     """Liefert [(Begriff, Themenfeld)] aus der Excel-Datei (Spalten Thema, Suchbegriff)
     und/oder der Liste `einschliessen` (Liste oder {Themenfeld: [Begriffe]})."""
-    st = cfg["stichworte"]
+    st = dict(cfg["stichworte"], min_treffer_streng=cfg.get("min_treffer_streng", 2))
     begriffe = []
     if st.get("datei"):
         import openpyxl
@@ -154,13 +155,19 @@ def hole_text(url, get=None):
 
 
 def keyword_filter(items, cfg):
-    st = cfg["stichworte"]
+    st = dict(cfg["stichworte"], min_treffer_streng=cfg.get("min_treffer_streng", 2))
     muster = [(begriff_regex(t), t, th) for t, th in lade_begriffe(cfg)]
     exc = [w.lower() for w in st.get("ausschliessen") or []]
     out = []
     for it in items:
         text = f"{it['titel']} {it['auszug']} {it.get('text', '')}"
         treffer = [(t, th) for rx, t, th in muster if rx.search(text)]
+        if treffer and it.get("_streng"):
+            # breite Quelle: mind. N verschiedene Begriffe, davon einer in Titel/Anriss
+            kurz = f"{it['titel']} {it['auszug']}"
+            im_kopf = any(rx.search(kurz) for rx, t, th in muster)
+            if len({t for t, _ in treffer}) < st.get("min_treffer_streng", 2) or not im_kopf:
+                treffer = []
         if (treffer or not muster) and not any(w in text.lower() for w in exc):
             it["treffer"] = sorted({t for t, _ in treffer})
             it["themenfelder"] = sorted({th for _, th in treffer})
@@ -285,6 +292,41 @@ def ki_bewerten(items, cfg, frage=None):
     return ok, meldungen
 
 
+def quellenliste(cfg):
+    """Alle konfigurierten Quellen (für die Übersicht im Dashboard)."""
+    q = []
+    for f in cfg.get("feeds", []):
+        q.append(dict(name=f["name"], art="Feed", url=f["url"], kategorie=f.get("kategorie") or "Presse",
+                      organisation=f.get("organisation") or "", streng=bool(f.get("streng"))))
+    for g in cfg.get("google_news", []):
+        d = g if isinstance(g, dict) else {"suche": g}
+        q.append(dict(name=f"Google News: {d['suche'].strip(chr(34))}", art="Google-Suche", url="",
+                      kategorie=d.get("kategorie") or "Presse", organisation=d.get("organisation") or "",
+                      streng=bool(d.get("streng"))))
+    return q
+
+
+def _quellen_status(cfg, out, roh, treffer_urls, fehler):
+    """Übersicht je Quelle inkl. Ergebnis des letzten Laufs; letzter Erfolg bleibt über Läufe erhalten."""
+    alt = {}
+    if out.exists():
+        alt = {q["name"]: q for q in json.loads(out.read_text(encoding="utf-8")).get("quellen", [])}
+    n = {}
+    for x in roh:
+        z = n.setdefault(x["quelle"], [0, 0])
+        z[0] += 1
+        z[1] += x["url"] in treffer_urls
+    res = []
+    for q in quellenliste(cfg):
+        fe = next((f for f in fehler if f.startswith(q["name"] + ":")), None)
+        o = alt.get(q["name"], {})
+        q["letzter_lauf_neu"], q["letzter_lauf_treffer"] = n.get(q["name"], [0, 0])
+        q["fehler"] = fe[len(q["name"]) + 2:][:150] if fe else ""
+        q["zuletzt_ok"] = o.get("zuletzt_ok", "") if fe else jetzt().isoformat()
+        res.append(q)
+    return res
+
+
 def _lade(out):
     if out.exists():
         d = json.loads(out.read_text(encoding="utf-8"))
@@ -292,17 +334,21 @@ def _lade(out):
     return [], {}, []
 
 
-def _speichere(out, cfg, bestand, gesehen, fehler):
+def _speichere(out, cfg, bestand, gesehen, fehler, quellen=None):
     grenze = jetzt() - timedelta(days=cfg.get("behalten_tage", 30))
     gesehen = {u: d for u, d in gesehen.items() if datetime.fromisoformat(d) >= grenze}
     alle = [x for x in bestand if datetime.fromisoformat(x["datum"]) >= grenze]
     for x in alle:
         x.pop("_vt", None)
+        x.pop("_streng", None)
         x.pop("text", None)
     alle.sort(key=lambda x: x["datum"], reverse=True)
     out.parent.mkdir(parents=True, exist_ok=True)
+    if quellen is None and out.exists():  # Phase 2 lässt die Quellenübersicht unverändert
+        quellen = json.loads(out.read_text(encoding="utf-8")).get("quellen", [])
     out.write_text(json.dumps({
-        "aktualisiert": jetzt().isoformat(), "fehler": fehler, "artikel": alle, "gesehen": gesehen,
+        "aktualisiert": jetzt().isoformat(), "fehler": fehler, "quellen": quellen or [],
+        "artikel": alle, "gesehen": gesehen,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     return alle
 
@@ -352,7 +398,8 @@ def suche(cfg, out, bestand=None, fetch=None, seite=None):
             gesehen[x["url"]] = heute
 
     fehler += [f for f in alt_fehler if f.startswith("KI-Bewertung")]  # KI-Hinweise bleiben stehen
-    alle = _speichere(out, cfg, neu + bestand, gesehen, fehler)
+    alle = _speichere(out, cfg, neu + bestand, gesehen, fehler,
+                      _quellen_status(cfg, out, roh, treffer_urls, fehler))
 
     pro = {}
     for x in roh:
