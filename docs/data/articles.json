@@ -1,8 +1,7 @@
 {
- "aktualisiert": "2026-11-19T15:03:20.084204+00:00",
+ "aktualisiert": "2026-11-19T15:14:05.863047+00:00",
  "fehler": [
-  "Google News: site:normenkontrollrat.bund.de: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Anormenkontrollrat.bund.de&hl=de&gl=DE&ceid=DE:de",
-  "KI-Bewertung: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)"
+  "Google News: Bundeswahlleiterin: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Bundeswahlleiterin&hl=de&gl=DE&ceid=DE:de"
  ],
  "artikel": [
   {
@@ -1558,6 +1557,25 @@
    "zusammenfassung": ""
   },
   {
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanprU0VmR3RVR1ZqbklXOUNEeXZjQThxU0Q5UW9WYXhMc2tPQzlON0tGVDRqQkpfSVBDbHVHT3M3bEgtVnZmcHhQZDVSRXM3RXEtb2h2RFo0bjMxYWVwSkZ2M3JTM1ktcktZenBEVEc3LXJUME5SN0Zka25wbFIxT2JGNFA?oc=5",
+   "titel": "Dichte gestiegen: Eine Kinderärztin oder ein Kinderarzt versorgt im Schnitt 1 603 Kinder und Jugendliche - Statistisches Bundesamt",
+   "auszug": "Dichte gestiegen: Eine Kinderärztin oder ein Kinderarzt versorgt im Schnitt 1 603 Kinder und Jugendliche &nbsp;&nbsp; Statistisches Bundesamt",
+   "quelle": "Google News: site:destatis.de",
+   "kategorie": "Behörde",
+   "organisation": "Destatis",
+   "datum": "2026-11-17T07:02:43+00:00",
+   "treffer": [
+    "Statistisches Bundesamt"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Amtliche Statistik",
+   "zusammenfassung": "Das Statistische Bundesamt veröffentlicht aktuelle Daten zur kinderärztlichen Versorgung in Deutschland. Demnach kommen im Schnitt 1 603 Kinder und Jugendliche auf eine Kinderärztin oder einen Kinderarzt."
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbjRGbFBQYnVKWlVteUJxcUtqRGZma1l2bDhQVTdoaURFRVhFMlJHVkVQQWUxc29BT0JWR3hYWTF5ZGJFNS1WdWluWC05ZnAzWFBCQ25iQldwY3YtMW9QUWZVdGhPMFVIaUVtWWswYkdoUklESXBzTWJBQmdWRGhycEtpdmViZjE1emtDVFVidEVRck9o?oc=5",
    "titel": "7,7 % der im Jahr 2025 neu zugelassenen Lkw in der EU fahren rein elektrisch - Statistisches Bundesamt",
    "auszug": "7,7 % der im Jahr 2025 neu zugelassenen Lkw in der EU fahren rein elektrisch &nbsp;&nbsp; Statistisches Bundesamt",
@@ -2826,6 +2844,12 @@
   "https://www.heise.de/news/KI-nicht-nach-Geschenken-fragen-sonst-bekommen-Deutsche-die-billigsten-11531034.html": "2026-11-19T14:44:09.368901+00:00",
   "https://www.heise.de/news/PHP-behebt-17-Sicherheitsluecken-vier-erlauben-Ausfuehrung-von-Schadcode-11531249.html": "2026-11-19T14:56:07.385748+00:00",
   "https://www.heise.de/news/ruby2sshell-Remote-Code-Execution-durch-21-ss-11531365.html": "2026-11-19T15:03:20.083843+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-ai-now-institute-vom-19-11-2026": "2026-11-19T15:03:20.083843+00:00"
+  "https://netzpolitik.org/ticker/ticker-news-von-ai-now-institute-vom-19-11-2026": "2026-11-19T15:03:20.083843+00:00",
+  "https://www.heise.de/news/Tesla-will-Model-Y-ohne-Pedale-und-Lenkrad-bauen-11531422.html": "2026-11-19T15:14:05.862715+00:00",
+  "https://www.heise.de/bestenlisten/testbericht/mova-t1-station-im-test-fensterputzroboter-mit-akku-sprueht-40-degreec-warmes-wasser/nc2r6me": "2026-11-19T15:14:05.862715+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ1dsVWc2cnB0a1hoVjRHZFRwanJRdWZiSXBTOERkZTNlTjZXMXdCd2lzWms5NGRGS0JWdERxcG9oSVVYTHNBeG9rYWJfdlE4WXdFSW5oeVdjNGlRLWxpbkhsUWpTRkllam1iUWdYWl9sY01tNVNKdlpWakhJRDM1SUpFVTFLUkZPLU1XYnQwX2JjOFFGZC1HellEZ2VlWHQ0TkQxTjgwdw?oc=5": "2026-11-19T15:14:05.862715+00:00",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0FlSkFWZ2JzRlRTWHZsOG00ZTJLdjAtenI5Sk1MSW9rbzd5bzZOc1F3cDFtRU1mVVVQbzFzY1dXWk80V1l4YTl0UkR5aTV0aVczRnpfcGc5SDI0OGgzTHd0cEVSMnZUTVBBSEJkc3pDemlwWU5jX2hoOXoyU3Z5emNnV3h2WTBa?oc=5": "2026-11-19T15:14:05.862715+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanprU0VmR3RVR1ZqbklXOUNEeXZjQThxU0Q5UW9WYXhMc2tPQzlON0tGVDRqQkpfSVBDbHVHT3M3bEgtVnZmcHhQZDVSRXM3RXEtb2h2RFo0bjMxYWVwSkZ2M3JTM1ktcktZenBEVEc3LXJUME5SN0Zka25wbFIxT2JGNFA?oc=5": "2026-11-19T15:14:05.862715+00:00",
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWlzQW41NklTODlvdTJVVGlfX0V0YVJ2QlRwemIxUldCTXB5UG9SaC1tVFJYQUd3cnBCbnY2VXNSV3FqRW9vLTc1WC1tYUNvc1g1cXd6cFdxd0x5QWVOaGx6cVBtcVA5QndlTGE3SGdqcVN0RGtIdWxYZE04M3VqOHN0eTUxM0tKMFhjRQ?oc=5": "2026-11-19T15:14:05.862715+00:00"
  }
 }
