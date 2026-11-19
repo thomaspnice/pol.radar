@@ -2,8 +2,12 @@ name: Medienmonitor
 
 on:
   schedule:
-    - cron: "7,37 * * * *"    # alle 30 Minuten
-  workflow_dispatch:          # manueller Start über den Actions-Tab
+    # Sammeln (Phase 1, ohne KI): alle 3 Stunden, damit nichts aus den kurzen Feeds herausfällt.
+    # Uhrzeiten sind UTC (Berlin: im Winter +1 h, im Sommer +2 h).
+    - cron: "17 5-19/3 * * *"
+    # Täglich Sammeln + KI-Bewertung: 06:03 UTC = ca. 7 Uhr im Winter, 8 Uhr im Sommer.
+    - cron: "3 6 * * *"
+  workflow_dispatch:          # manueller Start über den Actions-Tab (macht beide Phasen)
 
 permissions:
   contents: write
@@ -15,6 +19,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 30       # Sicherung: ein hängender Lauf wird nach 30 Minuten beendet
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,15 +27,33 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Feeds scannen
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scanner/scan.py
-      - name: Ergebnis speichern
+
+      # Phase 1: schnell, ohne KI. Treffer sind danach sofort im Dashboard sichtbar.
+      - name: Feeds durchsuchen (Phase 1)
+        run: python scanner/scan.py --phase suche
+      - name: Treffer speichern
         run: |
           git config user.name "medienmonitor-bot"
           git config user.email "bot@users.noreply.github.com"
           git add docs/data/articles.json
-          git diff --staged --quiet || git commit -m "Update Artikel $(date -u +%F\ %H:%M)"
+          git diff --staged --quiet || git commit -m "Treffer $(date -u +%F\ %H:%M)"
+          git push
+
+      # Phase 2: KI-Bewertung, nur im Tageslauf und bei manuellem Start.
+      # Darf scheitern oder zu lange dauern, Phase 1 bleibt erhalten.
+      - name: KI-Bewertung (Phase 2)
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '3 6 * * *' }}
+        timeout-minutes: 15
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scanner/scan.py --phase bewertung
+      - name: Bewertung speichern
+        if: ${{ always() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '3 6 * * *') }}
+        run: |
+          git config user.name "medienmonitor-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data/articles.json
+          git diff --staged --quiet || git commit -m "Bewertung $(date -u +%F\ %H:%M)"
           git push
