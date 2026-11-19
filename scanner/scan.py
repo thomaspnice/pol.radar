@@ -45,17 +45,37 @@ def _seiten_url(url, n):
     return url if n == 1 else url + ("&" if "?" in url else "?") + f"paged={n}"
 
 
+def anriss(text, saetze=2, maxlen=350):
+    """Die ersten Sätze eines Textes als Kurzfassung."""
+    text = re.sub(r"\s+", " ", text or "").strip()
+    teile = re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ„\"(])", text)
+    out = " ".join(teile[:saetze])
+    return out if len(out) <= maxlen else out[:maxlen].rsplit(" ", 1)[0] + " …"
+
+
+def textanfang(text):
+    """hib-Seiten beginnen mit Kopfzeilen; der eigentliche Text folgt nach „(hib/XXX)“."""
+    m = re.search(r"\(hib/[A-Za-z]+\)\s*(.+)", text or "", re.S)
+    return m.group(1) if m else (text or "")
+
+
 def collect(cfg, fetch=None):
     """Liefert Rohartikel aus allen Quellen. `fetch` erlaubt Tests ohne Netz.
     Feeds mit `seiten: N` werden über WordPress-Paging (?paged=2 …) tiefer gelesen."""
-    quellen = [(f["name"], f["url"], f.get("seiten", 1), bool(f.get("volltext"))) for f in cfg.get("feeds", [])]
+    quellen = []
+    for f in cfg.get("feeds", []):
+        quellen.append(dict(name=f["name"], url=f["url"], seiten=f.get("seiten", 1), vt=bool(f.get("volltext")),
+                            kategorie=f.get("kategorie"), organisation=f.get("organisation"), google=False))
     for q in cfg.get("google_news", []):
-        url = f"https://news.google.com/rss/search?q={quote_plus(q)}&hl=de&gl=DE&ceid=DE:de"
-        quellen.append((f"Google News: {q.strip(chr(34))}", url, 1, False))
+        d = q if isinstance(q, dict) else {"suche": q}
+        url = f"https://news.google.com/rss/search?q={quote_plus(d['suche'])}&hl=de&gl=DE&ceid=DE:de"
+        quellen.append(dict(name=f"Google News: {d['suche'].strip(chr(34))}", url=url, seiten=1, vt=False,
+                            kategorie=d.get("kategorie"), organisation=d.get("organisation"), google=True))
 
     items, fehler = [], []
-    for name, url, seiten, vt in quellen:
-        for n in range(1, seiten + 1):
+    for qd in quellen:
+        name, url = qd["name"], qd["url"]
+        for n in range(1, qd["seiten"] + 1):
             try:
                 if fetch:
                     raw = fetch(_seiten_url(url, n))
@@ -68,13 +88,20 @@ def collect(cfg, fetch=None):
                     link = e.get("link")
                     if not link:
                         continue
+                    titel, org = strip_html(e.get("title", "")), qd["organisation"]
+                    if qd["google"] and not org:  # Google News hängt das Medium an den Titel: „Titel - Medium“
+                        m = re.match(r"^(.*\S)\s+[-–]\s+([^-–]{2,60})$", titel)
+                        if m:
+                            titel, org = m.group(1), m.group(2).strip()
                     items.append({
                         "url": normalize_url(link),
-                        "titel": strip_html(e.get("title", "")),
+                        "titel": titel,
                         "auszug": strip_html(e.get("summary", ""))[:500],
                         "quelle": name,
+                        "kategorie": qd["kategorie"],
+                        "organisation": org,
                         "datum": entry_date(e).isoformat(),
-                        "_vt": vt,
+                        "_vt": qd["vt"],
                     })
                 if not entries:
                     break
@@ -176,21 +203,42 @@ def _frage_anthropic(prompt, b):
 
 
 def _frage_gemini(prompt, b, post=requests.post, pause=time.sleep):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{b['modell']}:generateContent"
-    body = {
-        "systemInstruction": {"parts": [{"text": SYSTEM}]},
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 400},
-    }
-    for versuch in range(4):  # Gratis-Kontingent: bei 429 warten und erneut versuchen
-        r = post(url, json=body, timeout=60,
-                 headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
-        if r.status_code in (429, 503):
-            pause(15 * (versuch + 1))
+    """Fragt Gemini. Probiert bei „Modell unbekannt“ (404) die Ersatzmodelle aus `modell_alternativen`."""
+    modelle = [m for m in [b["modell"]] + list(b.get("modell_alternativen") or []) if m not in b.setdefault("_unbekannt", set())]
+    letzter_fehler = "kein Modell verfügbar"
+    for modell in modelle:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modell}:generateContent"
+        body = {
+            "systemInstruction": {"parts": [{"text": SYSTEM}]},
+            "contents": [{"parts": [{"text": prompt}]}],
+            # Großzügiges Budget: Modelle mit „Denkphase“ zählen diese zur Ausgabegrenze
+            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 2000},
+        }
+        for versuch in range(4):  # Gratis-Kontingent: bei 429 warten und erneut versuchen
+            r = post(url, json=body, timeout=60, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+            if r.status_code in (429, 503):
+                pause(15 * (versuch + 1))
+                continue
+            break
+        else:
+            raise RuntimeError("Kontingent erschöpft oder Dienst nicht erreichbar (HTTP 429/503)")
+        if r.status_code == 404:
+            b["_unbekannt"].add(modell)
+            letzter_fehler = f"Modell „{modell}“ unbekannt (404)"
+            print(letzter_fehler + ", versuche nächstes Modell.", file=sys.stderr)
             continue
-        r.raise_for_status()
-        return r.json()["candidates"][0]["content"]["parts"][0]["text"]
-    raise RuntimeError("Kontingent erschöpft oder Dienst nicht erreichbar")
+        if r.status_code >= 400:
+            raise RuntimeError(f"Gemini HTTP {r.status_code} bei {modell}: {str(getattr(r, 'text', ''))[:200]}")
+        data = r.json()
+        kand = data.get("candidates") or []
+        if not kand:
+            raise RuntimeError(f"Keine Antwort von {modell}: {str(data.get('promptFeedback') or data)[:200]}")
+        teile = (kand[0].get("content") or {}).get("parts") or []
+        text = "".join(t.get("text", "") for t in teile if not t.get("thought"))
+        if not text.strip():
+            raise RuntimeError(f"Leere Antwort von {modell} (finishReason={kand[0].get('finishReason')})")
+        return text
+    raise RuntimeError(letzter_fehler)
 
 
 def ki_bewerten(items, cfg, frage=None):
@@ -265,6 +313,8 @@ def lauf(cfg, out, bestand, ki, fetch=None, seite=None):
             geladen += 1
             try:
                 x["text"] = hole_text(x["url"], seite)
+                if not x["auszug"]:
+                    x["auszug"] = anriss(textanfang(x["text"]))
             except Exception as ex:
                 if len(fehler) < 8:
                     fehler.append(f"Volltext {x['url']}: {str(ex)[:100]}")
