@@ -37,8 +37,9 @@
   <div class="filters">
     <input id="q" type="search" placeholder="Suchen in Titel und Zusammenfassung …">
     <select id="ton"><option value="">Alle Tonalitäten</option><option>positiv</option><option>neutral</option><option>negativ</option><option>unbewertet</option></select>
+    <select id="feld"><option value="">Alle Themenfelder</option></select>
     <select id="quelle"><option value="">Alle Quellen</option></select>
-    <select id="zeit"><option value="1">Letzte 24 h</option><option value="7" selected>Letzte 7 Tage</option><option value="30">Letzte 30 Tage</option></select>
+    <select id="zeit"><option value="1">Letzte 24 h</option><option value="7">Letzte 7 Tage</option><option value="14" selected>Letzte 14 Tage</option><option value="30">Letzte 30 Tage</option></select>
     <select id="sort"><option value="datum">Neueste zuerst</option><option value="relevanz">Relevanteste zuerst</option></select>
   </div>
   <div id="fehler"></div>
@@ -53,11 +54,11 @@ function sicherLink(u) { try { const p = new URL(u); return /^https?:$/.test(p.p
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
 function render() {
-  const q = $("q").value.toLowerCase(), ton = $("ton").value, qu = $("quelle").value;
+  const q = $("q").value.toLowerCase(), ton = $("ton").value, qu = $("quelle").value, fe = $("feld").value;
   const grenze = Date.now() - Number($("zeit").value) * 864e5;
   let a = alle.filter(x =>
     new Date(x.datum) >= grenze &&
-    (!ton || x.tonalitaet === ton) && (!qu || x.quelle === qu) &&
+    (!ton || x.tonalitaet === ton) && (!qu || x.quelle === qu) && (!fe || (x.themenfelder || []).includes(fe)) &&
     (!q || (x.titel + " " + (x.zusammenfassung || "")).toLowerCase().includes(q)));
   if ($("sort").value === "relevanz") a.sort((x, y) => (y.relevanz ?? -1) - (x.relevanz ?? -1));
   const box = $("liste"); box.replaceChildren();
@@ -72,7 +73,8 @@ function render() {
     const m = el("div", "meta");
     m.append(el("span", null, new Date(x.datum).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" })));
     m.append(el("span", null, x.quelle));
-    if (x.thema) m.append(el("span", null, "Thema: " + x.thema));
+    if (x.themenfelder && x.themenfelder.length) m.append(el("span", null, "Themenfeld: " + x.themenfelder.join(", ")));
+    if (x.treffer && x.treffer.length) m.append(el("span", null, "Begriffe: " + x.treffer.join(", ")));
     if (x.relevanz != null) m.append(el("span", null, "Relevanz " + x.relevanz));
     m.append(el("span", "badge " + x.tonalitaet, x.tonalitaet));
     d.append(m); box.append(d);
@@ -83,6 +85,8 @@ fetch("data/articles.json", { cache: "no-store" }).then(r => r.json()).then(d =>
   alle = d.artikel || [];
   $("stand").textContent = "Stand: " + new Date(d.aktualisiert).toLocaleString("de-DE") + " · " + alle.length + " Artikel gespeichert";
   const qs = [...new Set(alle.map(x => x.quelle))].sort();
+  const fs = [...new Set(alle.flatMap(x => x.themenfelder || []))].sort();
+  for (const f of fs) { const o = el("option", null, f); o.value = f; $("feld").append(o); }
   for (const s of qs) { const o = el("option", null, s); o.value = s; $("quelle").append(o); }
   if (d.fehler && d.fehler.length) {
     const w = el("div", "warn", "Quellen mit Fehlern beim letzten Lauf: " + d.fehler.join(" | "));
@@ -91,7 +95,7 @@ fetch("data/articles.json", { cache: "no-store" }).then(r => r.json()).then(d =>
   render();
 }).catch(() => { $("stand").textContent = "Noch keine Daten. Starten Sie den Workflow unter „Actions“."; });
 
-for (const id of ["q", "ton", "quelle", "zeit", "sort"]) $(id).addEventListener("input", render);
+for (const id of ["q", "ton", "feld", "quelle", "zeit", "sort"]) $(id).addEventListener("input", render);
 </script>
 </body>
 </html>

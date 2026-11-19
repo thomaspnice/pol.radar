@@ -1,0 +1,40 @@
+# Konfiguration des Medienmonitors – hier passen Sie alles an.
+
+# Wofür wird beobachtet? (Wird der KI als Kontext gegeben.)
+thema: >
+  Beobachtet werden Meldungen über die Beispiel GmbH, ihre Produkte und ihre
+  Wettbewerber sowie Branchenthemen mit Auswirkung auf das Unternehmen.
+
+# Stichwort-Vorfilter: Ein Artikel muss mindestens ein "einschliessen"-Wort
+# enthalten und darf kein "ausschliessen"-Wort enthalten (Groß-/Kleinschreibung egal).
+stichworte:
+  einschliessen:
+    - Beispiel GmbH
+    - Beispielprodukt
+    - Max Mustermann
+  ausschliessen:
+    - Gewinnspiel
+    - Horoskop
+
+# Quellen
+feeds:
+  # Beliebige RSS/Atom-Feeds
+  - name: Tagesschau
+    url: https://www.tagesschau.de/index~rss2.xml
+  - name: Heise
+    url: https://www.heise.de/rss/heise-atom.xml
+
+# Google-News-Suchen (inoffiziell, kann sich ändern). Jeder Eintrag wird zu einem Feed.
+google_news:
+  - '"Beispiel GmbH"'
+  - 'Beispielprodukt Test'
+
+# Bewertung
+bewertung:
+  ki_aktiv: true              # false = nur Stichwortfilter
+  modell: claude-haiku-5-5    # günstig und schnell
+  mindest_relevanz: 40        # 0-100; darunter wird der Artikel verworfen
+  max_ki_pro_lauf: 60         # Kostenbremse: so viele Artikel pro Lauf höchstens an die KI
+
+# Aufbewahrung
+behalten_tage: 30

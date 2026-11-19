@@ -2,39 +2,97 @@
 
 # Wofür wird beobachtet? (Wird der KI als Kontext gegeben.)
 thema: >
-  Beobachtet werden Meldungen über die Beispiel GmbH, ihre Produkte und ihre
-  Wettbewerber sowie Branchenthemen mit Auswirkung auf das Unternehmen.
+  Monitoring für das Statistische Bundesamt (Destatis) einschließlich der Bundeswahlleiterin:
+  amtliche Statistik und Bundesstatistik, Statistik- und Registergesetzgebung,
+  Datenpolitik und Dateninfrastruktur, Registermodernisierung, Verwaltungs- und
+  Staatsmodernisierung, Digitalisierung, Datenschutz, KI, relevante Akteure (Eurostat, OECD,
+  Normenkontrollrat, IT-Planungsrat u. a.) sowie Wahlrecht, Wahlorganisation und Wahlstatistik.
+  Relevant sind Meldungen, die diese Themen inhaltlich betreffen, nicht bloße Randerwähnungen.
 
-# Stichwort-Vorfilter: Ein Artikel muss mindestens ein "einschliessen"-Wort
-# enthalten und darf kein "ausschliessen"-Wort enthalten (Groß-/Kleinschreibung egal).
+# Suchbegriffe kommen aus der Excel-Datei (Spalte A: Themenfeld, Spalte B: Suchbegriff).
+# Einfach die Datei im Repository ersetzen oder bearbeiten.
 stichworte:
-  einschliessen:
-    - Beispiel GmbH
-    - Beispielprodukt
-    - Max Mustermann
-  ausschliessen:
-    - Gewinnspiel
-    - Horoskop
+  datei: suchbegriffe.xlsx
+  einschliessen: []      # optional zusätzliche Begriffe, z. B. {Themenfeld: [Begriff, ...]}
+  ausschliessen: []      # Begriffe, die einen Artikel sofort aussortieren
 
-# Quellen
+max_volltext_pro_lauf: 80   # Obergrenze für Seitenabrufe pro Lauf
+
+# Nur Artikel aus den letzten N Tagen werden aufgenommen.
+max_alter_tage: 14
+
+# Quellen. HINWEIS: Der hib-Feed enthält nur die letzten ~15 Meldungen (grob 2 Stunden bis
+# ein Tag). Rückwirkend gibt es daher nur, was die Feeds gerade noch hergeben; der Rest
+# baut sich ab dem ersten Lauf auf. Deshalb läuft der Workflow alle 30 Minuten.
 feeds:
-  # Beliebige RSS/Atom-Feeds
-  - name: Tagesschau
-    url: https://www.tagesschau.de/index~rss2.xml
-  - name: Heise
-    url: https://www.heise.de/rss/heise-atom.xml
+  - name: hib - heute im bundestag (alle)
+    url: https://www.bundestag.de/static/appdata/includes/rss/hib.rss
+    volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
+  - name: hib - Digitales und Staatsmodernisierung
+    url: https://www.bundestag.de/static/appdata/includes/rss/digitales.rss
+    volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
+  - name: hib - Inneres
+    url: https://www.bundestag.de/static/appdata/includes/rss/inneres.rss
+    volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
+  - name: hib - Wahlprüfung, Immunität und Geschäftsordnung
+    url: https://www.bundestag.de/static/appdata/includes/rss/wahlpruefung.rss
+    volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
+  # Weitere hib-Themenfeeds nach Bedarf einkommentieren:
+  # - {name: "hib - Recht und Verbraucherschutz", url: "https://www.bundestag.de/static/appdata/includes/rss/recht.rss"}
+  # - {name: "hib - Europäische Union", url: "https://www.bundestag.de/static/appdata/includes/rss/eu.rss"}
+  - name: netzpolitik.org Ticker
+    url: https://netzpolitik.org/ticker/feed
+    seiten: 5      # liest zusätzlich ?paged=2…5 (WordPress-Paging, ungetestet); endet bei Fehler
 
-# Google-News-Suchen (inoffiziell, kann sich ändern). Jeder Eintrag wird zu einem Feed.
+# ---- Weitere Quellen (Feed-Adressen auf den Anbieterseiten bzw. Feed-Verzeichnissen belegt) ----
+  # Bundestag allgemein
+  - name: Bundestag - Pressemitteilungen
+    url: https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss
+  - name: Bundestag - Drucksachen
+    url: https://www.bundestag.de/static/appdata/includes/rss/drucksachen.rss
+  - name: Bundestag - Wissenschaftliche Dienste
+    url: https://www.bundestag.de/static/appdata/includes/rss/wissenschaftlichedienste.rss
+  # - {name: "hib - Europäische Union", url: "https://www.bundestag.de/static/appdata/includes/rss/eu.rss"}
+  # - {name: "hib - Recht und Verbraucherschutz", url: "https://www.bundestag.de/static/appdata/includes/rss/recht.rss"}
+  # - {name: "hib - Haushalt", url: "https://www.bundestag.de/static/appdata/includes/rss/haushalt.rss"}
+
+  # Bundesregierung
+  - name: Bundesregierung - Pressemitteilungen
+    url: https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml
+  - name: Bundesregierung - Artikel
+    url: https://www.bundesregierung.de/service/rss/breg-de/1151246/feed.xml
+
+  # Nachrichten
+  - name: heise online News
+    url: https://www.heise.de/rss/heise-atom.xml
+  # - {name: "heise Security", url: "https://www.heise.de/security/rss/news-atom.xml"}
+  # - {name: "Bundesfinanzministerium - Pressemitteilungen", url: "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml"}
+
+# Für diese Stellen habe ich keine eigene Feed-Adresse gefunden (Destatis, Bundeswahlleiterin,
+# BfDI, BMDS, Normenkontrollrat, IT-Planungsrat, Bitkom, Eurostat). Als Ersatz dient die
+# Google-News-Suche mit site:-Filter. EXPERIMENTELL: Google News indexiert Behördenseiten nur
+# teilweise. Das Protokoll zeigt je Quelle, wie viele Einträge ankommen; leere Quellen entfernen.
 google_news:
-  - '"Beispiel GmbH"'
-  - 'Beispielprodukt Test'
+  - 'site:destatis.de'
+  - 'site:bundeswahlleiterin.de'
+  - 'site:bfdi.bund.de'
+  - 'site:bmds.bund.de'
+  - 'site:normenkontrollrat.bund.de'
+  - 'site:it-planungsrat.de'
+  - 'site:bitkom.org'
+  - '"Statistisches Bundesamt"'
+  - 'Destatis'
+  - 'Bundeswahlleiterin'
 
 # Bewertung
 bewertung:
   ki_aktiv: true              # false = nur Stichwortfilter
-  modell: claude-haiku-5-5    # günstig und schnell
+  anbieter: gemini            # gemini (Gratis-Kontingent) oder anthropic
+  modell: gemini-3.5-flash-lite   # Modellnamen ändern sich: bei Fehler "model not found" in
+                                  # Google AI Studio nachsehen. Für anthropic: claude-haiku-5-5
+  pause_sekunden: 4           # Wartezeit zwischen KI-Anfragen (schont das Gratis-Limit)
   mindest_relevanz: 40        # 0-100; darunter wird der Artikel verworfen
-  max_ki_pro_lauf: 60         # Kostenbremse: so viele Artikel pro Lauf höchstens an die KI
+  max_ki_pro_lauf: 40         # So viele neue Artikel pro Lauf höchstens an die KI; der Rest folgt im nächsten Lauf
 
 # Aufbewahrung
 behalten_tage: 30
