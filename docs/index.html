@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Medienmonitor</title>
 <style>
+  #quellen { margin-top:8px; font-size:13px; } #quellen summary { cursor:pointer; color:var(--accent); }
+  #quellen table { border-collapse:collapse; width:100%; margin-top:6px; } #quellen th, #quellen td { text-align:left; padding:3px 8px; border-bottom:1px solid var(--line); }
+  #quellen td.n { text-align:right; } #quellen .bad { color:var(--neg); } #quellen .zero { color:var(--muted); }
   :root { --bg:#f6f7f9; --card:#fff; --text:#1c2330; --muted:#667085; --line:#e3e6ec;
           --pos:#1a7f4b; --neg:#c0392b; --neu:#667085; --accent:#2457d6; --sel:#eef3ff; }
   @media (prefers-color-scheme: dark) {
@@ -60,6 +63,7 @@
     <label><input type="checkbox" id="nurSel"> nur ausgewählte</label>
   </div>
   <div id="fehler"></div>
+  <details id="quellen"><summary id="quellenTitel">Quellenübersicht</summary><div id="quellenBody"></div></details>
 </header>
 <main>
   <div class="bar">
@@ -203,8 +207,33 @@ $("export").addEventListener("click", async () => {
   $("export").disabled = !Object.keys(auswahl).length;
 });
 
+
+function quellenUebersicht(q, artikel) {
+  if (!q || !q.length) { $("quellen").style.display = "none"; return; }
+  const anz = {}; for (const a of artikel) anz[a.quelle] = (anz[a.quelle] || 0) + 1;
+  const kranke = q.filter(x => x.fehler).length;
+  $("quellenTitel").textContent = "Quellenübersicht: " + q.length + " Quellen" + (kranke ? " · " + kranke + " mit Fehler" : "");
+  const t = el("table"), h = el("tr");
+  for (const c of ["Kategorie", "Organisation", "Quelle", "Art", "Filter", "Artikel im Bestand", "Letzter Lauf (neu / mit Begriff)", "Status"]) h.append(el("th", null, c));
+  t.append(h);
+  const ord = ["Bundesregierung", "Bundestag", "Behörde", "Europa", "Presse", "Personal"];
+  for (const x of [...q].sort((a, b) => ord.indexOf(a.kategorie) - ord.indexOf(b.kategorie) || (a.organisation || "").localeCompare(b.organisation || ""))) {
+    const r = el("tr");
+    r.append(el("td", null, x.kategorie), el("td", null, x.organisation || ""));
+    const tdn = el("td");
+    if (x.url && /^https?:\/\//.test(x.url)) { const a = el("a", null, x.name); a.href = x.url; a.target = "_blank"; a.rel = "noopener"; tdn.append(a); } else tdn.textContent = x.name;
+    r.append(tdn, el("td", null, x.art), el("td", null, x.streng ? "streng" : "normal"));
+    r.append(el("td", "n", String(anz[x.name] || 0)), el("td", "n", x.letzter_lauf_neu + " / " + x.letzter_lauf_treffer));
+    const zeit = x.zuletzt_ok ? new Date(x.zuletzt_ok).toLocaleString("de-DE") : "nie";
+    r.append(x.fehler ? el("td", "bad", "Fehler: " + x.fehler) : el("td", (anz[x.name] || x.letzter_lauf_neu) ? null : "zero", "erreichbar (" + zeit + ")"));
+    t.append(r);
+  }
+  $("quellenBody").replaceChildren(t);
+}
+
 fetch("data/articles.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   alle = d.artikel || [];
+  quellenUebersicht(d.quellen, alle);
   $("stand").textContent = "Stand: " + new Date(d.aktualisiert).toLocaleString("de-DE") + " · " + alle.length + " Artikel gespeichert";
   const fs = [...new Set(alle.flatMap(x => x.themenfelder || []))].sort();
   for (const f of fs) { const o = el("option", null, f); o.value = f; $("feld").append(o); }
