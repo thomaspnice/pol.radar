@@ -16,6 +16,9 @@ stichworte:
   einschliessen: []      # optional zusätzliche Begriffe, z. B. {Themenfeld: [Begriff, ...]}
   ausschliessen: []      # Begriffe, die einen Artikel sofort aussortieren
 
+# Bei Quellen mit `streng: true` müssen mind. so viele verschiedene Begriffe treffen (einer in Titel/Anriss).
+min_treffer_streng: 2
+
 max_volltext_pro_lauf: 40   # Obergrenze für Seitenabrufe pro Lauf
 
 # Nur Artikel aus den letzten N Tagen werden aufgenommen.
@@ -26,6 +29,7 @@ max_alter_tage: 14
 # baut sich ab dem ersten Lauf auf. Deshalb läuft der Workflow alle 30 Minuten.
 feeds:
   - name: hib - heute im bundestag (alle)
+    streng: true
     url: https://www.bundestag.de/static/appdata/includes/rss/hib.rss
     kategorie: Bundestag
     organisation: hib
@@ -49,6 +53,7 @@ feeds:
   # - {name: "hib - Recht und Verbraucherschutz", url: "https://www.bundestag.de/static/appdata/includes/rss/recht.rss"}
   # - {name: "hib - Europäische Union", url: "https://www.bundestag.de/static/appdata/includes/rss/eu.rss"}
   - name: netzpolitik.org Ticker
+    streng: true
     url: https://netzpolitik.org/ticker/feed
     kategorie: Presse
     organisation: netzpolitik.org
@@ -61,10 +66,12 @@ feeds:
     kategorie: Bundestag
     organisation: Bundestag
   - name: Bundestag - Drucksachen
+    streng: true
     url: https://www.bundestag.de/static/appdata/includes/rss/drucksachen.rss
     kategorie: Bundestag
     organisation: Bundestag
   - name: Bundestag - Wissenschaftliche Dienste
+    streng: true
     url: https://www.bundestag.de/static/appdata/includes/rss/wissenschaftlichedienste.rss
     kategorie: Bundestag
     organisation: Bundestag
@@ -78,30 +85,141 @@ feeds:
     kategorie: Bundesregierung
     organisation: Bundesregierung
   - name: Bundesregierung - Artikel
+    streng: true
     url: https://www.bundesregierung.de/service/rss/breg-de/1151246/feed.xml
     kategorie: Bundesregierung
     organisation: Bundesregierung
 
   # Nachrichten
   - name: heise online News
+    streng: true
     url: https://www.heise.de/rss/heise-atom.xml
     kategorie: Presse
     organisation: heise online
   # - {name: "heise Security", url: "https://www.heise.de/security/rss/news-atom.xml"}
-  # - {name: "Bundesfinanzministerium - Pressemitteilungen", url: "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml"}
+
+  # ---- Ministerien (Feed-Adressen auf den jeweiligen RSS-Seiten der Ministerien belegt) ----
+  - name: BMWE - Pressemitteilungen          # Prio 1 (früher BMWK)
+    url: https://www.bundeswirtschaftsministerium.de/SiteGlobals/BMWI/Functions/RSSFeed/DE/RSSFeed-Pressemitteilung.xml
+    kategorie: Behörde
+    organisation: BMWE
+  - name: BMAS - Newsfeed                    # Prio 1
+    url: https://www.bmas.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed.xml
+    kategorie: Behörde
+    organisation: BMAS
+  - name: BMF - Pressemitteilungen           # Prio 1 (Adresse von der BMF-RSS-Seite, Feed selbst nicht abgerufen)
+    url: https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml
+    kategorie: Behörde
+    organisation: BMF
+  - name: BMBFSFJ - Pressemitteilungen       # Prio 2 (Familie, Bildung)
+    url: https://www.bmbfsfj.bund.de/service/rss/bmbfsfj/111102/feed.rss
+    kategorie: Behörde
+    organisation: BMBFSFJ
+  - name: BMG - Pressemitteilungen           # Prio 2
+    url: https://www.bundesgesundheitsministerium.de/pressemitteilungen.xml
+    kategorie: Behörde
+    organisation: BMG
+  - name: Auswärtiges Amt - Pressemitteilungen und Reden   # Prio 3
+    url: https://www.auswaertiges-amt.de/static/includes/rss/Presse-RSS-Feed.xml
+    kategorie: Behörde
+    organisation: Auswärtiges Amt
+  - name: BMUKN - Pressemitteilungen         # Prio 3 (Umwelt)
+    url: https://www.bundesumweltministerium.de/meldungen.rss
+    kategorie: Behörde
+    organisation: BMUKN
+
+  - name: BMDS - Newsfeed                    # Prio 1
+    url: https://bmds.bund.de/feed/rss.xml
+    kategorie: Behörde
+    organisation: BMDS
+
+  # ---- Obere Bundesbehörden ----
+  - name: BfDI - Newsfeed                    # Prio 1
+    url: https://www.bfdi.bund.de/SiteGlobals/Functions/RSSFeed/Allgemein/rssnewsfeed.xml?nn=252136&archiv=true
+    kategorie: Behörde
+    organisation: BfDI
+  - name: BSI - Presse und Veranstaltungen   # Prio 1
+    url: https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed_Presse_Veranstaltungen.xml?nn=910128
+    kategorie: Behörde
+    organisation: BSI
+  - name: bpb - Aus Politik und Zeitgeschichte   # Prio 2 (nur dieser bpb-Feed belegt)
+    url: https://www.bpb.de/rss-feed/230868.rss
+    kategorie: Behörde
+    organisation: bpb
+
+  # ---- Europa ----
+  - name: Europäisches Parlament - Pressemitteilungen (EN)
+    url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml
+    kategorie: Europa
+    organisation: Europäisches Parlament
+  - name: Rat der EU - Pressemitteilungen (EN)
+    url: https://www.consilium.europa.eu/en/rss/pressreleases.ashx
+    kategorie: Europa
+    organisation: Rat der EU
+
+  # ---- Sonstige Organisationen ----
+  - name: Bertelsmann Stiftung - Pressemitteilungen
+    url: https://www.bertelsmann-stiftung.de/de/system/service/rss-feed-pressemitteilungen
+    kategorie: Presse
+    organisation: Bertelsmann Stiftung
+  - name: Bertelsmann Stiftung - Digitalisierung und Gemeinwohl
+    url: https://www.bertelsmann-stiftung.de/de/system/service/rss-feed-digitalisierung-und-gemeinwohl
+    kategorie: Presse
+    organisation: Bertelsmann Stiftung
+  - name: DIW Berlin - Pressemitteilungen (EN)
+    url: https://www.diw.de/en/rss_press.xml
+    kategorie: Presse
+    organisation: DIW Berlin
 
 # Für diese Stellen habe ich keine eigene Feed-Adresse gefunden (Destatis, Bundeswahlleiterin,
 # BfDI, BMDS, Normenkontrollrat, IT-Planungsrat, Bitkom, Eurostat). Als Ersatz dient die
 # Google-News-Suche mit site:-Filter. EXPERIMENTELL: Google News indexiert Behördenseiten nur
 # teilweise. Das Protokoll zeigt je Quelle, wie viele Einträge ankommen; leere Quellen entfernen.
 google_news:
-  - {suche: "site:destatis.de", kategorie: Behörde, organisation: Destatis}
   - {suche: "site:bundeswahlleiterin.de", kategorie: Behörde, organisation: Bundeswahlleiterin}
-  - {suche: "site:bfdi.bund.de", kategorie: Behörde, organisation: BfDI}
-  - {suche: "site:bmds.bund.de", kategorie: Behörde, organisation: BMDS}
-  - {suche: "site:normenkontrollrat.bund.de", kategorie: Behörde, organisation: Normenkontrollrat}
   - {suche: "site:it-planungsrat.de", kategorie: Behörde, organisation: IT-Planungsrat}
+  # Ministerien ohne gefundenen Feed (Prio 1-3). Domains teils nach den Umbenennungen 2025
+  # geändert; liefert eine Suche 0 Einträge, im Protokoll prüfen und Domain anpassen.
+  - {suche: "site:bmi.bund.de", kategorie: Behörde, organisation: BMI}
+  - {suche: "site:bmftr.bund.de", kategorie: Behörde, organisation: BMFTR}
+  - {suche: "site:bmv.de", kategorie: Behörde, organisation: BMV}
+  - {suche: "site:bmvg.de", kategorie: Behörde, organisation: BMVg}
+  - {suche: "site:bmz.de", kategorie: Behörde, organisation: BMZ}
+  - {suche: "site:bmjv.de", kategorie: Behörde, organisation: BMJ}
+  - {suche: "site:bmwsb.bund.de", kategorie: Behörde, organisation: BMWSB}
+  - {suche: "site:bmleh.bund.de", kategorie: Behörde, organisation: BMLEH}
+  # Obere Bundesbehörden
+  - {suche: "site:bib.bund.de", kategorie: Behörde, organisation: BiB}
+  - {suche: "site:bva.bund.de", kategorie: Behörde, organisation: BVA}
+  - {suche: "site:normenkontrollrat.bund.de", kategorie: Behörde, organisation: NKR}
+  - {suche: "site:bka.de", kategorie: Behörde, organisation: BKA}
+  - {suche: "site:rki.de", kategorie: Behörde, organisation: RKI}
+  - {suche: "site:kba.de", kategorie: Behörde, organisation: KBA}
+  - {suche: "site:umweltbundesamt.de", kategorie: Behörde, organisation: UBA}
+  - {suche: "site:bamf.de", kategorie: Behörde, organisation: BAMF}
+  - {suche: "site:bbsr.bund.de", kategorie: Behörde, organisation: BBSR}
+  - {suche: "site:bkg.bund.de", kategorie: Behörde, organisation: BKG}
+  # Sonstige Organisationen
   - {suche: "site:bitkom.org", kategorie: Presse, organisation: Bitkom}
+  - {suche: "site:sachverstaendigenrat-wirtschaft.de", kategorie: Presse, organisation: Sachverständigenrat}
+  - {suche: "site:fraunhofer.de", kategorie: Presse, organisation: Fraunhofer}
+  - {suche: "site:wzb.eu", kategorie: Presse, organisation: WZB}
+  # Europa (ohne Feed)
+  - {suche: "site:ec.europa.eu/eurostat", kategorie: Europa, organisation: Eurostat}
+  - {suche: "site:germany.representation.ec.europa.eu", kategorie: Europa, organisation: EU-Kommission}
+  - {suche: "site:curia.europa.eu", kategorie: Europa, organisation: EuGH}
+  - {suche: "site:digital-strategy.ec.europa.eu", kategorie: Europa, organisation: EU Digital Strategy}
+  - {suche: "site:data.europa.eu", kategorie: Europa, organisation: data.europa.eu}
+  - {suche: "site:europeandatajournalism.eu", kategorie: Europa, organisation: EDJNet}
+  - {suche: "site:euractiv.de", kategorie: Europa, organisation: Euractiv}
+  # Hintergrunddienste: meist hinter Bezahlschranke, nur Überschriften sichtbar
+  - {suche: "site:background.tagesspiegel.de", kategorie: Presse, organisation: Tagesspiegel Background}
+  - {suche: "site:handelsblatt.com", kategorie: Presse, organisation: Handelsblatt}
+  # Personal
+  - {suche: "site:politik-kommunikation.de Personalwechsel", kategorie: Personal, organisation: politik&kommunikation}
+  - {suche: "site:zweite-reihe.com", kategorie: Personal, organisation: Zweite Reihe}
+  - {suche: "site:table.media Heads", kategorie: Personal, organisation: "Table.Media (Heads)"}
+  - {suche: "site:politico.eu Berlin Playbook Jobwechsel", kategorie: Personal, organisation: "Politico (Jobwechsel)"}
   # Allgemeine Suchen: das Medium wird aus dem Titel übernommen
   - {suche: '"Statistisches Bundesamt"', kategorie: Presse}
   - {suche: "Destatis", kategorie: Presse}
