@@ -27,31 +27,47 @@ max_alter_tage: 14
 feeds:
   - name: hib - heute im bundestag (alle)
     url: https://www.bundestag.de/static/appdata/includes/rss/hib.rss
+    kategorie: Bundestag
+    organisation: hib
     volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
   - name: hib - Digitales und Staatsmodernisierung
     url: https://www.bundestag.de/static/appdata/includes/rss/digitales.rss
+    kategorie: Bundestag
+    organisation: hib
     volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
   - name: hib - Inneres
     url: https://www.bundestag.de/static/appdata/includes/rss/inneres.rss
+    kategorie: Bundestag
+    organisation: hib
     volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
   - name: hib - Wahlprüfung, Immunität und Geschäftsordnung
     url: https://www.bundestag.de/static/appdata/includes/rss/wahlpruefung.rss
+    kategorie: Bundestag
+    organisation: hib
     volltext: true   # Artikelseite laden: hib-Titel allein sind zu kurz für die Suche
   # Weitere hib-Themenfeeds nach Bedarf einkommentieren:
   # - {name: "hib - Recht und Verbraucherschutz", url: "https://www.bundestag.de/static/appdata/includes/rss/recht.rss"}
   # - {name: "hib - Europäische Union", url: "https://www.bundestag.de/static/appdata/includes/rss/eu.rss"}
   - name: netzpolitik.org Ticker
     url: https://netzpolitik.org/ticker/feed
+    kategorie: Presse
+    organisation: netzpolitik.org
     seiten: 5      # liest zusätzlich ?paged=2…5 (WordPress-Paging, ungetestet); endet bei Fehler
 
 # ---- Weitere Quellen (Feed-Adressen auf den Anbieterseiten bzw. Feed-Verzeichnissen belegt) ----
   # Bundestag allgemein
   - name: Bundestag - Pressemitteilungen
     url: https://www.bundestag.de/static/appdata/includes/rss/pressemitteilungen.rss
+    kategorie: Bundestag
+    organisation: Bundestag
   - name: Bundestag - Drucksachen
     url: https://www.bundestag.de/static/appdata/includes/rss/drucksachen.rss
+    kategorie: Bundestag
+    organisation: Bundestag
   - name: Bundestag - Wissenschaftliche Dienste
     url: https://www.bundestag.de/static/appdata/includes/rss/wissenschaftlichedienste.rss
+    kategorie: Bundestag
+    organisation: Bundestag
   # - {name: "hib - Europäische Union", url: "https://www.bundestag.de/static/appdata/includes/rss/eu.rss"}
   # - {name: "hib - Recht und Verbraucherschutz", url: "https://www.bundestag.de/static/appdata/includes/rss/recht.rss"}
   # - {name: "hib - Haushalt", url: "https://www.bundestag.de/static/appdata/includes/rss/haushalt.rss"}
@@ -59,12 +75,18 @@ feeds:
   # Bundesregierung
   - name: Bundesregierung - Pressemitteilungen
     url: https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml
+    kategorie: Bundesregierung
+    organisation: Bundesregierung
   - name: Bundesregierung - Artikel
     url: https://www.bundesregierung.de/service/rss/breg-de/1151246/feed.xml
+    kategorie: Bundesregierung
+    organisation: Bundesregierung
 
   # Nachrichten
   - name: heise online News
     url: https://www.heise.de/rss/heise-atom.xml
+    kategorie: Presse
+    organisation: heise online
   # - {name: "heise Security", url: "https://www.heise.de/security/rss/news-atom.xml"}
   # - {name: "Bundesfinanzministerium - Pressemitteilungen", url: "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml"}
 
@@ -73,23 +95,29 @@ feeds:
 # Google-News-Suche mit site:-Filter. EXPERIMENTELL: Google News indexiert Behördenseiten nur
 # teilweise. Das Protokoll zeigt je Quelle, wie viele Einträge ankommen; leere Quellen entfernen.
 google_news:
-  - 'site:destatis.de'
-  - 'site:bundeswahlleiterin.de'
-  - 'site:bfdi.bund.de'
-  - 'site:bmds.bund.de'
-  - 'site:normenkontrollrat.bund.de'
-  - 'site:it-planungsrat.de'
-  - 'site:bitkom.org'
-  - '"Statistisches Bundesamt"'
-  - 'Destatis'
-  - 'Bundeswahlleiterin'
+  - {suche: "site:destatis.de", kategorie: Behörde, organisation: Destatis}
+  - {suche: "site:bundeswahlleiterin.de", kategorie: Behörde, organisation: Bundeswahlleiterin}
+  - {suche: "site:bfdi.bund.de", kategorie: Behörde, organisation: BfDI}
+  - {suche: "site:bmds.bund.de", kategorie: Behörde, organisation: BMDS}
+  - {suche: "site:normenkontrollrat.bund.de", kategorie: Behörde, organisation: Normenkontrollrat}
+  - {suche: "site:it-planungsrat.de", kategorie: Behörde, organisation: IT-Planungsrat}
+  - {suche: "site:bitkom.org", kategorie: Presse, organisation: Bitkom}
+  # Allgemeine Suchen: das Medium wird aus dem Titel übernommen
+  - {suche: '"Statistisches Bundesamt"', kategorie: Presse}
+  - {suche: "Destatis", kategorie: Presse}
+  - {suche: "Bundeswahlleiterin", kategorie: Presse}
+
+# kategorie bestimmt das Excel-Blatt (Bundesregierung, Bundestag, Behörde, Europa, Presse, Personal);
+# sie ist im Dashboard je Artikel änderbar. Ohne Angabe gilt „Presse“.
 
 # Bewertung
 bewertung:
   ki_aktiv: true              # false = nur Stichwortfilter
   anbieter: gemini            # gemini (Gratis-Kontingent) oder anthropic
-  modell: gemini-3.5-flash-lite   # Modellnamen ändern sich: bei Fehler "model not found" in
-                                  # Google AI Studio nachsehen. Für anthropic: claude-haiku-5-5
+  modell: gemini-3.5-flash-lite   # Modellnamen ändern sich. Für anthropic: claude-haiku-5-5
+  modell_alternativen:            # wird der Name nicht gefunden (404), probiert das Tool diese der Reihe nach
+    - gemini-2.5-flash-lite
+    - gemini-2.5-flash
   pause_sekunden: 4           # Wartezeit zwischen KI-Anfragen (schont das Gratis-Limit)
   mindest_relevanz: 40        # 0-100; darunter wird der Artikel verworfen
   max_ki_pro_lauf: 40         # So viele neue Artikel pro Lauf höchstens an die KI; der Rest folgt im nächsten Lauf
