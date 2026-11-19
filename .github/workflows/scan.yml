@@ -2,7 +2,7 @@ name: Medienmonitor
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # alle 2 Stunden
+    - cron: "7,37 * * * *"    # alle 30 Minuten
   workflow_dispatch:          # manueller Start über den Actions-Tab
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-         run: python scanner/scan.py
+        run: python scanner/scan.py
       - name: Ergebnis speichern
         run: |
           git config user.name "medienmonitor-bot"
