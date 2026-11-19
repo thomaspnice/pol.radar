@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medienmonitor</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2330; --muted:#667085; --line:#e3e6ec;
+          --pos:#1a7f4b; --neg:#c0392b; --neu:#667085; --accent:#2457d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151b; --card:#1b2029; --text:#e8ebf1; --muted:#98a2b3; --line:#2a313d;
+            --pos:#4cc38a; --neg:#ff7b6b; --neu:#98a2b3; --accent:#7ea2ff; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--text); }
+  header, main { max-width:900px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.4rem; margin:8px 0 2px; }
+  .sub { color:var(--muted); font-size:.85rem; }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
+  .filters input, .filters select { padding:8px 10px; border:1px solid var(--line); border-radius:8px;
+          background:var(--card); color:var(--text); font:inherit; }
+  .filters input { flex:1 1 220px; }
+  .item { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; }
+  .item a.t { color:var(--text); font-weight:600; text-decoration:none; }
+  .item a.t:hover { color:var(--accent); text-decoration:underline; }
+  .meta { font-size:.8rem; color:var(--muted); margin-top:4px; display:flex; flex-wrap:wrap; gap:4px 12px; }
+  .sum { margin:6px 0 0; font-size:.92rem; }
+  .badge { font-weight:600; }
+  .positiv { color:var(--pos); } .negativ { color:var(--neg); } .neutral, .unbewertet { color:var(--neu); }
+  .warn { background:#fff4e5; color:#7a4b00; border-radius:8px; padding:8px 12px; font-size:.85rem; margin-bottom:10px; }
+  .empty { text-align:center; color:var(--muted); padding:40px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Medienmonitor</h1>
+  <div class="sub" id="stand">Lade …</div>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Suchen in Titel und Zusammenfassung …">
+    <select id="ton"><option value="">Alle Tonalitäten</option><option>positiv</option><option>neutral</option><option>negativ</option><option>unbewertet</option></select>
+    <select id="quelle"><option value="">Alle Quellen</option></select>
+    <select id="zeit"><option value="1">Letzte 24 h</option><option value="7" selected>Letzte 7 Tage</option><option value="30">Letzte 30 Tage</option></select>
+    <select id="sort"><option value="datum">Neueste zuerst</option><option value="relevanz">Relevanteste zuerst</option></select>
+  </div>
+  <div id="fehler"></div>
+</header>
+<main id="liste"></main>
+<script>
+let alle = [];
+const $ = id => document.getElementById(id);
+
+function sicherLink(u) { try { const p = new URL(u); return /^https?:$/.test(p.protocol) ? p.href : null; } catch { return null; } }
+
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function render() {
+  const q = $("q").value.toLowerCase(), ton = $("ton").value, qu = $("quelle").value;
+  const grenze = Date.now() - Number($("zeit").value) * 864e5;
+  let a = alle.filter(x =>
+    new Date(x.datum) >= grenze &&
+    (!ton || x.tonalitaet === ton) && (!qu || x.quelle === qu) &&
+    (!q || (x.titel + " " + (x.zusammenfassung || "")).toLowerCase().includes(q)));
+  if ($("sort").value === "relevanz") a.sort((x, y) => (y.relevanz ?? -1) - (x.relevanz ?? -1));
+  const box = $("liste"); box.replaceChildren();
+  if (!a.length) { box.append(el("div", "empty", "Keine Treffer für diese Filter.")); return; }
+  for (const x of a) {
+    const d = el("div", "item");
+    const link = sicherLink(x.url);
+    const t = el(link ? "a" : "span", "t", x.titel || x.url);
+    if (link) { t.href = link; t.target = "_blank"; t.rel = "noopener noreferrer"; }
+    d.append(t);
+    if (x.zusammenfassung) d.append(el("p", "sum", x.zusammenfassung));
+    const m = el("div", "meta");
+    m.append(el("span", null, new Date(x.datum).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" })));
+    m.append(el("span", null, x.quelle));
+    if (x.thema) m.append(el("span", null, "Thema: " + x.thema));
+    if (x.relevanz != null) m.append(el("span", null, "Relevanz " + x.relevanz));
+    m.append(el("span", "badge " + x.tonalitaet, x.tonalitaet));
+    d.append(m); box.append(d);
+  }
+}
+
+fetch("data/articles.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  alle = d.artikel || [];
+  $("stand").textContent = "Stand: " + new Date(d.aktualisiert).toLocaleString("de-DE") + " · " + alle.length + " Artikel gespeichert";
+  const qs = [...new Set(alle.map(x => x.quelle))].sort();
+  for (const s of qs) { const o = el("option", null, s); o.value = s; $("quelle").append(o); }
+  if (d.fehler && d.fehler.length) {
+    const w = el("div", "warn", "Quellen mit Fehlern beim letzten Lauf: " + d.fehler.join(" | "));
+    $("fehler").append(w);
+  }
+  render();
+}).catch(() => { $("stand").textContent = "Noch keine Daten. Starten Sie den Workflow unter „Actions“."; });
+
+for (const id of ["q", "ton", "quelle", "zeit", "sort"]) $(id).addEventListener("input", render);
+</script>
+</body>
+</html>
