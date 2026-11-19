@@ -24,7 +24,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Feeds scannen
         env:
-          GEMINI_API_KEY: ${{ secrets.AQ.Ab8RN6KlbAuUz4jENz3smfZ0UVa7_Uu8_hbe44PAuL-G_tJQZw }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scanner/scan.py
       - name: Ergebnis speichern
