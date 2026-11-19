@@ -1,9 +1,26 @@
 {
- "aktualisiert": "2026-11-19T15:14:05.863047+00:00",
- "fehler": [
-  "Google News: Bundeswahlleiterin: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Bundeswahlleiterin&hl=de&gl=DE&ceid=DE:de"
- ],
+ "aktualisiert": "2026-11-19T15:52:56.090369+00:00",
+ "fehler": [],
  "artikel": [
+  {
+   "url": "https://www.heise.de/news/Mit-KI-Suche-durch-den-Behoerden-Dschungel-NRW-stellt-neues-Webportal-vor-11531345.html",
+   "titel": "Mit KI-Suche durch den Behörden-Dschungel: NRW stellt neues Webportal vor",
+   "auszug": "Ein neues Webportal mit KI-Suche soll Bürgern in Nordrhein-Westfalen dabei helfen, sich bei den vielen digitalen Verwaltungsleistungen zurechtzufinden.",
+   "quelle": "heise online News",
+   "kategorie": "Presse",
+   "organisation": "heise online",
+   "datum": "2026-11-19T15:18:00+00:00",
+   "treffer": [
+    "KI"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
   {
    "url": "https://www.bundestag.de/mediathek?videoid=7657429",
    "titel": "TOP 26 Einsprüche zur Wahl des 21. Deutschen Bundestages",
@@ -2850,6 +2867,10 @@
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ1dsVWc2cnB0a1hoVjRHZFRwanJRdWZiSXBTOERkZTNlTjZXMXdCd2lzWms5NGRGS0JWdERxcG9oSVVYTHNBeG9rYWJfdlE4WXdFSW5oeVdjNGlRLWxpbkhsUWpTRkllam1iUWdYWl9sY01tNVNKdlpWakhJRDM1SUpFVTFLUkZPLU1XYnQwX2JjOFFGZC1HellEZ2VlWHQ0TkQxTjgwdw?oc=5": "2026-11-19T15:14:05.862715+00:00",
   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0FlSkFWZ2JzRlRTWHZsOG00ZTJLdjAtenI5Sk1MSW9rbzd5bzZOc1F3cDFtRU1mVVVQbzFzY1dXWk80V1l4YTl0UkR5aTV0aVczRnpfcGc5SDI0OGgzTHd0cEVSMnZUTVBBSEJkc3pDemlwWU5jX2hoOXoyU3Z5emNnV3h2WTBa?oc=5": "2026-11-19T15:14:05.862715+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNanprU0VmR3RVR1ZqbklXOUNEeXZjQThxU0Q5UW9WYXhMc2tPQzlON0tGVDRqQkpfSVBDbHVHT3M3bEgtVnZmcHhQZDVSRXM3RXEtb2h2RFo0bjMxYWVwSkZ2M3JTM1ktcktZenBEVEc3LXJUME5SN0Zka25wbFIxT2JGNFA?oc=5": "2026-11-19T15:14:05.862715+00:00",
-  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWlzQW41NklTODlvdTJVVGlfX0V0YVJ2QlRwemIxUldCTXB5UG9SaC1tVFJYQUd3cnBCbnY2VXNSV3FqRW9vLTc1WC1tYUNvc1g1cXd6cFdxd0x5QWVOaGx6cVBtcVA5QndlTGE3SGdqcVN0RGtIdWxYZE04M3VqOHN0eTUxM0tKMFhjRQ?oc=5": "2026-11-19T15:14:05.862715+00:00"
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWlzQW41NklTODlvdTJVVGlfX0V0YVJ2QlRwemIxUldCTXB5UG9SaC1tVFJYQUd3cnBCbnY2VXNSV3FqRW9vLTc1WC1tYUNvc1g1cXd6cFdxd0x5QWVOaGx6cVBtcVA5QndlTGE3SGdqcVN0RGtIdWxYZE04M3VqOHN0eTUxM0tKMFhjRQ?oc=5": "2026-11-19T15:14:05.862715+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-19-11-2026-2": "2026-11-19T15:52:56.090130+00:00",
+  "https://www.heise.de/news/Offshore-auf-dem-Land-Weltweit-hoechste-Windkraftanlage-in-Betrieb-genommen-11531361.html": "2026-11-19T15:52:56.090130+00:00",
+  "https://www.heise.de/news/DDR6-Arbeitsspeicher-Hoehere-Transferraten-breiterer-Bus-schmalere-Module-11531064.html": "2026-11-19T15:52:56.090130+00:00",
+  "https://www.heise.de/news/Apple-will-angeblich-Plaene-fuer-OLED-iMac-verschieben-11531438.html": "2026-11-19T15:52:56.090130+00:00"
  }
 }
