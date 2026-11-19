@@ -322,20 +322,28 @@ def lauf(cfg, out, bestand, ki, fetch=None, seite=None):
     gefiltert = keyword_filter(roh, cfg)
     treffer_urls = {x["url"] for x in gefiltert}
     kandidaten = dedupe(gefiltert, bestand)
-    neu = kandidaten
     bewertet_urls = set()  # Artikel, die endgültig geprüft sind (nicht erneut prüfen)
+    nachholen = [a for a in bestand if a.get("tonalitaet") == "unbewertet"]  # früher ohne KI gespeichert
 
-    if ki and neu and not os.environ.get(
-            "GEMINI_API_KEY" if cfg["bewertung"].get("anbieter", "gemini") == "gemini" else "ANTHROPIC_API_KEY"):
-        print("API-Schlüssel fehlt, nutze nur Stichwortfilter.", file=sys.stderr)
+    var = "GEMINI_API_KEY" if cfg["bewertung"].get("anbieter", "gemini") == "gemini" else "ANTHROPIC_API_KEY"
+    if ki and (kandidaten or nachholen) and not os.environ.get(var):
+        print(f"{var} fehlt, nutze nur Stichwortfilter.", file=sys.stderr)
         ki = False
-    if ki and neu:
-        bewertet, ki_fehler = ki_bewerten(neu, cfg)
+
+    nachbewertet = 0
+    if ki and (kandidaten or nachholen):
+        # Neue Artikel und bereits gespeicherte, noch unbewertete Artikel (neueste zuerst) an die KI
+        warteschlange = sorted(kandidaten + nachholen, key=lambda x: x["datum"], reverse=True)
+        bewertet, ki_fehler = ki_bewerten(warteschlange, cfg)
         fehler += ki_fehler
         bewertet_urls = {x["url"] for x in bewertet}
         mind = cfg["bewertung"]["mindest_relevanz"]
-        neu = [n for n in bewertet if n["relevanz"] is None or n["relevanz"] >= mind]
+        abgelehnt = {x["url"] for x in bewertet if x["relevanz"] < mind}
+        neu = [n for n in kandidaten if n["url"] in bewertet_urls and n["url"] not in abgelehnt]
+        nachbewertet = sum(1 for a in nachholen if a["url"] in bewertet_urls)
+        bestand = [a for a in bestand if a["url"] not in abgelehnt]
     else:
+        neu = kandidaten
         for n in neu:
             n.update(relevanz=None, tonalitaet="unbewertet", thema="", zusammenfassung="")
             bewertet_urls.add(n["url"])
@@ -377,7 +385,7 @@ def lauf(cfg, out, bestand, ki, fetch=None, seite=None):
         for x in roh[:6]:
             print(f"    - {x['quelle']} | {x['titel'][:70]} | {(x.get('text') or x['auszug'])[:70]!r}")
     print(f"{gesamt_geholt} geholt, {len(roh)} noch nicht geprüft, {len(gefiltert)} nach Stichwortfilter, "
-          f"{len(neu)} neu gespeichert, {len(alle)} gesamt, {len(fehler)} Meldungen")
+          f"{len(neu)} neu gespeichert, {nachbewertet} nachbewertet, {len(alle)} gesamt, {len(fehler)} Meldungen")
     return 0
 
 
