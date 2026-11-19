@@ -16,7 +16,7 @@ stichworte:
   einschliessen: []      # optional zusätzliche Begriffe, z. B. {Themenfeld: [Begriff, ...]}
   ausschliessen: []      # Begriffe, die einen Artikel sofort aussortieren
 
-max_volltext_pro_lauf: 80   # Obergrenze für Seitenabrufe pro Lauf
+max_volltext_pro_lauf: 40   # Obergrenze für Seitenabrufe pro Lauf
 
 # Nur Artikel aus den letzten N Tagen werden aufgenommen.
 max_alter_tage: 14
@@ -118,9 +118,10 @@ bewertung:
   modell_alternativen:            # wird der Name nicht gefunden (404), probiert das Tool diese der Reihe nach
     - gemini-2.5-flash-lite
     - gemini-2.5-flash
+  max_ki_sekunden: 600        # Zeitbudget für die KI-Bewertung pro Lauf (10 Minuten)
   pause_sekunden: 4           # Wartezeit zwischen KI-Anfragen (schont das Gratis-Limit)
   mindest_relevanz: 40        # 0-100; darunter wird der Artikel verworfen
-  max_ki_pro_lauf: 40         # So viele neue Artikel pro Lauf höchstens an die KI; der Rest folgt im nächsten Lauf
+  max_ki_pro_lauf: 100        # So viele Artikel pro Tageslauf höchstens an die KI; der Rest folgt am nächsten Tag
 
 # Aufbewahrung
 behalten_tage: 30
