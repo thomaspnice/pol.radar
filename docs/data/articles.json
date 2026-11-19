@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-19T16:10:16.440314+00:00",
+ "aktualisiert": "2026-11-19T16:15:35.874598+00:00",
  "fehler": [
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
   "KI-Bewertung: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=45)",
@@ -813,25 +813,6 @@
  ],
  "artikel": [
   {
-   "url": "https://www.heise.de/news/Mit-KI-Suche-durch-den-Behoerden-Dschungel-NRW-stellt-neues-Webportal-vor-11531345.html",
-   "titel": "Mit KI-Suche durch den Behörden-Dschungel: NRW stellt neues Webportal vor",
-   "auszug": "Ein neues Webportal mit KI-Suche soll Bürgern in Nordrhein-Westfalen dabei helfen, sich bei den vielen digitalen Verwaltungsleistungen zurechtzufinden.",
-   "quelle": "heise online News",
-   "kategorie": "Presse",
-   "organisation": "heise online",
-   "datum": "2026-11-19T15:18:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://www.bundestag.de/mediathek?videoid=7657429",
    "titel": "TOP 26 Einsprüche zur Wahl des 21. Deutschen Bundestages",
    "auszug": "96. Sitzung vom 24.09.2026, TOP 26: Einsprüche zur Wahl des 21. Deutschen Bundestages",
@@ -860,61 +841,10 @@
    "themenfelder": [
     "Bundeswahlleiterin"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-immunitaet-1154760",
-   "titel": "Bundestag hebt Immunität von Adis Ahmetović auf",
-   "auszug": "Ohne Aussprache hat der Bundestag am Donnerstag, 15. Oktober 2026, eine Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (21/8577(Dokument, öffnet ein neues Fenster)) zu Immunitätsangelegenheiten angenommen. Damit genehmigte das Parlament den Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebeschlüsse gegen den SPD-Abgeordneten Adis Ahmetović gemäß eines Schreibens des Bundesministeriums der Justiz und für Verbraucherschutz vom 12. Oktober 2026. Der Bundes",
-   "quelle": "hib - Wahlprüfung, Immunität und Geschäftsordnung",
-   "datum": "2026-11-19T13:45:28.620565+00:00",
-   "treffer": [
-    "Wahlprüfung"
-   ],
-   "themenfelder": [
-    "Bundeswahlleiterin"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232714",
-   "titel": "AfD gegen \"verzichtbare\" Neubaumaßnahmen im Bundestag",
-   "auszug": "Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung/Antrag Die AfD-Fraktion verlangt in einem Antrag, dass der Bundestag keine \"verzichtbaren und teuren Neubaumaßnahmen\" anstößt und somit Sparmaßnahmen umsetzt.",
-   "quelle": "hib - Wahlprüfung, Immunität und Geschäftsordnung",
-   "datum": "2026-11-19T13:45:28.620316+00:00",
-   "treffer": [
-    "Wahlprüfung"
-   ],
-   "themenfelder": [
-    "Bundeswahlleiterin"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232812",
-   "titel": "AfD will Enquete-Kommission zu Antisemitismus an Hochschulen",
-   "auszug": "Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung/Antrag Die AfD-Fraktion fordert in einem Antrag die Einsetzung einer Enquete-Kommission \"Antisemitismus an Hochschulen und Schutz jüdischen Lebens im Bildungsbereich\".",
-   "quelle": "hib - Wahlprüfung, Immunität und Geschäftsordnung",
-   "datum": "2026-11-19T13:45:28.620294+00:00",
-   "treffer": [
-    "Wahlprüfung"
-   ],
-   "themenfelder": [
-    "Bundeswahlleiterin"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 90,
+   "tonalitaet": "neutral",
+   "thema": "Wahlorganisation",
+   "zusammenfassung": "Der Deutsche Bundestag hat Einsprüche gegen die Bundestagswahl 2025 zurückgewiesen. Dies betrifft direkt die Kernaufgaben der Bundeswahlleiterin im Bereich der Wahlorganisation und Wahlprüfung."
   },
   {
    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-enquete-antisemitismus-1232590",
@@ -927,58 +857,6 @@
    ],
    "themenfelder": [
     "Bundeswahlleiterin"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233586",
-   "titel": "Linke will Strategie gegen geschlechtsspezifische Gewalt",
-   "auszug": "Inneres/Antrag \"Femizide in Deutschland beenden\" lautet der Titel eines Antrags der Fraktion Die Linke, in dem sie eine \"Gesamtstrategie gegen geschlechtsspezifische und häusliche Gewalt\" fordert.",
-   "quelle": "hib - Inneres",
-   "datum": "2026-11-19T13:45:28.044915+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232780",
-   "titel": "Bundesregierung: Keine Erkenntnisse zu Rechenzentrums-Aus",
-   "auszug": "Digitales und Staatsmodernisierung/Antwort Die Bundesregierung hat keine konkreten Erkenntnisse über die Ursachen für das Scheitern der Pläne für ein KI-Rechenzentrum in Demmin. Das geht aus einer Regierungsantwort auf AfD-Anfrage hervor.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414711+00:00",
-   "treffer": [
-    "KI",
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/resource/blob/1232288/TO-38-Sitzung-1-Ergaenzungsmitteilung.pdf",
-   "titel": "Digitales, Staatsmodernisierung: 38. Sitzung - 1. Ergänzungsmitteilung",
-   "auszug": "",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414691+00:00",
-   "treffer": [
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
    ],
    "relevanz": null,
    "tonalitaet": "unbewertet",
@@ -4203,8 +4081,8 @@
   "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSzF5Rlp1UTYyM29rVkVSeDl3TlFRUGxUUkpkdWlReFZ1WmFOSjBQVE1fWHB4VkgzS2M2NHZJM0FiSUZaMG0zTGxqdzdtSmtGOXpXaDZtSUpCNXpQMDhONW02X2c4ZHFwcjRuT2YtbkNvTWthQTZBMzRFVUREaHVSOUp6TlozNGIwbExodFB4WHhCbERRX0tMVFd4ejliWGdMUTVqRGZWaTZ3WkhSSnk2VDFicG1hXzA?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Keine-Blankoschecks-fuer-KI-Agenten-Apple-passt-Mac-Sicherheitsarchitektur-an-11528217.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Nutzungsbegrenzungen-Apple-limitiert-bald-KI-Funktionen-und-Siri-AI-11527526.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232812": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233586": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232812": "2026-11-19T16:15:35.870791+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233586": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/iX-Workshop-Claude-Code-in-der-Praxis-effizienter-entwickeln-mit-KI-Agenten-11516034.html": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZmMxQUN2SHdRR3liTGh4dWlMTnIzbFVuZFZaYUpMWU5UYlN4SWFHRU9ISVVrZktSc2pKbE45R3g0UURld2l1b3M1NzA2VVB5RF9Xb3hoYWRkaEh5Vk9sZUhtaHN5VFA5LTl5dmMyY3VVdG4zTnhsYjV4RVVXX2taY2RxYTIwV1oyZC1kZEdnVXBlalkxR3o5ZWY0aUlHZmZqQ1g4?oc=5": "2026-11-19T13:46:09.976089+00:00",
@@ -4235,10 +4113,10 @@
   "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-09-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/X-stoppt-Grok-KI-Training-mit-Drittanbieterdaten-auf-Druck-aus-Irland-11528427.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-13-11-2026": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232714": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232714": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/Copilotforce-Microsoft-macht-Copilot-zur-Bedienoberflaeche-fuer-Salesforce-11529752.html": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVB6OHZQV2JndklySy1rVDBzNU8xSnc5LXBsci1uSGNPVzQ4ZG5sWWNiY2ZXbm5POFlHcDU0V1Q2RktwUk9ISkRUbU1BUmdhS3VRMzhNMkZEamJ3VEQ2X2pmakwxRHl0UkdMeXVwZFczcFAxMzd6dzE3TU1VWnVGalJ5MEtRZ3l0aWk1U0tIbk80ZVNySnRzZ2JZR2JBb0pTQ2g4?oc=5": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292": "2026-11-19T16:15:35.870791+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFwUGo0NG1RTnY5WFV0ZzRGVkZvOGRGamV4eGc1eUNCTmc0RWNHNWUwQkk4UklTSEFsTVFHc2t5VUxYWDMwTVF6TVBHMVdXUGhRUm81Vy12SEhtRTAyTHR0azBEemF6cUhZMWFFUlM4M1EyeFBYTUNVZnNCTlJIYlpHcGk?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233604": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZS14VHNzeUZ1bXdHWmpVY3ZUaEJZODB4ZXQwLUFBTGdiLUF1VmxvZUM3M25COVFjVlNZQm81dTNtTHZwajF2LXhjUkt2Q1lvM2Z3U1ZhMFhJRXFaNlBVYnlnanRkcXVsYUhseFU1QWR4dmF4OUo1MmRfSGhNWEZqNVRnd1Y?oc=5": "2026-11-19T13:46:09.976089+00:00",
@@ -4254,7 +4132,7 @@
   "https://www.heise.de/news/BGH-KI-generierte-Schriftsaetze-koennen-unzulaessige-Rechtsmittel-sein-11529938.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-12-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233728": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232780": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232780": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/KI-Update-kompakt-Destillation-Anthropics-Boersengang-OpenAI-Klage-IdeaLens-11528179.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/EU-sanktioniert-russische-Desinformationsnetzwerke-und-Hackergruppe-11528693.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-13-11-2026-3": "2026-11-19T13:46:09.976089+00:00",
@@ -4273,7 +4151,7 @@
   "https://www.heise.de/news/Moonshot-AI-wechselt-Entwicklungsfokus-von-Programmierung-zu-Wissenschaft-11528033.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233732": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRl9rSGRwOWVJNURIVXZ5Mkg0RjVMUF9Qa1VrRnRyNE9CWkpfM0RSWkZWS2ZZMlBFOUdveWlsUzZXNXZRYnl6bVJNOUJhWEdwU25DVmxLNmF0cEJmWEZfNEZ6WDlIRGxLbW9LVHdsUjUwNTZsc1dXZVlSOHB2VVVmd2RScmdKZVd3UWgzeEF4Z2U3NEJiNWwyN1B3OG8?oc=5": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-immunitaet-1154760": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-immunitaet-1154760": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/IT-Probleme-bei-US-Banken-und-NSA-angeblich-wegen-zu-vieler-Patches-11529019.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-13-11-2026-2": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZWN2RHFIZFNPN3JFR2Z4R0ctaHNCMVN2d0ZPeEp5N0JVZDdzRmtiMFBTbVJMX29rRnFwRHdncEZFZHJEeDROT0llYlAxSzFtclFsajB1aTlzY29BZVoyeWVBY2d0RnFxcElNWE5oTk5sMGNOUjIzN3VncHdibHV3U2pTQWs?oc=5": "2026-11-19T13:46:09.976089+00:00",
@@ -4282,7 +4160,7 @@
   "https://netzpolitik.org/ticker/ticker-news-von-eu-parlament-vom-06-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-lto-vom-18-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/tests/Claude-als-Office-Ersatz-Wie-weit-Anthropics-eingebaute-Werkzeuge-schon-reichen-11521250.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/resource/blob/1232288/TO-38-Sitzung-1-Ergaenzungsmitteilung.pdf": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/resource/blob/1232288/TO-38-Sitzung-1-Ergaenzungsmitteilung.pdf": "2026-11-19T16:15:35.870791+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-t3n-vom-09-11-2026-2": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-der-hamburgische-beauftragte-fuer-datenschutz-und-informationsfreiheit-vom-16-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-rte-vom-05-11-2026": "2026-11-19T13:46:09.976089+00:00",
@@ -4793,6 +4671,7 @@
   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXVIZXd0a21YUGxERWE3ODl4dklmLU85aWdCdFdFZ1lEaWZhX0FqbmgzcGJwaGNLUnNiOVE0YTdVNV9aOWZpMWh2SU1NSEFJbHVJM0M0SEtFS0ROZTdCUW9IS3hXMWlOTGxabXB5Um1wSXNtVXBvVWRJM2c5RWg5QjgwZ3luemZVV3V1WC1UbmRXSmJtOHF2TkJUR1luMnRqRVRDbnAyUF94SnRuajh6cDNsZ19PWUpQUnR3?oc=5": "2026-11-19T16:10:16.438131+00:00",
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVHFQdlMtQk44X3pjZm0zcmxYRjNBeDVnTXdwRzR2UEFpa2YwZnNEOUw1WEFRSzhCVFprN3NOREh3blJaX2NVdjl2amxWM0VoMnVtTHZJdkNmdXhVWWF4bGc4WVlvN2h4OGVOWWNKb2VmMEJ3OGhHZmxtMW5sbTNtRGIxN0NwcHhnUDh6VU5EeEl1TV9SbldpZ2M5RVYtQkkwdDJ2Z3laSmdVT1Z0c0dkbGExTQ?oc=5": "2026-11-19T16:10:16.438131+00:00",
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazBUYW1iemdBcmw4czMxb2I1N0Y0dGZRNGJ0SXJMYzNfZ1pJcFJLVlhFNFM0T0wtQ1VRd2I3YzFjWHAzVFVTTWswaUxCRWZnbkF0dnVzZHRSZDZnWHoydVFsbERjbi1JR05BakMwMnZfRGxZVEJSdXVQUmVZU1FtM1J0RmJvVFUzeEhObnhjY2U2emFlMTdzeVd0UVA?oc=5": "2026-11-19T16:10:16.438131+00:00",
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1Yxc2hUNEFkWGpzUmt2T0JuUWRJSVdCYUczdWNOSzdpaGxkNl9nTjlfYVVHdkZyeDNjMGVLMTN3cDNYVDhudTN1YnlKZzZ5N3BzT0hwSHBfUVRHRkRIbExwMDBsaU9ydTBaZ3ExeXd6aTNWZGVudzY2eDFZVkxBZnN3Sk1UOGpPNEFyY29MUUNXanhuWkh2UE5Hc0lldVRPdV9aWVloN1M1UQ?oc=5": "2026-11-19T16:10:16.438131+00:00"
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1Yxc2hUNEFkWGpzUmt2T0JuUWRJSVdCYUczdWNOSzdpaGxkNl9nTjlfYVVHdkZyeDNjMGVLMTN3cDNYVDhudTN1YnlKZzZ5N3BzT0hwSHBfUVRHRkRIbExwMDBsaU9ydTBaZ3ExeXd6aTNWZGVudzY2eDFZVkxBZnN3Sk1UOGpPNEFyY29MUUNXanhuWkh2UE5Hc0lldVRPdV9aWVloN1M1UQ?oc=5": "2026-11-19T16:10:16.438131+00:00",
+  "https://www.heise.de/news/Mit-KI-Suche-durch-den-Behoerden-Dschungel-NRW-stellt-neues-Webportal-vor-11531345.html": "2026-11-19T16:15:35.870791+00:00"
  }
 }
