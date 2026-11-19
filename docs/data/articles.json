@@ -1,6 +1,8 @@
 {
- "aktualisiert": "2026-11-19T14:44:09.369144+00:00",
- "fehler": [],
+ "aktualisiert": "2026-11-19T14:56:07.385931+00:00",
+ "fehler": [
+  "Google News: site:destatis.de: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Adestatis.de&hl=de&gl=DE&ceid=DE:de"
+ ],
  "artikel": [
   {
    "url": "https://www.bundestag.de/mediathek?videoid=7657429",
@@ -2820,6 +2822,7 @@
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1237328": "2026-11-19T14:44:09.368901+00:00",
   "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWTBnd3pKam5Dc3h6bTQ5ZFNkU3dqSXRTTnJSREhYaGo5dXJHTURETEw0QW82VFdBN1BhdkxsRUt0SUZuRVJ0LUVFeTBoUVl5M05yUEpqNXktek11S1E5OFB1M0xUX0J3emJKNEJ0clBwNk9qaUtjM1V2bzBQN2N1T3pUQmkzTWhZZEpHMi01V3ZxRTZfYThYV0xJNlRLY0VrOUEyZ09CZW52LTkteUoydVFTaElGZExoUUxsdTJn?oc=5": "2026-11-19T14:44:09.368901+00:00",
   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVHI0OGJqNUJ2TDFGWE5kaFg5N2d3Vi1RX1Voay1KTm56MHp0cGdzdXkxTkljb1EtbkQxN29LdnVfemhjaVdYOFNhZVpQWFBzN3VHUk01ZlBGTEd3WkxNdzNVVHN5M0JvY3pqS1FVTGFvWjYtWEo5Y09HZnZIWXBlR3dadkRQX2RRcThlZFp2RWVwQ0Nf?oc=5": "2026-11-19T14:44:09.368901+00:00",
-  "https://www.heise.de/news/KI-nicht-nach-Geschenken-fragen-sonst-bekommen-Deutsche-die-billigsten-11531034.html": "2026-11-19T14:44:09.368901+00:00"
+  "https://www.heise.de/news/KI-nicht-nach-Geschenken-fragen-sonst-bekommen-Deutsche-die-billigsten-11531034.html": "2026-11-19T14:44:09.368901+00:00",
+  "https://www.heise.de/news/PHP-behebt-17-Sicherheitsluecken-vier-erlauben-Ausfuehrung-von-Schadcode-11531249.html": "2026-11-19T14:56:07.385748+00:00"
  }
 }
