@@ -1,6 +1,9 @@
 {
- "aktualisiert": "2026-11-19T15:52:56.090369+00:00",
- "fehler": [],
+ "aktualisiert": "2026-11-19T15:54:42.956597+00:00",
+ "fehler": [
+  "KI-Bewertung: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=45)",
+  "KI-Bewertung abgebrochen: Gemini-Kontingent erschöpft oder Dienst überlastet (HTTP 503). Rest folgt im nächsten Lauf."
+ ],
  "artikel": [
   {
    "url": "https://www.heise.de/news/Mit-KI-Suche-durch-den-Behoerden-Dschungel-NRW-stellt-neues-Webportal-vor-11531345.html",
@@ -33,10 +36,10 @@
    "themenfelder": [
     "Bundeswahlleiterin"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Wahlorganisation",
+   "zusammenfassung": "Der Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung behandelt Einsprüche zur Wahl des 21. Deutschen Bundestages."
   },
   {
    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292",
@@ -2829,7 +2832,7 @@
   "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-261116-oea-kw48-1233408": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY2RYNmd4ek5mNnYxRnVaN3VicjdVakhMTVRqVFJVekZxbUZ1ZXc2UXlOaXliV1dSNGVBWk96a3F5QWlpNlVjd1N5TTh1eXJvdkU5eUgxZW5pOG1NbTVCMGRibGRWZndUVFNIODVoaDRINk1GYXF2QXdGNWliWGF1blVZOXE?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/EuGH-weist-Klage-gegen-Europol-Befugnis-zur-Massenueberwachung-ab-11527902.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/mediathek?videoid=7657429": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/mediathek?videoid=7657429": "2026-11-19T15:54:42.956264+00:00",
   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdWZGZFFSdHJWaVFuSEphdGpZa0Q2dmhxNzFoTVFGZHZpV0RSdzBCdC1tVEhVNEZCSzdld2R1bXZaVm5qSGJPcm5wcVpLajVNYWlkRm1EMFdPNGFyMHFPSzZxRU9uNHFtdml5Z0hvSC1Tbm0zbk4tN25neDVDX3NiLW5B?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Vom-Plugin-zu-KI-Agenten-Aufgaben-automatisieren-und-die-Kontrolle-behalten-11527570.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233792": "2026-11-19T13:46:09.976089+00:00",
