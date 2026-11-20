@@ -1,10 +1,9 @@
 {
- "aktualisiert": "2026-11-20T15:12:05.400712+00:00",
+ "aktualisiert": "2026-11-20T15:17:44.727111+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
   "Google News: site:normenkontrollrat.bund.de: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Anormenkontrollrat.bund.de&hl=de&gl=DE&ceid=DE:de",
-  "KI-Bewertung: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=45)",
   "KI-Bewertung abgebrochen: Gemini-Kontingent erschöpft oder Dienst überlastet (HTTP 503). Rest folgt im nächsten Lauf."
  ],
  "quellen": [
@@ -828,51 +827,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.heise.de/news/KI-Update-Deep-Dive-Smart-Glasses-als-Alltagshilfe-11530663.html",
-   "titel": "KI-Update Deep-Dive: Smart Glasses als Alltagshilfe",
-   "auszug": "Für blinde Menschen sind KI-Brillen eine Alltagshilfe. Doch die Technologie steht wegen Datenschutzbedenken in der Kritik. Das verunsichert Betroffene.",
-   "quelle": "heise online News",
-   "kategorie": "Presse",
-   "organisation": "heise online",
-   "datum": "2026-11-20T14:00:00+00:00",
-   "treffer": [
-    "Datenschutz",
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1237428",
-   "titel": "Keine Zuständigkeit für Schufa-Datenbestände",
-   "auszug": "Recht und Verbraucherschutz/Antwort Die Regierung verweist bei Fragen zur Speicherung historischer personenbezogener Daten durch die Schufa auf die Zuständigkeit des Hessischen Beauftragten für Datenschutz und Informationsfreiheit.",
-   "quelle": "hib - heute im bundestag (alle)",
-   "kategorie": "Bundestag",
-   "organisation": "hib",
-   "datum": "2026-11-20T10:06:00+00:00",
-   "treffer": [
-    "Datenschutz",
-    "Datenschutz-Grundverordnung"
-   ],
-   "themenfelder": [
-    "Gesetzgebung und rechtliche Rahmenbedingungen",
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Amtliche Statistik",
+   "zusammenfassung": "Das Statistische Bundesamt hat neue Daten zur Bevölkerung ohne deutschen Staatspass in Saarbrücken veröffentlicht. Der Artikel greift diese amtliche Statistik auf."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTVVwNGVFS1o0TTNQZFA4Z3ptcUE1NEVRQUpmTEFkVXBKUFpuVXdKY09CMjRfb3ZhT1NNQzFhNjJISTVzZlBxS3V1Zi1oSWpTZ0xSdzhUSTl5c3ZNUXFaYVBYVlNjV0xfRHBwcVBUS2hwOURILXZuQngzdTgwZF8xb3NmUGhndGJNQ2RHckVIMlVHLTg4VUNFRDNBUHN6bHFFZVloRmdjendzdVg5R3k3TlNONW50ZTVmVE1KUjF2b1FCNWMwVjAzb3o1VVlSdzlPeDFIeVNxZ2hFX2FSaXI5dUxB?oc=5",
@@ -888,68 +846,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.heise.de/news/Niederlaendische-Datenschutzbehoerde-warnt-vor-Nutzung-KI-gestuetzter-Smart-Glasses-11531921.html",
-   "titel": "Niederländische Datenschutzbehörde warnt vor Nutzung KI-gestützter Smart Glasses",
-   "auszug": "Nach Studie verschiedener KI-Brillen raten Datenschützer vom Kauf ab. Diese könnten Nutzer falsche oder illegale Ratschläge geben und sie sogar gefährden.",
-   "quelle": "heise online News",
-   "kategorie": "Presse",
-   "organisation": "heise online",
-   "datum": "2026-11-20T04:03:00+00:00",
-   "treffer": [
-    "Datenschutz",
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2xna1YzSjR4MTl1LXJuQ1p6STItTVN2UXNpd3RKOWZLREtnVVFFS1ROWmtSS3R1dWwyUTZKRDVJVzhRcUdkeWFMM3hoVXowUml6NHZ0ekdoQkdKMWVXZUZNOWR0SE5tZFk2SktCSjB1cWxheng5aFVlZ1pVc2x5Zi1MWXNtNGt6VFhHYVNvZ0RGZ1VTeGdFajVWQVpzcHVheFRfQlY0cFZraXc?oc=5",
-   "titel": "Zendis : BMDS plant keine weiteren Gesellschafter - Tagesspiegel Background",
-   "auszug": "Zendis : BMDS plant keine weiteren Gesellschafter &nbsp;&nbsp; Tagesspiegel Background",
-   "quelle": "Google News: site:background.tagesspiegel.de",
-   "kategorie": "Presse",
-   "organisation": "Tagesspiegel Background",
-   "datum": "2026-11-19T23:00:00+00:00",
-   "treffer": [
-    "BMDS"
-   ],
-   "themenfelder": [
-    "Relevante Akteure"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGZReU5DRTlxTGRjMkgtNWhucFIwME9kaEVDdXBic2wxYzNHQnZIMzAtMWJkeGJhVXlOdDQ5N0RKU21MQWMwQjVKdHZYaVktY0ZodkgxZkRUQTgwdGJTcWE1SlJ2WkJ3Y2FIRnc1XzR2bnJreHFKOHNkckh0RllJVzVUd0RTbENhcWJKZHBacmp0MndUZWZack5JMHpHUmMtVkRhQW9YYmJtWk1VcFE?oc=5",
-   "titel": "Angriff mithilfe eines KI-Modells: EU-Kommission war Ziel eines Cyberangriffs - Tagesspiegel Background",
-   "auszug": "Angriff mithilfe eines KI-Modells: EU-Kommission war Ziel eines Cyberangriffs &nbsp;&nbsp; Tagesspiegel Background",
-   "quelle": "Google News: site:background.tagesspiegel.de",
-   "kategorie": "Presse",
-   "organisation": "Tagesspiegel Background",
-   "datum": "2026-11-19T23:00:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Erzeugerpreise",
+   "zusammenfassung": "Das Statistische Bundesamt berichtet über einen unerwartet deutlichen Anstieg der Erzeugerpreise, der maßgeblich durch gestiegene Ölpreise verursacht wurde."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSjJEemtkN21XVnRYT3JBNzBxRk9jM1ZNSzdYNEtnd0kwUDAwYWdraXQxcm93bjBRZFFYVlo1N1hlWmYzbEROYmRncno1Vl95OHo2OF9ha2UxZFFFWVQ2V0paX2lFTHUxNFVscjRMSUZkcklrMm5leUgxRTAyNkxTU2YwRG82cm52TFZ0OVdwbWNieUpNWFZtM01uMk14M2tyT1FQSFVEQzg4cF9xcDZFeXl3SmpJcy0yQUl5SWdpYV8?oc=5",
@@ -967,48 +867,10 @@
     "Gesetzgebung und rechtliche Rahmenbedingungen",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSk5jSmd1aEpIRHM4TmhGY252TldOdkVXUlBydEJqaVkwTGNwVTA3QURSdHlhZ0dDMUxiX3NaVTNQQmV5SVl4b040M1Y1b2pEbE5nN1ZReE83elZYb1N1WXZiRWVEU0dVeDNuaW5IVk1GTXl2Sm9aNW83VV9IY0V5Yk5XQ3NyZmRqRjVfTGRjWklxTE9DTGdjdGllZU03UV92X19NMWN4TC1ZUTU4TmRNVWlpSQ?oc=5",
-   "titel": "NRW : Neues KI-Verwaltungsportal startet im Dezember - Tagesspiegel Background",
-   "auszug": "NRW : Neues KI-Verwaltungsportal startet im Dezember &nbsp;&nbsp; Tagesspiegel Background",
-   "quelle": "Google News: site:background.tagesspiegel.de",
-   "kategorie": "Presse",
-   "organisation": "Tagesspiegel Background",
-   "datum": "2026-11-19T23:00:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSlFwNm5kamtkQl9yX0VkbC1jM1FWQlAwQk1Tb2UtbWZaR2Z2OXJDOFdGcHFieC1sZW9wdXJ4UTQtWTN6OGx5NklIbVNnem9qcS12eVhUX3JucVdZTkswUFotaF9RVERaWFlDMzlQQnN4bkllTGY3Wjd5RzdCb2tiZG5YTnNoeHJKaE90MzljMlpocm85LU5ORg?oc=5",
-   "titel": "Justizministerkonferenz: Eine Gebühr gegen KI-Flut? - Tagesspiegel Background",
-   "auszug": "Justizministerkonferenz: Eine Gebühr gegen KI-Flut? &nbsp;&nbsp; Tagesspiegel Background",
-   "quelle": "Google News: site:background.tagesspiegel.de",
-   "kategorie": "Presse",
-   "organisation": "Tagesspiegel Background",
-   "datum": "2026-11-19T23:00:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 45,
+   "tonalitaet": "neutral",
+   "thema": "KI und Datenschutz",
+   "zusammenfassung": "Die Zivilgesellschaft kritisiert Vorschläge des Digital-Omnibus-Gesetzes im Zusammenhang mit KI-Training und der DSGVO. Das Thema berührt die digitale Infrastruktur und Gesetzgebung, hat jedoch keinen direkten Bezug zur amtlichen Statistik oder der Bundeswahlleiterin."
   },
   {
    "url": "https://www.bundestag.de/mediathek?videoid=7657429",
@@ -1045,23 +907,6 @@
    "zusammenfassung": "Der Deutsche Bundestag hat Einsprüche gegen die Bundestagswahl 2025 zurückgewiesen. Dies betrifft direkt die Kernaufgaben der Bundeswahlleiterin im Bereich der Wahlorganisation und Wahlprüfung."
   },
   {
-   "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-enquete-antisemitismus-1232590",
-   "titel": "Einsetzung einer Enquete-Kommission \"Antisemitismus an Hochschulen\"",
-   "auszug": "Der Bundestag hat am Donnerstag, 12. November 2026, erstmals einen Antrag der AfD-Fraktion mit dem Titel \"Einsetzung einer Enquete-Kommission ,Antisemitismus an Hochschulen und Schutz jüdischen Lebens im Bildungsbereich'\" (21/9081(Dokument, öffnet ein neues Fenster)) debattiert. Im Anschluss an die 20-minütige Aussprache wurde der Antrag zur federführenden Beratung an den Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung überwiesen. Antrag der AfD Die Enquete-Kommission soll nach dem Wil",
-   "quelle": "hib - Wahlprüfung, Immunität und Geschäftsordnung",
-   "datum": "2026-11-19T13:45:28.620152+00:00",
-   "treffer": [
-    "Wahlprüfung"
-   ],
-   "themenfelder": [
-    "Bundeswahlleiterin"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://www.bundestag.de/resource/blob/1230840/TO-38-Sitzung.pdf",
    "titel": "Digitales, Staatsmodernisierung: Tagesordnung der 38. Sitzung des Ausschusses für Digitales und Staatsmodernisierung am Mittwoch, dem 11. November 2026, 14.30 Uhr",
    "auszug": "",
@@ -1073,49 +918,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1232972",
-   "titel": "Abgeordnete sehen Regelungsbedarf bei Smart Glasses",
-   "auszug": "Digitales und Staatsmodernisierung/Ausschuss Die Fraktionen im Bundestag sehen Handlungsbedarf in puncto Regulierung von Smart Glasses. Das wurde in einer Sitzung des Digitalausschusses am Mittwochnachmittag deutlich.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414655+00:00",
-   "treffer": [
-    "BMDS",
-    "Datenschutz",
-    "Digitalausschuss",
-    "KI",
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Akteure",
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/mediathek?videoid=7668071",
-   "titel": "TOP 29 KI-Sicherheit",
-   "auszug": "109. Sitzung vom 13.11.2026, TOP 29: KI-Sicherheit",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414634+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung",
+   "zusammenfassung": "Der Ausschuss für Digitales und Staatsmodernisierung tagt am 11. November 2026 zu aktuellen Vorhaben der Verwaltungs- und Staatsmodernisierung."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233604",
@@ -1133,45 +939,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233730",
-   "titel": "Steuerung der Informationssicherheit der Bundesverwaltung",
-   "auszug": "Digitales und Staatsmodernisierung/KleineAnfrage Die Abgrenzung der Verantwortlichkeiten hinsichtlich Angriffserkennung, Incident Response und Beseitigung von Sicherheitsmängeln im Fall eines Cyberangriffs thematisiert die AfD in einer Anfrage.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414580+00:00",
-   "treffer": [
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233734",
-   "titel": "KI-Partnerschaft von Mistral und SAP thematisiert",
-   "auszug": "Digitales und Staatsmodernisierung/KleineAnfrage Nach einem etwaigen \"Rückzug des Bundes\" aus einer KI-Partnerschaft von Mistral AI und SAP sowie nach Konsequenzen für die digitale Souveränität erkundigt sich die AfD in einer Kleinen Anfrage.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414559+00:00",
-   "treffer": [
-    "KI",
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung und Digitalisierung",
+   "zusammenfassung": "Der Haushaltsentwurf 2027 des Bundesministeriums für Digitales und Staatsmodernisierung sieht deutlich steigende Ausgaben in Höhe von 1,52 Milliarden Euro vor. Dies berührt direkt die Themenfelder Dateninfrastruktur und Staatsmodernisierung des Beobachtungsziels."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233724",
@@ -1185,27 +956,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233732",
-   "titel": "Details zur Bundesverwaltungs-Sicherheitsarchitektur erfragt",
-   "auszug": "Digitales und Staatsmodernisierung/KleineAnfrage Details zu Netzsegmentierung und Virtualisierungsinfrastrukturen der Bundesverwaltung stehen im Zentrum einer Kleinen Anfrage der AfD-Fraktion.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414519+00:00",
-   "treffer": [
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 65,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung Cybersicherheit",
+   "zusammenfassung": "Eine Kleine Anfrage der AfD-Fraktion befasst sich mit der Finanzierung, Beschaffung und Wirtschaftlichkeit der Cybersicherheit der Bundesverwaltung, insbesondere dem Programm 'CyberGovSecure'."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233728",
@@ -1219,10 +973,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 65,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung und Erfüllungsaufwand",
+   "zusammenfassung": "Die AfD-Fraktion erkundigt sich in einer Kleinen Anfrage nach dem Erfüllungsaufwand der Verwaltung durch Regelungsvorhaben des Bundes seit Juli 2011. Das Thema berührt die Bereiche Staatsmodernisierung und Gesetzgebung."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233726",
@@ -1236,27 +990,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233766",
-   "titel": "AfD fragt nach Details zum Handel mit Standortdaten",
-   "auszug": "Digitales und Staatsmodernisierung/KleineAnfrage Welche Bundesministerien und Bundesbehörden für Fragen des kommerziellen Handels mit Standort- und Bewegungsdaten von Personen oder Endgeräten zuständig sind, fragt die AfD-Fraktion in einer Anfrage.",
-   "quelle": "hib - Digitales und Staatsmodernisierung",
-   "datum": "2026-11-19T13:45:27.414449+00:00",
-   "treffer": [
-    "Staatsmodernisierung"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 75,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung",
+   "zusammenfassung": "Die AfD-Fraktion hat eine Kleine Anfrage zum Stand, zur Akzeptanz und zur Effizienz digitaler Verwaltungsangebote in Deutschland gestellt."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233792",
@@ -1272,10 +1009,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 65,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung",
+   "zusammenfassung": "Die Bundesregierung sieht laut einer Antwort auf eine Kleine Anfrage keine strategische Neuausrichtung des Vereins GovTech Deutschland. Der Artikel berührt damit das Themenfeld der Staatsmodernisierung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3JQZzVhdzN2OV9KWF9YY3kxaElaRzlPOXF5bzBHZVQ2Mllxc3o3c2ZsNWxyb09hQlNsSnVxMEtUT3EzLUNmVHI2TDlzcEV2VF9rSktmc0tPdkJFM3NsMVFhMHVYM05YTnZMUmxCODBqSGtRc1YzSGRwZ3lWWTRNVlRaaHVSSXJfa3d1N2N0alhoREtQeVNacDJ6U0dWR285RXJaa2RkcmVCUVluanVr?oc=5",
@@ -4490,7 +4227,7 @@
   "https://www.heise.de/news/Google-Genie-4-Interaktive-KI-Welten-jetzt-fuer-Abonnenten-verfuegbar-11530791.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-19-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/software-architektur-tv-mit-Live-Diskussion-Reibung-ist-ein-Feature-11525858.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/mediathek?videoid=7668071": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/mediathek?videoid=7668071": "2026-11-20T15:17:44.723371+00:00",
   "https://www.heise.de/news/Microsoft-stellt-neue-KI-Modelle-vor-und-erweitert-sein-Lizenzgeschaeft-11529784.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-17-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-ars-technica-vom-13-11-2026": "2026-11-19T13:46:09.976089+00:00",
@@ -4498,11 +4235,11 @@
   "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-17-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWWZWTjRETklseTMxRlB2YWtlN0k5czBMc0RnaEhXQmxkNUxEN1haWmVRZFRxLTFXY2dUNjZ6MmxrODJLaVMybHFhckRfUlFMeWQ1NW85eko5Y2RVSUZHM1JUQjVrYy1DOXdyTjdvbWx3Ynk2UzdvTkFmRFFheUQ5U1FWejhBWnNNQU1xUW03VWw4dw?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXB4aklnbWtDYnpGTHNQam5GWVQ4X2pVTU51TVBtUVFYZHNoc2NkU08zY0J3NXRnODVILTV3dnVJeUs3MkJTQWN1WGo4U2lSeTVmYnZFdG1SY3JtM1JPUTBOdlF1OGxWQmZ2aDhZZE51MGl3MUpISTBNYVJFck1lOVFXWlJveTg?oc=5": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232972": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233726": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1232972": "2026-11-20T15:17:44.723371+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233726": "2026-11-20T15:17:44.723371+00:00",
   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTXg1eldmelA5dllKM3RjWXpybm42Nm5ydUhIXzhZRjNDM01KYWVraEVUVEJJYVBISmZXb1JBQVJESE9mVmtJWGd4dWs4bDAzUWJ3eV9WVmlMUnRuWEg2MkY0eVUyU2d1d0ltYUdVTDk3dDBPcDB1dlVzTThlZkZOVmhjMXV0UFd1?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233724": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233724": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-norwegian-scitech-news-vom-16-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-10-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundesregierung.de/breg-de/aktuelles/tiktok-europaeisch-denken-start-fuer-eine-europaeische-initiative-aus-deutschland-und-oesterreich-2461632": "2026-11-19T13:46:09.976089+00:00",
@@ -4519,17 +4256,17 @@
   "https://www.heise.de/news/GPT-6-2-Astra-OpenAI-warnt-vor-neuen-Risiken-durch-KI-Selbstverbesserung-11528955.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-404-media-vom-12-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-future-vom-17-11-2026": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233734": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233734": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-nature-vom-16-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/KI-Assistent-und-MCP-Apple-oeffnet-iWork-Apps-fuer-LLMs-11530795.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Bericht-China-trainiert-KI-mit-Destillation-von-US-Modellen-11528073.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-correctiv-vom-12-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-enquete-antisemitismus-1232590": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-enquete-antisemitismus-1232590": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-18-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Bitkom-Mehr-KI-Nutzung-bei-Symptomen-Vorbehalte-gegenueber-KI-wachsen-ebenfalls-11529059.html": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZEc0QTNVbUFWWTNGVTE5djNMZW5DcjFYdEpJNFJLbUQ5ZkRqYk5MRnR6NjdieTE4c0xqQ0M1RFBuX0E1VDlNS2xqa043dF93NUJlUmJqekpLTWlKcWV0UU9VSE4yVmJuRzJ4elpqY0NWTWtzcVdxdjFaUkphZm9iWnkzMA?oc=5": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233766": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233766": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-techcrunch-vom-18-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-10-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Frag-Maps-Google-verpasst-seinem-Kartendienst-eine-Portion-Gemini-11527482.html": "2026-11-19T13:46:09.976089+00:00",
@@ -4546,11 +4283,11 @@
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVB6OHZQV2JndklySy1rVDBzNU8xSnc5LXBsci1uSGNPVzQ4ZG5sWWNiY2ZXbm5POFlHcDU0V1Q2RktwUk9ISkRUbU1BUmdhS3VRMzhNMkZEamJ3VEQ2X2pmakwxRHl0UkdMeXVwZFczcFAxMzd6dzE3TU1VWnVGalJ5MEtRZ3l0aWk1U0tIbk80ZVNySnRzZ2JZR2JBb0pTQ2g4?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292": "2026-11-19T16:15:35.870791+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFwUGo0NG1RTnY5WFV0ZzRGVkZvOGRGamV4eGc1eUNCTmc0RWNHNWUwQkk4UklTSEFsTVFHc2t5VUxYWDMwTVF6TVBHMVdXUGhRUm81Vy12SEhtRTAyTHR0azBEemF6cUhZMWFFUlM4M1EyeFBYTUNVZnNCTlJIYlpHcGk?oc=5": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233604": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233604": "2026-11-20T15:17:44.723371+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZS14VHNzeUZ1bXdHWmpVY3ZUaEJZODB4ZXQwLUFBTGdiLUF1VmxvZUM3M25COVFjVlNZQm81dTNtTHZwajF2LXhjUkt2Q1lvM2Z3U1ZhMFhJRXFaNlBVYnlnanRkcXVsYUhseFU1QWR4dmF4OUo1MmRfSGhNWEZqNVRnd1Y?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233852": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-zentrum-fuer-digitalrechte-vom-10-11-2026": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/resource/blob/1230840/TO-38-Sitzung.pdf": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/resource/blob/1230840/TO-38-Sitzung.pdf": "2026-11-20T15:17:44.723371+00:00",
   "https://www.heise.de/news/Anthropic-und-Cisco-integrieren-Claude-Mythos-5-in-AI-Defense-11529932.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-giga-vom-18-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FRDZMVXVDdkJKYmZDUnRmLS1nNUhJQlVFUVJfY3I1NHJKNWlQS3VTNG1rWXdWandzV2pHM0lpMVhCbUhoU3VkTTFOdHR3dnNPdHlfNWJ3YkRwZzluYlVQUkRwd1RuZmhweTBja0VjX3BTX0daNW5GTlBR?oc=5": "2026-11-19T13:46:09.976089+00:00",
@@ -4559,7 +4296,7 @@
   "https://www.heise.de/hintergrund/KI-beweist-dass-Quantencomputer-nicht-allmaechtig-sind-11521373.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/BGH-KI-generierte-Schriftsaetze-koennen-unzulaessige-Rechtsmittel-sein-11529938.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-12-11-2026": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233728": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233728": "2026-11-20T15:17:44.723371+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1232780": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/KI-Update-kompakt-Destillation-Anthropics-Boersengang-OpenAI-Klage-IdeaLens-11528179.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/EU-sanktioniert-russische-Desinformationsnetzwerke-und-Hackergruppe-11528693.html": "2026-11-19T13:46:09.976089+00:00",
@@ -4577,7 +4314,7 @@
   "https://www.heise.de/news/KI-in-China-Riesige-Rechenzentren-mit-gruenem-Strom-in-Ulanqab-11528183.html": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSWo5Q0xVcG1FamNvWmhjN1VOU0lhZW9Gb1pIblY2Zk5zdDJwcGlUVU9ab01JZ3dRSU40UndZVW1yRHNIbzd2RHVEcUpCcjQweEk3c3NqX053Z0lJM2dWOVpNanBuZjVsMXM4NkJsTVRHcFVLZ3BLVjQyTXBmM0hEdjZkWlFKSTg2dlFkRWplcXpyZEpQeElDQWotT1N1bnA4?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Moonshot-AI-wechselt-Entwicklungsfokus-von-Programmierung-zu-Wissenschaft-11528033.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233732": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233732": "2026-11-20T15:17:44.723371+00:00",
   "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRl9rSGRwOWVJNURIVXZ5Mkg0RjVMUF9Qa1VrRnRyNE9CWkpfM0RSWkZWS2ZZMlBFOUdveWlsUzZXNXZRYnl6bVJNOUJhWEdwU25DVmxLNmF0cEJmWEZfNEZ6WDlIRGxLbW9LVHdsUjUwNTZsc1dXZVlSOHB2VVVmd2RScmdKZVd3UWgzeEF4Z2U3NEJiNWwyN1B3OG8?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-immunitaet-1154760": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/IT-Probleme-bei-US-Banken-und-NSA-angeblich-wegen-zu-vieler-Patches-11529019.html": "2026-11-19T13:46:09.976089+00:00",
@@ -4595,7 +4332,7 @@
   "https://netzpolitik.org/ticker/ticker-news-von-der-spiegel-vom-16-11-2026": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Microsoft-Ignite-26-Azure-wird-agentischer-und-Windows-rueckt-in-die-Cloud-11529788.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-golem-de-vom-12-11-2026": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233730": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233730": "2026-11-20T15:17:44.723371+00:00",
   "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazFLWVJVb203YmtJczBYRHBING4tdTJxVHJBRGlRX2FpLUktTjlzR2M1c2o1Wm5naTJJWEhPOXJnNHBJd2hSVC1zVnBkWjczeldzNkFfUnRlaUZ0UURFdENXR1Q3a1NGZXVXMFVZUGdYT1BLc3h3anM0V3R3Slp1ZlY4Mm5ET3ltZkJ0U0VEQjdiMFdteXJxZ0tNd09aN3FNdF9hbnEzLWtUSDVnQWpRTFBEUkxsckFWdmZFQ0tLRFBJZw?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Donnerstag-Anthropics-ueberzeichneter-Boersengang-Meta-mit-noch-einem-Messenger-11530299.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html": "2026-11-19T13:46:09.976089+00:00",
@@ -4605,7 +4342,7 @@
   "https://www.bundestag.de/mediathek?videoid=7657429": "2026-11-19T15:54:42.956264+00:00",
   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdWZGZFFSdHJWaVFuSEphdGpZa0Q2dmhxNzFoTVFGZHZpV0RSdzBCdC1tVEhVNEZCSzdld2R1bXZaVm5qSGJPcm5wcVpLajVNYWlkRm1EMFdPNGFyMHFPSzZxRU9uNHFtdml5Z0hvSC1Tbm0zbk4tN25neDVDX3NiLW5B?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/Vom-Plugin-zu-KI-Agenten-Aufgaben-automatisieren-und-die-Kontrolle-behalten-11527570.html": "2026-11-19T13:46:09.976089+00:00",
-  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233792": "2026-11-19T13:46:09.976089+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1233792": "2026-11-20T15:17:44.723371+00:00",
   "https://www.heise.de/news/Microsofts-KI-Framework-verteilt-Malware-So-bekamen-Angreifer-Zugang-11530977.html": "2026-11-19T13:46:09.976089+00:00",
   "https://www.heise.de/news/KI-Modelle-markieren-Zivilisten-als-militaerische-Ziele-11529550.html": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-05-11-2026": "2026-11-19T13:46:09.976089+00:00",
@@ -5475,6 +5212,16 @@
   "https://news.google.com/rss/articles/CBMickFVX3lxTE1iMHA0a0FWc2tFcV9mYmlLWnVKeTd3LURPM2VoNWIwdklIR21zUVhEQkVKWGxNODZyR01Nb0VUMDMxVHJNdHRlR2dZNE1mLWFCb0FsWXg2Q2Q3dUplUUtTa0lJSUkyN3NYejM1WVpId3JPUQ?oc=5": "2026-11-20T15:12:05.397343+00:00",
   "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JX2ZLQzhCel9qMzd5Z3BBS3d2NGRnU21UXzhCY0ExblVYcWdYQ0lMYnJBOTRqU3NCc2hZcUM2SnRqbTNPLVRjQ2NqZWl4UQ?oc=5": "2026-11-20T15:12:05.397343+00:00",
   "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JNXJFWWNhWEhNUll4VUxtc2tRRWxORzh5UFpzQ2xrWXozSFJvNXpfN0lmbnJkRXV5Q0pxMVpqMmE5eGN2X0FqaXhHSEk2T0Ez?oc=5": "2026-11-20T15:12:05.397343+00:00",
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2xoQVhTUzB4Qko5aVJhM3RXQ2xSTVRhU2VLWHhRWTdGYXZNRDZzVE1laFY0Q0RXcDJGUkRYbWI0QW1xRkN4N3lZRFhLQm5DRmJXSnQxY1dOSDU2blV0TUtPbmh0RmxMT29uejloT3dUZTdnUEx0c3ZaRVBaR0FsSnlHS2hrbUozM250azF0SEJSaWk4N1BzMklKZGdORzlW?oc=5": "2026-11-20T15:12:05.397343+00:00"
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2xoQVhTUzB4Qko5aVJhM3RXQ2xSTVRhU2VLWHhRWTdGYXZNRDZzVE1laFY0Q0RXcDJGUkRYbWI0QW1xRkN4N3lZRFhLQm5DRmJXSnQxY1dOSDU2blV0TUtPbmh0RmxMT29uejloT3dUZTdnUEx0c3ZaRVBaR0FsSnlHS2hrbUozM250azF0SEJSaWk4N1BzMklKZGdORzlW?oc=5": "2026-11-20T15:12:05.397343+00:00",
+  "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTXloQ0JQZ0NMMkp4Q1lzYmJUQzlsRzBNSEcyVjZLa1R3N0hsbEVldnRUNHhERnJCRF9BUTVQNzhhMjJ1SU42aTBWOHJ5RXNuTFlkUDVMLU1xeG9OTVdkTUtLMW9ESm5uSGxETWtFYXUyYWY4QjRBek51ZGVJVHE2NEJNRG9QTEpRTjBMcEFUbV9BdG9UX2V3UUVDbDMwOTV0bnJVQmRpWDNGbUFjUjMwX3pITUtWQ2xmMGJfTm9HZ05TYnZQblFsMFpyUGF5NFk?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://www.heise.de/news/KI-Update-Deep-Dive-Smart-Glasses-als-Alltagshilfe-11530663.html": "2026-11-20T15:17:44.723371+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1237428": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTVVwNGVFS1o0TTNQZFA4Z3ptcUE1NEVRQUpmTEFkVXBKUFpuVXdKY09CMjRfb3ZhT1NNQzFhNjJISTVzZlBxS3V1Zi1oSWpTZ0xSdzhUSTl5c3ZNUXFaYVBYVlNjV0xfRHBwcVBUS2hwOURILXZuQngzdTgwZF8xb3NmUGhndGJNQ2RHckVIMlVHLTg4VUNFRDNBUHN6bHFFZVloRmdjendzdVg5R3k3TlNONW50ZTVmVE1KUjF2b1FCNWMwVjAzb3o1VVlSdzlPeDFIeVNxZ2hFX2FSaXI5dUxB?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://www.heise.de/news/Niederlaendische-Datenschutzbehoerde-warnt-vor-Nutzung-KI-gestuetzter-Smart-Glasses-11531921.html": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2xna1YzSjR4MTl1LXJuQ1p6STItTVN2UXNpd3RKOWZLREtnVVFFS1ROWmtSS3R1dWwyUTZKRDVJVzhRcUdkeWFMM3hoVXowUml6NHZ0ekdoQkdKMWVXZUZNOWR0SE5tZFk2SktCSjB1cWxheng5aFVlZ1pVc2x5Zi1MWXNtNGt6VFhHYVNvZ0RGZ1VTeGdFajVWQVpzcHVheFRfQlY0cFZraXc?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGZReU5DRTlxTGRjMkgtNWhucFIwME9kaEVDdXBic2wxYzNHQnZIMzAtMWJkeGJhVXlOdDQ5N0RKU21MQWMwQjVKdHZYaVktY0ZodkgxZkRUQTgwdGJTcWE1SlJ2WkJ3Y2FIRnc1XzR2bnJreHFKOHNkckh0RllJVzVUd0RTbENhcWJKZHBacmp0MndUZWZack5JMHpHUmMtVkRhQW9YYmJtWk1VcFE?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSjJEemtkN21XVnRYT3JBNzBxRk9jM1ZNSzdYNEtnd0kwUDAwYWdraXQxcm93bjBRZFFYVlo1N1hlWmYzbEROYmRncno1Vl95OHo2OF9ha2UxZFFFWVQ2V0paX2lFTHUxNFVscjRMSUZkcklrMm5leUgxRTAyNkxTU2YwRG82cm52TFZ0OVdwbWNieUpNWFZtM01uMk14M2tyT1FQSFVEQzg4cF9xcDZFeXl3SmpJcy0yQUl5SWdpYV8?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSk5jSmd1aEpIRHM4TmhGY252TldOdkVXUlBydEJqaVkwTGNwVTA3QURSdHlhZ0dDMUxiX3NaVTNQQmV5SVl4b040M1Y1b2pEbE5nN1ZReE83elZYb1N1WXZiRWVEU0dVeDNuaW5IVk1GTXl2Sm9aNW83VV9IY0V5Yk5XQ3NyZmRqRjVfTGRjWklxTE9DTGdjdGllZU03UV92X19NMWN4TC1ZUTU4TmRNVWlpSQ?oc=5": "2026-11-20T15:17:44.723371+00:00",
+  "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSlFwNm5kamtkQl9yX0VkbC1jM1FWQlAwQk1Tb2UtbWZaR2Z2OXJDOFdGcHFieC1sZW9wdXJ4UTQtWTN6OGx5NklIbVNnem9qcS12eVhUX3JucVdZTkswUFotaF9RVERaWFlDMzlQQnN4bkllTGY3Wjd5RzdCb2tiZG5YTnNoeHJKaE90MzljMlpocm85LU5ORg?oc=5": "2026-11-20T15:17:44.723371+00:00"
  }
 }
