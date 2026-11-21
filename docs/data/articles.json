@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-21T14:29:03.479746+00:00",
+ "aktualisiert": "2026-11-21T14:30:40.927197+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
@@ -826,29 +826,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYmpFeTNHd050QkEzNmpHMVE1czFGSmp3N3dsTE9iU19ETWd5R1pwcUVaLVloQ1NVTDQ3NzlhbTFhTlFBR2FEX0pxLUtBY2pWb2FraWlkNDRLLU82OTFSRy03YmpKbmtfZURpaVctci1TRk9ZM0FTSzc0cDBrYUU4N3NjVHBIUkpQYnNMa2E0MEpsb01EOFJXNU9yZXBGTW1WN21vQThKME9TZ2tCOTFfT1JhenFud3BQVGNoTzk4cnptVVc1cU1lVzd1N0N5TE5xbDd3c0dBclVlcEtf?oc=5",
-   "titel": "KI-Rüstung: UN-Gespräche über autonome Waffen enden ohne verbindliche Zusage - Handelsblatt",
-   "auszug": "KI-Rüstung: UN-Gespräche über autonome Waffen enden ohne verbindliche Zusage &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-21T09:11:30+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Energiepreise Destatis",
+   "zusammenfassung": "Das Statistische Bundesamt hat neue Zahlen zu den stark gestiegenen Energiepreisen und einer massiven Verteuerung von Heizöl veröffentlicht."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOFE1ZTNlVnpJekdmeF8zMTI0U21CaW13ZXZNOE80Q3hIMnc5Zkw4b3R0aUttMFVUVnVsSjdvNVZaYlM2UFBGd3dtc3pfWXA3SVp3MVhTc3U2Wjdja1otWUpXNWJLcThUdERNMGxTNTROMXFDVDRLZEZRWFlPWVhSZ3MzZXdaQWZBdEFmR2ItbUVJWjV5eFlpT1RIYmRZbW1LUUY0UkZkLWpwLVNEMDlfRnNyenhUMXNnenozdzBHcVhrblJDZmd3WWxmQVRtOTJqaGZPSFVGcEVnSzFrd2ZYYU1zeTZFUVl5M1Nj?oc=5",
@@ -5758,6 +5739,8 @@
   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbWl1Ymx2ZkNqQ0dXYjRhSWxGcDhSeEEtYm9rWUdIREJ1SHM3TklkX1BlOTNnVjl1ZlVRTnJ1WDc3UEMyN3Q2eWZVYzZxSzM4c1RGcXV0WkV2aThUam5RMnZ2Z0JGRS1kNmFQdXF1a1IzN0d5dFhxMHctdzZlN1FIc1Bsa1FkRXdCQjlPd1lDQTYweXpKekFBVjF1MGdqRG85bHQ5WVNydkx3ZFk?oc=5": "2026-11-21T14:29:03.475860+00:00",
   "https://news.google.com/rss/articles/CBMingFBVV95cUxNb2lEbmppdjU3ZnVuUi1GLUc4aV9Va3JYcXUzX2IycEtvaU14UUFldF9YMENEY0FiZkpBZ1dDTzEwLURkUjBfOHdVbnBDVkJra3ZPUTdfdjdHbzd5YnBuM3B1M1gzUnZ3TW9QM0hxcG0xak8zeEx4T2ZJVmFmdUpENlFLUHp0LXp5dzVyWkxZcU5zRkZXT0QwV0NkQ3YxZw?oc=5": "2026-11-21T14:29:03.475860+00:00",
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSmlzZnh5cV80UlFPWE93TU05d05fY1RIZUIxay11blJmOHNpUjQwWDg1bEtVQnNhRXR3UzVic3BHQ3ZUQnVmNEVvcEo3SDZxanRiZXpwNTVuNDVJdjVmNTFMRnllRm40dDFKS0NYWmh2R0c0NXF5YjZQNmVTM1k1NzNHVTJ4UU9qU0lNWlBCdl9ZcWNqSkV2XzlqTG9LNUFVSXdreW9yRVotZU1i?oc=5": "2026-11-21T14:29:03.475860+00:00",
-  "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQk5BWHN1ang5TVpsaU5sTHRsU3NVRjhfc3ZPY0s5RDYxbkd1aUZmMms4SDlKNEQtaVoyejRLXzltZlVJODlVdlJGOVpWbk9rZm5RYXlFZ1hEZ0l0MDNzdFBuVW1SM3FPb1p4c09XS3lRSy02aG56b2tBNy1pcUF5Q0hTSUN3TVVuOWc?oc=5": "2026-11-21T14:29:03.475860+00:00"
+  "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQk5BWHN1ang5TVpsaU5sTHRsU3NVRjhfc3ZPY0s5RDYxbkd1aUZmMms4SDlKNEQtaVoyejRLXzltZlVJODlVdlJGOVpWbk9rZm5RYXlFZ1hEZ0l0MDNzdFBuVW1SM3FPb1p4c09XS3lRSy02aG56b2tBNy1pcUF5Q0hTSUN3TVVuOWc?oc=5": "2026-11-21T14:29:03.475860+00:00",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSWpiYUFDcVNZTmJGQktUWjJKSFRoMXR1bmNrTUhrczZmRDBRSHUzNDFkU3dBWGhRSnZzaFNHR2dpSTZkMWNFLVZIX0k4eFFvb3otaDh4LV81ejU5SldIN2RqMWlRQzlNN0xpQXVjTHFQWjd1bm9wV0lHRkIxWEE4RF9sZHZvelBHeXBoWUhGYng1R2tUNlp4dlppd3gtaHVwdE9lM040WnMxMEk?oc=5": "2026-11-21T14:30:40.923040+00:00",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYmpFeTNHd050QkEzNmpHMVE1czFGSmp3N3dsTE9iU19ETWd5R1pwcUVaLVloQ1NVTDQ3NzlhbTFhTlFBR2FEX0pxLUtBY2pWb2FraWlkNDRLLU82OTFSRy03YmpKbmtfZURpaVctci1TRk9ZM0FTSzc0cDBrYUU4N3NjVHBIUkpQYnNMa2E0MEpsb01EOFJXNU9yZXBGTW1WN21vQThKME9TZ2tCOTFfT1JhenFud3BQVGNoTzk4cnptVVc1cU1lVzd1N0N5TE5xbDd3c0dBclVlcEtf?oc=5": "2026-11-21T14:30:40.923040+00:00"
  }
 }
