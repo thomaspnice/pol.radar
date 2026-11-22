@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-22T14:24:22.680661+00:00",
+ "aktualisiert": "2026-11-22T14:24:54.751863+00:00",
  "fehler": [
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
   "KI-Bewertung abgebrochen: Gemini-Kontingent erschöpft oder Dienst überlastet (HTTP 503). Rest folgt im nächsten Lauf."
@@ -825,29 +825,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVFwM0JuVkFqTC13eWduT3VMNm80aFhsUFgyQmxVQllrQ0FWZEROMXhlc0h2OVV6d2IwVzh4b3NmUjNEX0hZLUZGTF9QQTFZU3gwV0Jwd0k2QWg5VkNFT1Y1c1Q1blhvVGVsSW1yNjFpUmE1dXh6YmFtMnpKMFpjVWNhWUpVMzAtYW5PbTVpTEVYMWt5eS04RkhaTnhYV2JXelFTam8waXRZME9pQjVqZ3FXTjFmbU0?oc=5",
-   "titel": "KI: KI soll berühmtestes Problem der Mathematik gelöst haben - Handelsblatt",
-   "auszug": "KI: KI soll berühmtestes Problem der Mathematik gelöst haben &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-21T14:22:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 95,
+   "tonalitaet": "negativ",
+   "thema": "Inflationskorrektur Energiepreise",
+   "zusammenfassung": "Das Statistische Bundesamt hat die Inflationszahlen korrigiert, nachdem ein Fehler bei der Erfassung der Energiepreise aufgetreten ist. Dies wirft Fragen zur Qualitätssicherung der amtlichen Statistik auf."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSWpiYUFDcVNZTmJGQktUWjJKSFRoMXR1bmNrTUhrczZmRDBRSHUzNDFkU3dBWGhRSnZzaFNHR2dpSTZkMWNFLVZIX0k4eFFvb3otaDh4LV81ejU5SldIN2RqMWlRQzlNN0xpQXVjTHFQWjd1bm9wV0lHRkIxWEE4RF9sZHZvelBHeXBoWUhGYng1R2tUNlp4dlppd3gtaHVwdE9lM040WnMxMEk?oc=5",
@@ -5956,6 +5937,8 @@
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNm14elQtcnRzT2RZLTdaNTZkTXNGakZxcHBVdDVxQ0VRZWtYWGRlWXZlaXdHTjdmVE95N0xELXZCMnZWTngtSXBZZHBtUlZhRVNyNWcwUEowaGkzZUZfQ2hXYkdQNktyMXlhRjRmT2FzU3VRZFVsZXFLQjNBRDhGX1hiYUhXUzFuT0RqMGJEcUZOOGVqdWtnQjd1Rk1PQWpWb1RBU3Y1cFRFOExWNElQa3BlYw?oc=5": "2026-11-22T14:24:22.676391+00:00",
   "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNVZpMEN5ZVVHUzFzSWFHQTZoVEdYSUloWlNHaDVUeTF0MTNMc1IxcTNDbXAtOWZmNXY5aVlTVkdMajNfYWZMVk1pTkwxaGl0aGItWkVMOElUS0JSaTAzc1ZCbzkxVXJ2dzI5R3hzZXZJcGl6dDhwemJLcEJTWUNfTVU3LWNvY0VvWWRlam53RFFiZTFpM3U5RkFxMUxxQ2RnbTB1YjRrVlpBdVl3ZTBpVVRpZDRQRlRVRW1IVnlMY2tUeUVOUExLaWhBdXZCVU5VaHllUl9n?oc=5": "2026-11-22T14:24:22.676391+00:00",
   "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JUGNGRjdoTW54RTBzakx3aFVQYTVkYUdKWVhCRWx4MlU4YVZubFpObWtBd0VxWkhDbHV3TE5kV3I4Y0FFbzRnNmo1NmVDV2ZLOUdYcXpnRGxTaGpELXZHTkg1d0dzTGNURlZHN3laS0hxcW95ZU5vRg?oc=5": "2026-11-22T14:24:22.676391+00:00",
-  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jQTFiTlA3UU4zU0JNOTlDRnlDbzM2YVh0WC1hX3JBd05fMm5KN1BnNWFyN0wzUG5TZndjWGVlQlpRZUhxNXNuclhNa0lIb1RvSXhHVm9R?oc=5": "2026-11-22T14:24:22.676391+00:00"
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jQTFiTlA3UU4zU0JNOTlDRnlDbzM2YVh0WC1hX3JBd05fMm5KN1BnNWFyN0wzUG5TZndjWGVlQlpRZUhxNXNuclhNa0lIb1RvSXhHVm9R?oc=5": "2026-11-22T14:24:22.676391+00:00",
+  "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZGZORW9YQVFFVnVvNXpTWUlOUU9Dd3ZpV0VHdjI4UVJhSGJBdVBXUVdIVWxDeEJFSUx1ZFV6VEJ5SUNPNllfdVlwdWhLa3FlSWZuTVoxRzE0aU9yUUVRQnVCcDM5bnpic1BzRS1pdThBeG5fZXMzLXpIS3p5OEhsSzFQQWdkMkJSdWpnZG95R1RSN3dVeEE5RGRTdElmZ25talNCZFFxQ3Z0dWZPQVNhbVNLZV84OER6ZzVLb21jN1ZSWUZRRmc?oc=5": "2026-11-22T14:24:54.747699+00:00",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVFwM0JuVkFqTC13eWduT3VMNm80aFhsUFgyQmxVQllrQ0FWZEROMXhlc0h2OVV6d2IwVzh4b3NmUjNEX0hZLUZGTF9QQTFZU3gwV0Jwd0k2QWg5VkNFT1Y1c1Q1blhvVGVsSW1yNjFpUmE1dXh6YmFtMnpKMFpjVWNhWUpVMzAtYW5PbTVpTEVYMWt5eS04RkhaTnhYV2JXelFTam8waXRZME9pQjVqZ3FXTjFmbU0?oc=5": "2026-11-22T14:24:54.747699+00:00"
  }
 }
