@@ -223,7 +223,7 @@ def _frage_gemini(prompt, b, post=requests.post, pause=time.sleep):
             "systemInstruction": {"parts": [{"text": SYSTEM}]},
             "contents": [{"parts": [{"text": prompt}]}],
             # Großzügiges Budget: Modelle mit „Denkphase“ zählen diese zur Ausgabegrenze
-            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 2000},
+            "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 4000},
         }
         for versuch in range(2):  # bei 429 einmal kurz warten (Minutenlimit), dann aufgeben
             r = post(url, json=body, timeout=45, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
@@ -252,33 +252,50 @@ def _frage_gemini(prompt, b, post=requests.post, pause=time.sleep):
     raise RuntimeError(letzter_fehler)
 
 
+def _prompt_artikel(it, laenge):
+    return (f"Titel: {it['titel']}\nQuelle: {it['quelle']}\nAuszug: {it['auszug']}\n"
+            f"Text: {it.get('text', '')[:laenge]}\nGefundene Suchbegriffe: {', '.join(it.get('treffer', [])) or '-'}")
+
+
+def _uebernehme(it, d):
+    it.update(relevanz=int(d["relevanz"]), tonalitaet=d.get("tonalitaet", "neutral"),
+              thema=d.get("thema", ""), zusammenfassung=d.get("zusammenfassung", ""))
+
+
 def ki_bewerten(items, cfg, frage=None):
-    """Bewertet höchstens `max_ki_pro_lauf` Artikel, höchstens `max_ki_sekunden` lang. Bei erschöpftem
-    Kontingent wird der Lauf sofort abgebrochen. Nicht bewertete Artikel werden NICHT gespeichert
-    und im nächsten Lauf erneut versucht."""
+    """Bewertet höchstens `max_ki_pro_lauf` Artikel, höchstens `max_ki_sekunden` lang. Mit `bewertung.batch` > 1
+    werden mehrere Artikel in EINER Anfrage bewertet (spart das Tageskontingent). Bei erschöpftem Kontingent
+    wird der Lauf sofort abgebrochen. Nicht bewertete Artikel bleiben „unbewertet“ und kommen später erneut dran."""
     b = cfg["bewertung"]
     gemini = b.get("anbieter", "gemini") == "gemini"
     if frage is None:
         frage = _frage_gemini if gemini else _frage_anthropic
+    n = max(1, int(b.get("batch", 1)))
     ok, meldungen = [], []
     start = time.time()
-    for it in items[: b["max_ki_pro_lauf"]]:
+    liste = items[: b["max_ki_pro_lauf"]]
+    for i in range(0, len(liste), n):
+        gruppe = liste[i:i + n]
         if time.time() - start > b.get("max_ki_sekunden", 420):
             meldungen.append("KI-Bewertung: Zeitbudget des Laufs erreicht, Rest folgt im nächsten Lauf.")
             break
-        prompt = (
-            f"Beobachtungsziel: {cfg['thema']}\n\nTitel: {it['titel']}\n"
-            f"Quelle: {it['quelle']}\nAuszug: {it['auszug']}\nText: {it.get('text', '')[:1500]}\n"
-            f"Gefundene Suchbegriffe: {', '.join(it.get('treffer', [])) or '-'}"
-        )
         try:
-            m = re.search(r"\{.*\}", frage(prompt, b), re.S)
-            d = json.loads(m.group(0))
-            it.update(
-                relevanz=int(d["relevanz"]), tonalitaet=d.get("tonalitaet", "neutral"),
-                thema=d.get("thema", ""), zusammenfassung=d.get("zusammenfassung", ""),
-            )
-            ok.append(it)
+            if n == 1:
+                prompt = f"Beobachtungsziel: {cfg['thema']}\n\n" + _prompt_artikel(gruppe[0], 1500)
+                d = json.loads(re.search(r"\{.*\}", frage(prompt, b), re.S).group(0))
+                _uebernehme(gruppe[0], d)
+                ok.append(gruppe[0])
+            else:
+                prompt = (f"Beobachtungsziel: {cfg['thema']}\n\nBewerte die folgenden {len(gruppe)} Artikel einzeln. "
+                          'Antworte mit einem JSON-Array, ein Objekt je Artikel: [{"nr": 1, "relevanz": ..., '
+                          '"tonalitaet": ..., "thema": ..., "zusammenfassung": ...}, ...]\n\n')
+                prompt += "\n\n".join(f"### Artikel {k}\n" + _prompt_artikel(it, 700) for k, it in enumerate(gruppe, 1))
+                arr = json.loads(re.search(r"\[.*\]", frage(prompt, b), re.S).group(0))
+                for d in arr:
+                    k = int(d["nr"]) - 1
+                    if 0 <= k < len(gruppe) and "relevanz" in d and gruppe[k] not in ok:
+                        _uebernehme(gruppe[k], d)
+                        ok.append(gruppe[k])
         except KontingentFehler as ex:
             meldungen.append(f"KI-Bewertung abgebrochen: {ex}. Rest folgt im nächsten Lauf.")
             print(meldungen[-1], file=sys.stderr)
@@ -286,7 +303,7 @@ def ki_bewerten(items, cfg, frage=None):
         except Exception as ex:
             if len(meldungen) < 3:
                 meldungen.append(f"KI-Bewertung: {str(ex)[:150]}")
-            print(f"KI-Bewertung fehlgeschlagen für {it['url']}: {ex}", file=sys.stderr)
+            print(f"KI-Bewertung fehlgeschlagen für {gruppe[0]['url']}: {ex}", file=sys.stderr)
         if gemini:
             time.sleep(b.get("pause_sekunden", 4))  # Rate-Limit schonen
     return ok, meldungen
