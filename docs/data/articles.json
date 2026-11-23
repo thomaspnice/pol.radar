@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-23T10:26:20.761714+00:00",
+ "aktualisiert": "2026-11-23T10:27:36.324121+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
@@ -863,25 +863,6 @@
  ],
  "artikel": [
   {
-   "url": "https://dserver.bundestag.de/btd/21/093/2109304.pdf",
-   "titel": "auf die Kleine Anfrage - Drucksache 21/8994 - Nutzung der Dienstwagen durch die Bundesregierung in der 21. Legislaturperiode (PDF)",
-   "auszug": "%PDF-1.7 %���� 56 0 obj 11967 endobj 55 0 obj > /Resources > /BBox [ 0 0 606.59998 853.20001 ] /Matrix [ 1 0 0 1 0 0 ] /Length 56 0 R /Filter /FlateDecode >> stream x�}};�.+����(���� �h�\u000e�� F������F --2�S����\"I\u0010Bo�_�����=�ջ~�1F��%}���������� _���?��� �����Rg�����|4|��Uz��\u0013P�� ����\u0001��C ��n�Ԅ��Ԅ�N�2�m���v��1� �g��\u0013�'d>{�0��l��:�e�� …",
-   "quelle": "hib - Inneres",
-   "kategorie": "Bundestag",
-   "organisation": "hib",
-   "datum": "2026-11-23T10:25:18.385736+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjFRMmhUUTlYM1AyczloenRfZUlFcWh1d3VtSlh4XzlyYWg1NkpXZXFTeV9QaVdQcFE4TndYMGdzb0htQWFGOUFkbHh2Q2s2aVoyUmNCdU91cnk0eWtmQWtSVzBBSFFxVXpfYzlfVkhxS1JKUmVlS2c1eVhGZlFGMjdrVnl4Wm1KNk16eklmRDh2a2dBM18ydDRQLTdBN3J2NDJV?oc=5",
    "titel": "Statistisches Bundesamt: Spendenbereitschaft in Deutschland war 2022 auf Rekordhoch - n-tv.de",
    "auszug": "Statistisches Bundesamt: Spendenbereitschaft in Deutschland war 2022 auf Rekordhoch &nbsp;&nbsp; n-tv.de",
@@ -895,10 +876,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 90,
+   "tonalitaet": "neutral",
+   "thema": "Spendenbereitschaft Deutschland",
+   "zusammenfassung": "Das Statistische Bundesamt berichtet über ein Rekordhoch der Spendenbereitschaft im Jahr 2022."
   },
   {
    "url": "https://www.heise.de/hintergrund/KI-Training-mit-Asyldaten-Wie-das-KIMVG-den-Datenschutz-aushoehlt-11507816.html",
@@ -917,67 +898,10 @@
     "Gesetzgebung und rechtliche Rahmenbedingungen",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEhHX2htY3Y5LVIyS3ZSeWZBTHJ1VDA0SWJoV2U4RzlsMTMtb3FIRF94VHdWTW4wcmluUjhjNkI2djRiZTJkTEJFbmFqWURmb0JRd0t6a18yX1VGc2VvbXROdUpzUE1iUlllUHIxTGlwdUt2TkdkS2ZTWE5SY2JOeUp5UzN2T0Q2YS03Rl9wSXJyNUpSTEZJTEV3MGY4Zy1O?oc=5",
-   "titel": "Digitalwende: Wie KI in Krankenhäuser kommt | SZ Dossier - SZ.de",
-   "auszug": "Digitalwende: Wie KI in Krankenhäuser kommt | SZ Dossier &nbsp;&nbsp; SZ.de",
-   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Süddeutsche Zeitung",
-   "datum": "2026-11-23T05:23:51+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVWdlU1ZhYWREdnU4NlpMTXJtU0NlSThjQV9hT2Zxd3E0dTZPZHQtYlNrREVNbS1PRHRtbkZSbFF2bTRqcERyV29HX0tzc3pLaW4zaDI2MGtvdjR1Vi01cGRtSlppMUtNSDJhTjJnS3ZYcVQyU3djMUJRT0dwZGRKNmlQUl9EYVBvT3dqQ2JDUWItOE5DNWFXM3g3YXQ5NUNVa1hzSlRlZw?oc=5",
-   "titel": "Statistik | Atalanta - Inter Mailand | 12. Spieltag 2026/2027 - Spiegel",
-   "auszug": "Statistik | Atalanta - Inter Mailand | 12. Spieltag 2026/2027 &nbsp;&nbsp; Spiegel",
-   "quelle": "Google News: site:spiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Spiegel",
-   "datum": "2026-11-22T23:53:56+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3hxTW1lSldKVTFVdTVFdzdTV0JJUzROczZ1Qk1xb3Bnb3dabHJ4QzZyLUNLMkcwb2hXczA0VENoQnpvVG1OSUxGNW4zNVJ5emlKenJtYTQ2N0xnaW8yRmQ4NHctX3dnMm1zcURIaEJOQkNVU0prV09uUU1IaUg5WW44UGlWT0tpOHNONDRMUmNIYjRwMGhhVmNiTWp6T0V5RVppb205LUFRMFpqdGM5TlRyZHdpMWEyRGhZ?oc=5",
-   "titel": "Statistik | Liverpool FC - Manchester United | 11. Spieltag 2026/2027 - Spiegel",
-   "auszug": "Statistik | Liverpool FC - Manchester United | 11. Spieltag 2026/2027 &nbsp;&nbsp; Spiegel",
-   "quelle": "Google News: site:spiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Spiegel",
-   "datum": "2026-11-22T19:51:43+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "negativ",
+   "thema": "KI und Datenschutz",
+   "zusammenfassung": "Der Artikel kritisiert, dass das KI-Migrationsverwaltungsgesetz den Datenschutz bei Asyldaten aushöhle."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNXF6SklOUVNaeXEyVnVITzJ3MmxhaGdHeFktZnhvek9WTW9XcXhlcnFrMS1wdjJlcURYelBaV3JsTG1WWUc4ZUtJeldJMV8wMHM5dzhvdmtpenplU0pOTVNubXhaRXJxYnlzYmhHUFV1ZElGMzBUMDFZTVBoTEVMMHJyRXNna3c0UUJnTDBqeEg4UGt4VjBGUmJYSF9EdVRITkU1RkpKSHgwMWFOWmJtSUNpaW8wai1fWlRGVWdXSVFNZnVzVlhpcQ?oc=5",
@@ -995,10 +919,10 @@
     "Allgemein",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 50,
+   "tonalitaet": "neutral",
+   "thema": "Bürokratieabbau Ökonomie",
+   "zusammenfassung": "Das Handelsblatt analysiert das Verhältnis von Bürokratieabbau und wirtschaftlichen Effekten."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZGZORW9YQVFFVnVvNXpTWUlOUU9Dd3ZpV0VHdjI4UVJhSGJBdVBXUVdIVWxDeEJFSUx1ZFV6VEJ5SUNPNllfdVlwdWhLa3FlSWZuTVoxRzE0aU9yUUVRQnVCcDM5bnpic1BzRS1pdThBeG5fZXMzLXpIS3p5OEhsSzFQQWdkMkJSdWpnZG95R1RSN3dVeEE5RGRTdElmZ25talNCZFFxQ3Z0dWZPQVNhbVNLZV84OER6ZzVLb21jN1ZSWUZRRmc?oc=5",
@@ -1039,25 +963,6 @@
    "zusammenfassung": "Das Statistische Bundesamt hat neue Zahlen zu den stark gestiegenen Energiepreisen und einer massiven Verteuerung von Heizöl veröffentlicht."
   },
   {
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOFE1ZTNlVnpJekdmeF8zMTI0U21CaW13ZXZNOE80Q3hIMnc5Zkw4b3R0aUttMFVUVnVsSjdvNVZaYlM2UFBGd3dtc3pfWXA3SVp3MVhTc3U2Wjdja1otWUpXNWJLcThUdERNMGxTNTROMXFDVDRLZEZRWFlPWVhSZ3MzZXdaQWZBdEFmR2ItbUVJWjV5eFlpT1RIYmRZbW1LUUY0UkZkLWpwLVNEMDlfRnNyenhUMXNnenozdzBHcVhrblJDZmd3WWxmQVRtOTJqaGZPSFVGcEVnSzFrd2ZYYU1zeTZFUVl5M1Nj?oc=5",
-   "titel": "Industrielle KI: ABB erwägt bei Scheitern von SoftBank-Deal Börsengang der Robotiksparte - Handelsblatt",
-   "auszug": "Industrielle KI: ABB erwägt bei Scheitern von SoftBank-Deal Börsengang der Robotiksparte &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-20T16:51:19+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/servicestandard-erhaelt-preis-fuer-gute-verwaltung",
    "titel": "Servicestandard erhält „Preis für gute Verwaltung“",
    "auszug": "Der vom Bundesministerium für Digitales und Staatsmodernisierung (BMDS) und dem DigitalService des Bundes weiterentwickelte Servicestandard erhält den diesjährigen „Preis für gute Verwaltung“. Der Servicestandard unterstützt die öffentliche Verwaltung dabei, nutzerfreundliche digitale Verwaltungsangebote zu gestalten und zu betreiben. Dazu bietet er konkrete Anleitungen und praktische Hilfestellungen für Beschäftigte in Bund, Ländern und Kommunen sowie ihre IT-Dienstleister. Dr. Markus Richter, ",
@@ -1073,48 +978,10 @@
     "Relevante Akteure",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVllIeVIxUmpadl8yS3BJRGNMNVlCeUotMFlNOEkxaFJka1hiRmUxVzY4RTFCOUQ4d2dTakVEUHJPWE9CdEgxZDhoZmNCWmZ0S3FJOGNuOG1nMVFqUmdxRGFHelk1MDZ3OVVuRHRnYnJGUm8zaFRxTHNBYnlPcW5BMllkOXVIcUpiRWxhT1lYbzRzQUJfX0pDY0plWGNzZDhHM2Jvel8yQ085SXJodkRSU29sZEQ?oc=5",
-   "titel": "Karriere: Was Bewerber an Gesprächen mit KI-Recruitern stört - Handelsblatt",
-   "auszug": "Karriere: Was Bewerber an Gesprächen mit KI-Recruitern stört &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-20T15:33:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPek1ybmJQQlYzV0liTG5WQnpWbm5oelBidUdxUGg4blFrcVBlS19TWjdqV3ktSE54M0hUZEFQRUYwVEhaZVRES012czB0bXN2WjBrcS1mTTFELTJRTWpydWU5S0dnQWxkZGc1bGNmb0s4QkF4REJKb1BSOTNIQkpzZDFack5aNjhmczR6V3liS1BGZExXS3lDLTBjSmluS1RDZzZQS1FvdWhaVmNpdHJWcVhCTVl2VlVNanBIbUZjWHVWNmE5S2dzbi1iUk4zLVBwck45S0Q5RXJ5dHNx?oc=5",
-   "titel": "Wall Street: Verkaufswelle im KI-Sektor setzt sich fort, Anthropic verliert deutlich - Handelsblatt",
-   "auszug": "Wall Street: Verkaufswelle im KI-Sektor setzt sich fort, Anthropic verliert deutlich &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-20T15:09:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "positiv",
+   "thema": "Staatsmodernisierung und Digitalisierung",
+   "zusammenfassung": "Der vom BMDS weiterentwickelte Servicestandard für nutzerfreundliche digitale Verwaltungsangebote wurde mit dem „Preis für gute Verwaltung“ ausgezeichnet. Er bietet konkrete Hilfestellungen für Beschäftigte in der öffentlichen Verwaltung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOHFwOFdnM0tvNEgzY3lNZVNHTmR2eEdBVU81QVg4VWxLQmRVb1U4OG5Za203NUoxOTBzWlNRRzcwaFJ2OW1pejRCeUo1WDRXOW9rZDdsanpZbl90YVNVUVpGeWhaLU1sV2JrM2U0b29aT1RXYUV4QXhXWm5XMERRQnAyMXBGaVdRc3JMaFRDUkY5QUI2am56VzRzZkk2RzVYaFlOalZqSFpqMnRNZldxUzJ0QQ?oc=5",
@@ -1130,10 +997,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 95,
+   "tonalitaet": "neutral",
+   "thema": "Amtliche Statistik",
+   "zusammenfassung": "Berichterstattung über Daten des Statistischen Bundesamtes zum Ausländeranteil in Saarbrücken. Der Artikel greift direkt Ergebnisse der amtlichen Statistik auf."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTXloQ0JQZ0NMMkp4Q1lzYmJUQzlsRzBNSEcyVjZLa1R3N0hsbEVldnRUNHhERnJCRF9BUTVQNzhhMjJ1SU42aTBWOHJ5RXNuTFlkUDVMLU1xeG9OTVdkTUtLMW9ESm5uSGxETWtFYXUyYWY4QjRBek51ZGVJVHE2NEJNRG9QTEpRTjBMcEFUbV9BdG9UX2V3UUVDbDMwOTV0bnJVQmRpWDNGbUFjUjMwX3pITUtWQ2xmMGJfTm9HZ05TYnZQblFsMFpyUGF5NFk?oc=5",
@@ -1153,82 +1020,6 @@
    "tonalitaet": "neutral",
    "thema": "Amtliche Statistik",
    "zusammenfassung": "Das Statistische Bundesamt hat neue Daten zur Bevölkerung ohne deutschen Staatspass in Saarbrücken veröffentlicht. Der Artikel greift diese amtliche Statistik auf."
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUVlbG1meHNTaF9fbm4zTGNJcFFyVEFWaVAyMEZidmpyUkx5SjY2NlRlaE80TzR2SGFRblRZZFhIeUY2MjYwMkJKOE9pYzVxemJFTkR2bXl0NUMzNzVPbTFnLWY2Z1h2YTQ3TnE0VWE5bzgyc3dYb0ZWeVlZOU0yY1ZZR0hTTzBwQzZjMDBWZ0NkVUxqWnEtTVZDeGZfM3BRRW1EOGJoVlVwVVgyZEtNeDZCSGM5NlNRME44czBoaFRaNU1ZMXVtdG0wM3BXTGhq?oc=5",
-   "titel": "Aktien: Ist der KI-Boom nach dem Anthropic-Börsengang vorbei? - Handelsblatt",
-   "auszug": "Aktien: Ist der KI-Boom nach dem Anthropic-Börsengang vorbei? &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-20T14:33:39+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVUkM3YXZvRENrZ2h6dTlDVFBvTmhnTjZMOGNWdGVDNkUxcXZzLUFscnl0REl5SUxHaHEtOXkxUm54eWg5bUVENW05UGllNHFRdDFnMnNsYmJRNU9aSERRMndyWFUtYkNKdVBkdXFwb2F3VEdyQjloeA?oc=5",
-   "titel": "Tech-Konzerne: Anleger sind skeptisch bei KI - Wirtschaft - SZ.de - SZ.de",
-   "auszug": "Tech-Konzerne: Anleger sind skeptisch bei KI - Wirtschaft - SZ.de &nbsp;&nbsp; SZ.de",
-   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Süddeutsche Zeitung",
-   "datum": "2026-11-20T13:12:57+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWktobEtIb2lUbGtDVi1YYjJ5RkVPcW5udXVfRFpVVzM2bUpIVUNQSnc3a25EMjA3WkJMdUFkUFd1ODNvTnU5QVhYNE9ZNzRxU1RTS1Y0cDhDVGx6UE9rajZmMjRmb2oySFN1cWlES2hPS0RQaTI1aF9YWTdzRG9ZZVZaYVg1X3U1bThJQmNwM2xkWUtVQWFybFBSb0h3cDhhX21oU3ZNWm9lNVNZdUJuMXJwQlZ3dw?oc=5",
-   "titel": "Hoffenheim gegen Hütter-Teams sieglos: „Statistik verändern“ - FAZ",
-   "auszug": "Hoffenheim gegen Hütter-Teams sieglos: „Statistik verändern“ &nbsp;&nbsp; FAZ",
-   "quelle": "Google News: site:faz.net (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "FAZ",
-   "datum": "2026-11-20T11:42:12+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOckpWWFhRSDg0RnNiYjNvSGlra2s2N0taOTZNbjdKM2JiOWVDcU1GUE5OWWdtbHFCbWU2Zm1pajhQSG9pdS1aNW1ybHM4LVF2YUtDQ0JYSDZINHQ0LXRhSnVkREZwLURoQ0wwamJpS3FiZ1JwbVZqVC1jWlgtaHluV1VmV2MwYUNXczhabmV4TURvSnV3MmpJVkFmZElESXh5SzRfd2pzN2tQRkY2UzhNUmZZQk1qN1VqbXlfTXNLUThPaExGSVlVem9XV1FoUQ?oc=5",
-   "titel": "Kommentar: Der KI-Boom ist nicht zu Ende, sondern fängt erst richtig an - Handelsblatt",
-   "auszug": "Kommentar: Der KI-Boom ist nicht zu Ende, sondern fängt erst richtig an &nbsp;&nbsp; Handelsblatt",
-   "quelle": "Google News: site:handelsblatt.com",
-   "kategorie": "Presse",
-   "organisation": "Handelsblatt",
-   "datum": "2026-11-20T11:16:33+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
   },
   {
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX1kybnNDaTZLdlpuQ3dHSFN6ZEJuOThOalJDVHN0czJTbGpzYU4yV1pMYW51d0h2SFVrU0hiR0pEeGRXcTR2WUc2VUVieHY2NzNXbTh5N2JSRmtfVGVaUG1CZEd6dm5YUTR3TnBTRVMwQzh0YnpVcE5TM1FHTkJNLVRTSUVVdk4xbUFPeFZmR2xfWEk0NkRJZTZ0SndGQ25EZUEwbXFjOC11b1BpZTc5YnVuaEdhZw?oc=5",
@@ -6607,6 +6398,22 @@
   "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ0Q4bUh1QmZGTGtQM0dNYm80UUJrckUxXzhTQU1JWlpJZEJzZU9sQlFrUk5BQm9EbFNJVENUa0NPYU1DUjJHUE12aF9xUURubWJVeXRjSDhjeExnaDhraHEydzA5V1BMd2syRDdZYVQ0YUFHRlVOY3VkcW1iQmZDdmlDRGM3eTZrclY0RFFMcHROUQ?oc=5": "2026-11-23T10:26:20.759103+00:00",
   "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWTNHRTFoRjI3OTdiME5LYXVGMjdZSV9EXzhBeVdaeFh5Tkp0Tm1ra090UGVqeThodERBNzBqNWNlVVBOUTdjVVhfRUZERnJTdHNVcVlIblViVzNNb2FEcy05Sy1rdHRPblltQkFycVdSMUZfazNEY1RmSXNqdUtLTlVwallwUDVSRFIydXVHMUc4Z28?oc=5": "2026-11-23T10:26:20.759103+00:00",
   "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTRIUmJEak9WYTAtUkYzc2MzTDJCWE44SWlLRVBJX1I2aTFiSlcwZDJZYWYzQmsxVWdCaHIwNWVkRXBVcm9mQ005d0RlSlNUZTRETEtpd24wZ3dPM3VnVXJucVZPUDg2VnJlTWU1dGNRR0tqcVFTTVZ2T3MyekxRb05MWFo1eFNlMGc?oc=5": "2026-11-23T10:26:20.759103+00:00",
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ2U5TmlDd2tCTFY4Y1RQX3FrZnVNcUtmLTRSTnJNaUIwV05EMUJ0Q2h5REV6OUV2SFRiRUsyVl93RVBTRVJ5V3lXbWFCSE81VjAwdUdOeFZGWTRDS0Y1NmNJNFAzY1NhTVZKM1dCaXJ4c19zTHNXOFZLV1VnbmdBcnZ0dWZYV2ktRUp2STA5MXpiQ202?oc=5": "2026-11-23T10:26:20.759103+00:00"
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ2U5TmlDd2tCTFY4Y1RQX3FrZnVNcUtmLTRSTnJNaUIwV05EMUJ0Q2h5REV6OUV2SFRiRUsyVl93RVBTRVJ5V3lXbWFCSE81VjAwdUdOeFZGWTRDS0Y1NmNJNFAzY1NhTVZKM1dCaXJ4c19zTHNXOFZLV1VnbmdBcnZ0dWZYV2ktRUp2STA5MXpiQ202?oc=5": "2026-11-23T10:26:20.759103+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109304.pdf": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjFRMmhUUTlYM1AyczloenRfZUlFcWh1d3VtSlh4XzlyYWg1NkpXZXFTeV9QaVdQcFE4TndYMGdzb0htQWFGOUFkbHh2Q2s2aVoyUmNCdU91cnk0eWtmQWtSVzBBSFFxVXpfYzlfVkhxS1JKUmVlS2c1eVhGZlFGMjdrVnl4Wm1KNk16eklmRDh2a2dBM18ydDRQLTdBN3J2NDJV?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://www.heise.de/hintergrund/KI-Training-mit-Asyldaten-Wie-das-KIMVG-den-Datenschutz-aushoehlt-11507816.html": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEhHX2htY3Y5LVIyS3ZSeWZBTHJ1VDA0SWJoV2U4RzlsMTMtb3FIRF94VHdWTW4wcmluUjhjNkI2djRiZTJkTEJFbmFqWURmb0JRd0t6a18yX1VGc2VvbXROdUpzUE1iUlllUHIxTGlwdUt2TkdkS2ZTWE5SY2JOeUp5UzN2T0Q2YS03Rl9wSXJyNUpSTEZJTEV3MGY4Zy1O?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVWdlU1ZhYWREdnU4NlpMTXJtU0NlSThjQV9hT2Zxd3E0dTZPZHQtYlNrREVNbS1PRHRtbkZSbFF2bTRqcERyV29HX0tzc3pLaW4zaDI2MGtvdjR1Vi01cGRtSlppMUtNSDJhTjJnS3ZYcVQyU3djMUJRT0dwZGRKNmlQUl9EYVBvT3dqQ2JDUWItOE5DNWFXM3g3YXQ5NUNVa1hzSlRlZw?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN3hxTW1lSldKVTFVdTVFdzdTV0JJUzROczZ1Qk1xb3Bnb3dabHJ4QzZyLUNLMkcwb2hXczA0VENoQnpvVG1OSUxGNW4zNVJ5emlKenJtYTQ2N0xnaW8yRmQ4NHctX3dnMm1zcURIaEJOQkNVU0prV09uUU1IaUg5WW44UGlWT0tpOHNONDRMUmNIYjRwMGhhVmNiTWp6T0V5RVppb205LUFRMFpqdGM5TlRyZHdpMWEyRGhZ?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNXF6SklOUVNaeXEyVnVITzJ3MmxhaGdHeFktZnhvek9WTW9XcXhlcnFrMS1wdjJlcURYelBaV3JsTG1WWUc4ZUtJeldJMV8wMHM5dzhvdmtpenplU0pOTVNubXhaRXJxYnlzYmhHUFV1ZElGMzBUMDFZTVBoTEVMMHJyRXNna3c0UUJnTDBqeEg4UGt4VjBGUmJYSF9EdVRITkU1RkpKSHgwMWFOWmJtSUNpaW8wai1fWlRGVWdXSVFNZnVzVlhpcQ?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOFE1ZTNlVnpJekdmeF8zMTI0U21CaW13ZXZNOE80Q3hIMnc5Zkw4b3R0aUttMFVUVnVsSjdvNVZaYlM2UFBGd3dtc3pfWXA3SVp3MVhTc3U2Wjdja1otWUpXNWJLcThUdERNMGxTNTROMXFDVDRLZEZRWFlPWVhSZ3MzZXdaQWZBdEFmR2ItbUVJWjV5eFlpT1RIYmRZbW1LUUY0UkZkLWpwLVNEMDlfRnNyenhUMXNnenozdzBHcVhrblJDZmd3WWxmQVRtOTJqaGZPSFVGcEVnSzFrd2ZYYU1zeTZFUVl5M1Nj?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/servicestandard-erhaelt-preis-fuer-gute-verwaltung": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVllIeVIxUmpadl8yS3BJRGNMNVlCeUotMFlNOEkxaFJka1hiRmUxVzY4RTFCOUQ4d2dTakVEUHJPWE9CdEgxZDhoZmNCWmZ0S3FJOGNuOG1nMVFqUmdxRGFHelk1MDZ3OVVuRHRnYnJGUm8zaFRxTHNBYnlPcW5BMllkOXVIcUpiRWxhT1lYbzRzQUJfX0pDY0plWGNzZDhHM2Jvel8yQ085SXJodkRSU29sZEQ?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPek1ybmJQQlYzV0liTG5WQnpWbm5oelBidUdxUGg4blFrcVBlS19TWjdqV3ktSE54M0hUZEFQRUYwVEhaZVRES012czB0bXN2WjBrcS1mTTFELTJRTWpydWU5S0dnQWxkZGc1bGNmb0s4QkF4REJKb1BSOTNIQkpzZDFack5aNjhmczR6V3liS1BGZExXS3lDLTBjSmluS1RDZzZQS1FvdWhaVmNpdHJWcVhCTVl2VlVNanBIbUZjWHVWNmE5S2dzbi1iUk4zLVBwck45S0Q5RXJ5dHNx?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOHFwOFdnM0tvNEgzY3lNZVNHTmR2eEdBVU81QVg4VWxLQmRVb1U4OG5Za203NUoxOTBzWlNRRzcwaFJ2OW1pejRCeUo1WDRXOW9rZDdsanpZbl90YVNVUVpGeWhaLU1sV2JrM2U0b29aT1RXYUV4QXhXWm5XMERRQnAyMXBGaVdRc3JMaFRDUkY5QUI2am56VzRzZkk2RzVYaFlOalZqSFpqMnRNZldxUzJ0QQ?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUVlbG1meHNTaF9fbm4zTGNJcFFyVEFWaVAyMEZidmpyUkx5SjY2NlRlaE80TzR2SGFRblRZZFhIeUY2MjYwMkJKOE9pYzVxemJFTkR2bXl0NUMzNzVPbTFnLWY2Z1h2YTQ3TnE0VWE5bzgyc3dYb0ZWeVlZOU0yY1ZZR0hTTzBwQzZjMDBWZ0NkVUxqWnEtTVZDeGZfM3BRRW1EOGJoVlVwVVgyZEtNeDZCSGM5NlNRME44czBoaFRaNU1ZMXVtdG0wM3BXTGhq?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVUkM3YXZvRENrZ2h6dTlDVFBvTmhnTjZMOGNWdGVDNkUxcXZzLUFscnl0REl5SUxHaHEtOXkxUm54eWg5bUVENW05UGllNHFRdDFnMnNsYmJRNU9aSERRMndyWFUtYkNKdVBkdXFwb2F3VEdyQjloeA?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWktobEtIb2lUbGtDVi1YYjJ5RkVPcW5udXVfRFpVVzM2bUpIVUNQSnc3a25EMjA3WkJMdUFkUFd1ODNvTnU5QVhYNE9ZNzRxU1RTS1Y0cDhDVGx6UE9rajZmMjRmb2oySFN1cWlES2hPS0RQaTI1aF9YWTdzRG9ZZVZaYVg1X3U1bThJQmNwM2xkWUtVQWFybFBSb0h3cDhhX21oU3ZNWm9lNVNZdUJuMXJwQlZ3dw?oc=5": "2026-11-23T10:27:36.320975+00:00",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxOckpWWFhRSDg0RnNiYjNvSGlra2s2N0taOTZNbjdKM2JiOWVDcU1GUE5OWWdtbHFCbWU2Zm1pajhQSG9pdS1aNW1ybHM4LVF2YUtDQ0JYSDZINHQ0LXRhSnVkREZwLURoQ0wwamJpS3FiZ1JwbVZqVC1jWlgtaHluV1VmV2MwYUNXczhabmV4TURvSnV3MmpJVkFmZElESXh5SzRfd2pzN2tQRkY2UzhNUmZZQk1qN1VqbXlfTXNLUThPaExGSVlVem9XV1FoUQ?oc=5": "2026-11-23T10:27:36.320975+00:00"
  }
 }
