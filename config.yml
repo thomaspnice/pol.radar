@@ -211,10 +211,16 @@ google_news:
   - {suche: "site:digital-strategy.ec.europa.eu", kategorie: Europa, organisation: EU Digital Strategy}
   - {suche: "site:data.europa.eu", kategorie: Europa, organisation: data.europa.eu}
   - {suche: "site:europeandatajournalism.eu", kategorie: Europa, organisation: EDJNet}
-  - {suche: "site:euractiv.de", kategorie: Europa, organisation: Euractiv}
+  - {suche: 'site:euractiv.de (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Europa, organisation: Euractiv}
+  # Große Medien: Google liefert pro Suche nur die obersten Treffer der ganzen Seite, daher mit Stichwörtern
+  # eingegrenzt. Allgemeine site:-Suchen ohne Begriffe würden Randthemen vor deinen Artikeln liefern.
   # Hintergrunddienste: meist hinter Bezahlschranke, nur Überschriften sichtbar
-  - {suche: "site:background.tagesspiegel.de", kategorie: Presse, organisation: Tagesspiegel Background}
-  - {suche: "site:handelsblatt.com", kategorie: Presse, organisation: Handelsblatt}
+  - {suche: 'site:background.tagesspiegel.de (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: Tagesspiegel Background}
+  - {suche: 'site:handelsblatt.com (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: Handelsblatt}
+  - {suche: 'site:faz.net (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: FAZ}
+  - {suche: 'site:sueddeutsche.de (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: Süddeutsche Zeitung}
+  - {suche: 'site:spiegel.de (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: Spiegel}
+  - {suche: 'site:tagesspiegel.de (Statistik OR Destatis OR "Statistisches Bundesamt" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d', kategorie: Presse, organisation: Tagesspiegel}
   # Personal
   - {suche: "site:politik-kommunikation.de Personalwechsel", kategorie: Personal, organisation: politik&kommunikation}
   - {suche: "site:zweite-reihe.com", kategorie: Personal, organisation: Zweite Reihe}
@@ -239,7 +245,8 @@ bewertung:
   max_ki_sekunden: 600        # Zeitbudget für die KI-Bewertung pro Lauf (10 Minuten)
   pause_sekunden: 4           # Wartezeit zwischen KI-Anfragen (schont das Gratis-Limit)
   mindest_relevanz: 40        # 0-100; darunter wird der Artikel verworfen
-  max_ki_pro_lauf: 100        # So viele Artikel pro Tageslauf höchstens an die KI; der Rest folgt am nächsten Tag
+  batch: 8                    # Artikel pro KI-Anfrage (spart Kontingent; 1 = einzeln)
+  max_ki_pro_lauf: 200        # So viele Artikel pro Tageslauf höchstens an die KI; der Rest folgt am nächsten Tag
 
 # Aufbewahrung
 behalten_tage: 30
