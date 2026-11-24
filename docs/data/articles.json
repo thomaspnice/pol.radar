@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-24T17:21:37.289744+00:00",
+ "aktualisiert": "2026-11-24T17:22:34.633281+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "BfDI - Newsfeed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
@@ -875,29 +875,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR043ZUZXZlR2UjdQUHZWMzBmczNlYksyTjBMWDhaM2FQT2FsQXFndE1pdDJESEZyV3lvVGtsN2t5akI0dldKVlR1enlEZU54SkJGRzhVd3g0dXlqanA0X1RlOGFaN2tXdDV5LTZqSFJhUE1iUGZwTWx4SzMzU0ZZMkYtcWN4TzZEaVJhaTdBS0plT1U4OW1YQ3ZuNFlLMHM?oc=5",
-   "titel": "Workshop OECD-Ringversuch zur leichten biologischen Abbaubarkeit - Umweltbundesamt",
-   "auszug": "Workshop OECD-Ringversuch zur leichten biologischen Abbaubarkeit &nbsp;&nbsp; Umweltbundesamt",
-   "quelle": "Google News: site:umweltbundesamt.de",
-   "kategorie": "Behörde",
-   "organisation": "UBA",
-   "datum": "2026-11-24T15:11:48+00:00",
-   "treffer": [
-    "OECD"
-   ],
-   "themenfelder": [
-    "Relevante Akteure"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 75,
+   "tonalitaet": "neutral",
+   "thema": "Staatsmodernisierung",
+   "zusammenfassung": "Bericht zur parlamentarischen Sitzung über Digitalisierung und Staatsmodernisierung."
   },
   {
    "url": "https://netzpolitik.org/ticker/ticker-news-von-golem-vom-24-11-2026",
@@ -915,30 +896,10 @@
     "Relevante Akteure",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.heise.de/tests/Sechs-Smart-TVs-um-1000-Euro-im-Test-Scharfes-Bild-unscharfer-Datenschutz-11322129.html",
-   "titel": "heise+ | Sechs Smart-TVs um 1000 Euro im Test: Scharfes Bild, unscharfer Datenschutz",
-   "auszug": "Wir vergleichen Bild, Bedienung und KI von sechs 65-Zoll-TVs und zeigen Einstellungen, die den Datenabfluss mindern, ohne alle Smart-Funktionen abzuschalten.",
-   "quelle": "heise online News",
-   "kategorie": "Presse",
-   "organisation": "heise online",
-   "datum": "2026-11-24T10:45:00+00:00",
-   "treffer": [
-    "Datenschutz",
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 65,
+   "tonalitaet": "neutral",
+   "thema": "Datenschutz",
+   "zusammenfassung": "Der neue Bundesdatenschutzbeauftragte Moritz Hennemann fordert im Interview konkretere gesetzliche Erlaubnistatbestände und Verbote."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWl5U3h6WnB6UlJhOThkZG5BeWpxUlUybktxejlkMDhrR2hYeUZpNjV6cjFhb2xTX1YwRnpWZW1ueDRYQjJIU3dTcjlRUDVCQ2JFaWlmdHBrMFJFRjM1WkJBUFVhMm05SHRlTk1LMXgxOFdtSUVvWjVoaWpCTVNWdmFoY0ltb2E0LXlQbnZjTl92TGNQM3J0YzZZaDY1ZWdiMzNWTVhYNXJMbmxCa2YyU2FHVjZGX3J6NEh1c0RCdVNqdnlBQVNhSy1TS2xsUQ?oc=5",
@@ -954,10 +915,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Amtliche Statistik",
+   "zusammenfassung": "Meldung über offizielle Statistiken zu Hausschlachtungen in Deutschland."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNzc3dVBtMU8yWTA2UWUtSzhVZVdsM1BmZC1neFEzMmhWZXA2YVdpOW5YTlBxZGQtZnZabWJ2OWVhLXBWZ0N0LTdWanZieFlYVGlUSzhCSEJLX3JuWFRqSHR1VEwyNDl4dEs2OHQ4d3VldnRBWUpwcXNqTmlQeFk5QW5FaVM4VU41TTE1UGxTRGlLbThUeGtYSktKMFJEa0NiTlJmOWhKTQ?oc=5",
@@ -973,10 +934,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "neutral",
+   "thema": "Künstliche Intelligenz",
+   "zusammenfassung": "Bericht über die steigende Nutzung von Künstlicher Intelligenz in der Bevölkerung und Wirtschaft."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fZDNUN2VMUnNIQU91X0l3TWhDMjcwaHpMX0Jib1R5SVdjNUlHNEZLT3l2OHZUNE9LcHdqZFl5djZQZDdyQkgyd3dRdEdjZzRodWVVaFJ6bld1bUoydGQta1RYUE9Eb1ViMVJpMnc1SU9mSFVlV1I2WUZEdTg?oc=5",
@@ -992,29 +953,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZXNmRUtrLVR0eG5zUEJnX2F3Vi1aWGxGdTA2UWxFNXpWMXNEbnRwaDcwTG90dVJHVElwTVVDSzA0MUR0M0pTZ2kxa0VYZGhsTndRRVZvdEJ1a0xQckUxdVJycjZET0dJMmtmU0xoZVZNT2ZVbmFHaTVRelEtbUFEZ2htbW9hOS1nejlYY3F5OWYycWQ2cThXRXFkd0E3dW5HTHBQODcxZEVhT3NNbnB4TmsyRmI?oc=5",
-   "titel": "Folgen des KI-Booms: Preise für Computer und Konsolen steigen deutlich",
-   "auszug": "Folgen des KI-Booms: Preise für Computer und Konsolen steigen deutlich &nbsp;&nbsp; swp.de",
-   "quelle": "Google News: Destatis",
-   "kategorie": "Presse",
-   "organisation": "swp.de",
-   "datum": "2026-11-24T08:29:01+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "neutral",
+   "thema": "Künstliche Intelligenz",
+   "zusammenfassung": "Kurzmeldung über die zunehmende Verbreitung von Künstlicher Intelligenz in Unternehmen."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc2xiNEpuN0VISDFEeUExdmFCMDJLOFF1cXVGSmZ1djFsYkZaREE2TkVydEhZdzVScGJTYlhiMUQyWmQwb2FDMXpZQVZ0V1VTTkJoWGthbkRTSWdJN3oxN0xWVmFfX2tka0xlRUNVeWpna1dQcndQTFJ1R21IbzJqSXY3OFNYaEliUVJpSEF6WWwzWkNVbkNWdkppVVAzMVNMaEJJWDF5SFQ1S0ctX3JVX0syOUFuWXBDOEE?oc=5",
@@ -1030,10 +972,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 60,
+   "tonalitaet": "neutral",
+   "thema": "KI in Unternehmen",
+   "zusammenfassung": "Laut einer Untersuchung nutzt jedes dritte deutsche Unternehmen Künstliche Intelligenz, wobei kleine Firmen hinterherhinken."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVTNFTG1lT2dOaklLRDhpNnc5QVlMWG9SMTlmM2RMd1o0b2JOcVlWWW1PR09xR3Qxb3g2eWEzQXo3NWxnWmwwTjc5Tk9JVTNnMy0xbEJaZmkzS3pFM1JCenV1YWc3Q0xSb2FCYmp2ZHFWZnJlOTh5dkUwSXVoSC1iWjlIYVNRbXp3UXFDMktMczNDQlZIWldwaVYtUXpMRlRFT0ZJbXg3ZWluN3VvU3VtVlpoX3lKLXZ3eHc?oc=5",
@@ -1051,67 +993,10 @@
     "Allgemein",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNmtjdkdmb1ZoemRvN3ZQRmxkMllvRTFWTTJNNVlDdDA5d1pnZUxaOU1fYno0X3dtUTBjSVExRWxkNVM1M0pRaDc2RFpYZnE5cjNYRmpLLTh2d21kV3paM1dyc1FRT3lsNVBBd0J5S2Nfd0VKU2tLbFEyaG9vZjl6V2RYelpvcGstMldvZU1TRnVMVlh5NzFTTmNIT2NCLTR4ME5KSldpZ2dMWE1xcllVVVhqMEFHXzdSa3VRQzg2ZkNQa1lyVVphTDR0ZkpJRFo5S3ROdzlMczhjTkdadUZsYU54R0ZSeWhEemZDbDVxQmpqY1loTjU2a0h3?oc=5",
-   "titel": "Statistik der Versicherer - Deshalb werden in Baden-Württemberg weniger Autos geklaut - Auto & Mobil - SZ.de - SZ.de",
-   "auszug": "Statistik der Versicherer - Deshalb werden in Baden-Württemberg weniger Autos geklaut - Auto & Mobil - SZ.de &nbsp;&nbsp; SZ.de",
-   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Süddeutsche Zeitung",
-   "datum": "2026-11-24T03:30:28+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWWdzSDFHTHFBWHItNVg0dHZxR3J6TlB3NzdoU1FRNG5VQUFCd21FV3Vjam5MdGZUYlFrMEVLQlpxVnVOVERvdkpMOXVyb2ZoTnU3MVlBRFF5NTl2ZS0wdER1SEVwcklaMlRTMWZKcTV4QzZ3SU9md1R0ZHZCNDQyVGtzM2RJNEdYV1gtWlBHX05uRDJMUnB2TWtxRkN0bjJ1SFRqcnUyYkwwc2w0TEdCT1dmNER5OFpGVDFLTXZmdGdZUFU5Vk9uSmN6Ykd2eVA0YnhrSmVPZmxoTzFRVlg1bUN1TWVLLUVIaVprampmVQ?oc=5",
-   "titel": "Statistik der Kfz-Versicherer - In Bayern werden Autos am seltensten geklaut - Bayern - SZ.de - SZ.de",
-   "auszug": "Statistik der Kfz-Versicherer - In Bayern werden Autos am seltensten geklaut - Bayern - SZ.de &nbsp;&nbsp; SZ.de",
-   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Süddeutsche Zeitung",
-   "datum": "2026-11-24T03:30:23+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdDk4QUxRQ1ZaNDFJVEY5UVRMeG5VVXVEUUlCN0trb3QzQ2lGRHhISldEZ00xd1QyZFl3ZGMxNnQ0R1lYSUlSQUZfbmdnZWtWNnltczhGS2tTN0RiT1p2OW1WNzEzRnpLWUZOaWhnQ3FaUHl0UkY1Ujc1TUF1dHpacXJqT3NJV3BtTFVfY0l6NEFFQnA5dy1DUURFVVB5TE9CdVVlMFZIYlFYVThXX3EtaUJJcVAyekwxSGk2T1dwaDZSd09uLUNKMV9VNExKTGt0VlJVMHNQSHdJdnl2aE1tSmJ5dDBWVlVicXU2dXRZVVQ?oc=5",
-   "titel": "Statistik der Versicherer - Weniger Autodiebstähle in Niedersachsen und Bremen - Auto & Mobil - SZ.de - SZ.de",
-   "auszug": "Statistik der Versicherer - Weniger Autodiebstähle in Niedersachsen und Bremen - Auto & Mobil - SZ.de &nbsp;&nbsp; SZ.de",
-   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Süddeutsche Zeitung",
-   "datum": "2026-11-24T03:30:05+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 90,
+   "tonalitaet": "neutral",
+   "thema": "KI-Unternehmensstatistik",
+   "zusammenfassung": "Das Statistische Bundesamt berichtet in einer Umfrage, dass mehr als ein Drittel der Unternehmen in Deutschland Künstliche Intelligenz einsetzt."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1237732",
@@ -1134,44 +1019,6 @@
    "tonalitaet": "neutral",
    "thema": "KI in Verwaltung",
    "zusammenfassung": "Im Innenausschuss gab es eine kontroverse Anhörung zu einem Gesetzentwurf über den Einsatz von Künstlicher Intelligenz in der Migrationsverwaltung. Dabei standen Fragen des Datenschutzes und der Verwaltungsmodernisierung im Fokus."
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaTdxVUVYMjlZTHpWMUpZdEVPdGJ0Smw0NUdYQ1NCT0Z3Y2Q0aDFaMWVLVXF3Y3hIdDN3VFNhdTgxR0JwQjhLLXZoNVNlaDV6VDhNcy1vRDNVSFcxWDN0Ui1Qc0xoeEgwSlE0aDFCTUJuWUxRaU9JTlktTjJqdV9qVzV0MW9EenBFNk1xUGdGWEFnTXZOWkQtSzVUR0hoLU5tc2R2b1YtOTEtSDFEOTFsUGdoWS1OWUJzdmhGT3A5V1ZPNTQ?oc=5",
-   "titel": "KI-Betrug bei Prüfungen: Südkoreas Bildungsminister tritt zurück - FAZ",
-   "auszug": "KI-Betrug bei Prüfungen: Südkoreas Bildungsminister tritt zurück &nbsp;&nbsp; FAZ",
-   "quelle": "Google News: site:faz.net (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "FAZ",
-   "datum": "2026-11-23T14:53:10+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNy1oUWpOamwyeEx1Z25SUVJ6OVc5QU1zLWdoYlUxa1BQTlM5RUxuaFhjall0OWh2bUk2ekR3MngwSGd3b1FvYXFHQ0lnNldVMjEzQXp1b3Y0QUJ3TU9yXzRLcmpPTHpReHhpWkdLb2dKTWhwenpkbXZBMkJUVHYxMm5Ebw?oc=5",
-   "titel": "Podcast Wie KI und Software das Auto neu erfindet | Mit dem CARIAD-CEO - Bitkom e. V.",
-   "auszug": "Podcast Wie KI und Software das Auto neu erfindet | Mit dem CARIAD-CEO &nbsp;&nbsp; Bitkom e. V.",
-   "quelle": "Google News: site:bitkom.org",
-   "kategorie": "Presse",
-   "organisation": "Bitkom",
-   "datum": "2026-11-23T12:23:20+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
   },
   {
    "url": "https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2026/16_GPA_Brx_komm.html",
@@ -1413,25 +1260,6 @@
    "tonalitaet": "neutral",
    "thema": "Erzeugerpreise",
    "zusammenfassung": "Das Statistische Bundesamt berichtet über einen unerwartet deutlichen Anstieg der Erzeugerpreise, der maßgeblich durch gestiegene Ölpreise verursacht wurde."
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZUt1TTZRWDl5bE9pQmp4b0VtaUtwX3JvVmdaQmJPbnNtYlZIZVdaTjQ3UXlaclJxRDFIWTBRbXh6WXRqd1k0b3JhYUxsTmVLOWNDeU9WMDZvbVhUWkhhVk9qVGNtQXR5NGl1eXNJYWxZLUdxT1J3azI0bmFwWThhVmZGQVYtdjFDUkxELUkyVnViS3N6MkhsSVlWV1RGODhtSTh3YzVzLUtSOE04UmxoUkxUSnRrYTMzaFNsblJ6eGg0bndGenFKLVZ4WUZpbEZwVTUzcmRpZldfQk9HNUdwUUpHZnluZm5MM2ZHdXRhSkxvaW9hbm9sNUhLZ2J0bzB4SDE2anBIWWhZeHM?oc=5",
-   "titel": "Ärztin fordert Geschlechtergerechtigkeit in der Medizin „Wenn die Daten schlecht sind, macht die KI die Fehler nur noch größer“ - Tagesspiegel",
-   "auszug": "Ärztin fordert Geschlechtergerechtigkeit in der Medizin „Wenn die Daten schlecht sind, macht die KI die Fehler nur noch größer“ &nbsp;&nbsp; Tagesspiegel",
-   "quelle": "Google News: site:tagesspiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "Tagesspiegel",
-   "datum": "2026-11-20T06:01:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSjJEemtkN21XVnRYT3JBNzBxRk9jM1ZNSzdYNEtnd0kwUDAwYWdraXQxcm93bjBRZFFYVlo1N1hlWmYzbEROYmRncno1Vl95OHo2OF9ha2UxZFFFWVQ2V0paX2lFTHUxNFVscjRMSUZkcklrMm5leUgxRTAyNkxTU2YwRG82cm52TFZ0OVdwbWNieUpNWFZtM01uMk14M2tyT1FQSFVEQzg4cF9xcDZFeXl3SmpJcy0yQUl5SWdpYV8?oc=5",
@@ -7282,6 +7110,22 @@
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcy1VTFlacEx0anE0dWhWaWhsOHhNaXNod3hqTXNTZWxJS2NKTDRuOVlTMVo1UnpyU0ZWbTdOV2wtX1F3Tkl0UDhSdm1QYmNDa2hZQklpN1cwcmV4b3RZU05jdlFIMlNjQURKVDF0Y1IyaXJKbHFUMmp2a3lLWE1WcTFpOTFCUndOMkJlYmlRNjhZY3JaNUZCWnhYSkVrU3c?oc=5": "2026-11-24T17:21:37.286421+00:00",
   "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbW9hTElCMkRYUy1tZnpWSW94QWJ4ZGhUYWRWbllBbGpnV2JweF9NWndHc2p6OEk5S1pBRTF5Ti1JUzlOY01EU1gtcGlwR3pBbU1QQUJ1VER4VFFNOGhBQVhybDh3NzJaSXhtNnJWMWsweDdOU2lIc19hQldEXzUyZHpxaVpQVDBOUXVFQ2Z2ejF5MkhuN05z?oc=5": "2026-11-24T17:21:37.286421+00:00",
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU2hJRDB5LUtjdEc1blVBUVFPR25vZ1VfZktoSlhQUjVEckd1a2dPU3ZwNk9GX3Y4WFNQVXFMWlZfVjBmbUcxZVUtcFdTVkFfS0hBRkFmOWdRendGTWs3dGZsRkgza1B1OFhxMjdfdzRjUEVCazdwVTlZZ0VtbVJ6V1E2NHpldw?oc=5": "2026-11-24T17:21:37.286421+00:00",
-  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOWltLWtRUTQ5X3MwcHMyd2lFVDk3UjViVmVXS2I3aDR2MDREUmY3R25NSURDTElxMFZaTVRsX2xpTlNxSTM2VHFRcTh3dEVEVHk4MXo1TXh6eTczVlJ2XzZVeUtkT0lkZFQwbERHUDZiUENIVXNtbS1SYW5FUGZrSzluZjF2WjdiWG9TejJlT05xZVJHbUV6TjZB?oc=5": "2026-11-24T17:21:37.286421+00:00"
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOWltLWtRUTQ5X3MwcHMyd2lFVDk3UjViVmVXS2I3aDR2MDREUmY3R25NSURDTElxMFZaTVRsX2xpTlNxSTM2VHFRcTh3dEVEVHk4MXo1TXh6eTczVlJ2XzZVeUtkT0lkZFQwbERHUDZiUENIVXNtbS1SYW5FUGZrSzluZjF2WjdiWG9TejJlT05xZVJHbUV6TjZB?oc=5": "2026-11-24T17:21:37.286421+00:00",
+  "https://www.bundestag.de/mediathek?videoid=7668164": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR043ZUZXZlR2UjdQUHZWMzBmczNlYksyTjBMWDhaM2FQT2FsQXFndE1pdDJESEZyV3lvVGtsN2t5akI0dldKVlR1enlEZU54SkJGRzhVd3g0dXlqanA0X1RlOGFaN2tXdDV5LTZqSFJhUE1iUGZwTWx4SzMzU0ZZMkYtcWN4TzZEaVJhaTdBS0plT1U4OW1YQ3ZuNFlLMHM?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-golem-vom-24-11-2026": "2026-11-24T17:22:34.629648+00:00",
+  "https://www.heise.de/tests/Sechs-Smart-TVs-um-1000-Euro-im-Test-Scharfes-Bild-unscharfer-Datenschutz-11322129.html": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWl5U3h6WnB6UlJhOThkZG5BeWpxUlUybktxejlkMDhrR2hYeUZpNjV6cjFhb2xTX1YwRnpWZW1ueDRYQjJIU3dTcjlRUDVCQ2JFaWlmdHBrMFJFRjM1WkJBUFVhMm05SHRlTk1LMXgxOFdtSUVvWjVoaWpCTVNWdmFoY0ltb2E0LXlQbnZjTl92TGNQM3J0YzZZaDY1ZWdiMzNWTVhYNXJMbmxCa2YyU2FHVjZGX3J6NEh1c0RCdVNqdnlBQVNhSy1TS2xsUQ?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNzc3dVBtMU8yWTA2UWUtSzhVZVdsM1BmZC1neFEzMmhWZXA2YVdpOW5YTlBxZGQtZnZabWJ2OWVhLXBWZ0N0LTdWanZieFlYVGlUSzhCSEJLX3JuWFRqSHR1VEwyNDl4dEs2OHQ4d3VldnRBWUpwcXNqTmlQeFk5QW5FaVM4VU41TTE1UGxTRGlLbThUeGtYSktKMFJEa0NiTlJmOWhKTQ?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fZDNUN2VMUnNIQU91X0l3TWhDMjcwaHpMX0Jib1R5SVdjNUlHNEZLT3l2OHZUNE9LcHdqZFl5djZQZDdyQkgyd3dRdEdjZzRodWVVaFJ6bld1bUoydGQta1RYUE9Eb1ViMVJpMnc1SU9mSFVlV1I2WUZEdTg?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZXNmRUtrLVR0eG5zUEJnX2F3Vi1aWGxGdTA2UWxFNXpWMXNEbnRwaDcwTG90dVJHVElwTVVDSzA0MUR0M0pTZ2kxa0VYZGhsTndRRVZvdEJ1a0xQckUxdVJycjZET0dJMmtmU0xoZVZNT2ZVbmFHaTVRelEtbUFEZ2htbW9hOS1nejlYY3F5OWYycWQ2cThXRXFkd0E3dW5HTHBQODcxZEVhT3NNbnB4TmsyRmI?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc2xiNEpuN0VISDFEeUExdmFCMDJLOFF1cXVGSmZ1djFsYkZaREE2TkVydEhZdzVScGJTYlhiMUQyWmQwb2FDMXpZQVZ0V1VTTkJoWGthbkRTSWdJN3oxN0xWVmFfX2tka0xlRUNVeWpna1dQcndQTFJ1R21IbzJqSXY3OFNYaEliUVJpSEF6WWwzWkNVbkNWdkppVVAzMVNMaEJJWDF5SFQ1S0ctX3JVX0syOUFuWXBDOEE?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVTNFTG1lT2dOaklLRDhpNnc5QVlMWG9SMTlmM2RMd1o0b2JOcVlWWW1PR09xR3Qxb3g2eWEzQXo3NWxnWmwwTjc5Tk9JVTNnMy0xbEJaZmkzS3pFM1JCenV1YWc3Q0xSb2FCYmp2ZHFWZnJlOTh5dkUwSXVoSC1iWjlIYVNRbXp3UXFDMktMczNDQlZIWldwaVYtUXpMRlRFT0ZJbXg3ZWluN3VvU3VtVlpoX3lKLXZ3eHc?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNmtjdkdmb1ZoemRvN3ZQRmxkMllvRTFWTTJNNVlDdDA5d1pnZUxaOU1fYno0X3dtUTBjSVExRWxkNVM1M0pRaDc2RFpYZnE5cjNYRmpLLTh2d21kV3paM1dyc1FRT3lsNVBBd0J5S2Nfd0VKU2tLbFEyaG9vZjl6V2RYelpvcGstMldvZU1TRnVMVlh5NzFTTmNIT2NCLTR4ME5KSldpZ2dMWE1xcllVVVhqMEFHXzdSa3VRQzg2ZkNQa1lyVVphTDR0ZkpJRFo5S3ROdzlMczhjTkdadUZsYU54R0ZSeWhEemZDbDVxQmpqY1loTjU2a0h3?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWWdzSDFHTHFBWHItNVg0dHZxR3J6TlB3NzdoU1FRNG5VQUFCd21FV3Vjam5MdGZUYlFrMEVLQlpxVnVOVERvdkpMOXVyb2ZoTnU3MVlBRFF5NTl2ZS0wdER1SEVwcklaMlRTMWZKcTV4QzZ3SU9md1R0ZHZCNDQyVGtzM2RJNEdYV1gtWlBHX05uRDJMUnB2TWtxRkN0bjJ1SFRqcnUyYkwwc2w0TEdCT1dmNER5OFpGVDFLTXZmdGdZUFU5Vk9uSmN6Ykd2eVA0YnhrSmVPZmxoTzFRVlg1bUN1TWVLLUVIaVprampmVQ?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdDk4QUxRQ1ZaNDFJVEY5UVRMeG5VVXVEUUlCN0trb3QzQ2lGRHhISldEZ00xd1QyZFl3ZGMxNnQ0R1lYSUlSQUZfbmdnZWtWNnltczhGS2tTN0RiT1p2OW1WNzEzRnpLWUZOaWhnQ3FaUHl0UkY1Ujc1TUF1dHpacXJqT3NJV3BtTFVfY0l6NEFFQnA5dy1DUURFVVB5TE9CdVVlMFZIYlFYVThXX3EtaUJJcVAyekwxSGk2T1dwaDZSd09uLUNKMV9VNExKTGt0VlJVMHNQSHdJdnl2aE1tSmJ5dDBWVlVicXU2dXRZVVQ?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaTdxVUVYMjlZTHpWMUpZdEVPdGJ0Smw0NUdYQ1NCT0Z3Y2Q0aDFaMWVLVXF3Y3hIdDN3VFNhdTgxR0JwQjhLLXZoNVNlaDV6VDhNcy1vRDNVSFcxWDN0Ui1Qc0xoeEgwSlE0aDFCTUJuWUxRaU9JTlktTjJqdV9qVzV0MW9EenBFNk1xUGdGWEFnTXZOWkQtSzVUR0hoLU5tc2R2b1YtOTEtSDFEOTFsUGdoWS1OWUJzdmhGT3A5V1ZPNTQ?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNy1oUWpOamwyeEx1Z25SUVJ6OVc5QU1zLWdoYlUxa1BQTlM5RUxuaFhjall0OWh2bUk2ekR3MngwSGd3b1FvYXFHQ0lnNldVMjEzQXp1b3Y0QUJ3TU9yXzRLcmpPTHpReHhpWkdLb2dKTWhwenpkbXZBMkJUVHYxMm5Ebw?oc=5": "2026-11-24T17:22:34.629648+00:00",
+  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZUt1TTZRWDl5bE9pQmp4b0VtaUtwX3JvVmdaQmJPbnNtYlZIZVdaTjQ3UXlaclJxRDFIWTBRbXh6WXRqd1k0b3JhYUxsTmVLOWNDeU9WMDZvbVhUWkhhVk9qVGNtQXR5NGl1eXNJYWxZLUdxT1J3azI0bmFwWThhVmZGQVYtdjFDUkxELUkyVnViS3N6MkhsSVlWV1RGODhtSTh3YzVzLUtSOE04UmxoUkxUSnRrYTMzaFNsblJ6eGg0bndGenFKLVZ4WUZpbEZwVTUzcmRpZldfQk9HNUdwUUpHZnluZm5MM2ZHdXRhSkxvaW9hbm9sNUhLZ2J0bzB4SDE2anBIWWhZeHM?oc=5": "2026-11-24T17:22:34.629648+00:00"
  }
 }
