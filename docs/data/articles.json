@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-25T17:00:37.717961+00:00",
+ "aktualisiert": "2026-11-25T17:01:01.317005+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
