@@ -1,17 +1,8 @@
 {
- "aktualisiert": "2026-11-26T01:01:10.533674+00:00",
+ "aktualisiert": "2026-11-26T15:25:05.068774+00:00",
  "fehler": [
-  "BMDS - Newsfeed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+  "BfDI - Newsfeed: HTTPSConnectionPool(host='www.bfdi.bund.de', port=443): Read timed out. (read timeout=20)",
   "Europäisches Parlament - Pressemitteilungen (EN): 403 Client Error: Forbidden for url: https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
-  "Google News: site:bundeswahlleiterin.de: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Abundeswahlleiterin.de&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:kba.de: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Akba.de&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:bitkom.org: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Abitkom.org&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:wzb.eu: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Awzb.eu&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:curia.europa.eu: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Acuria.europa.eu&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:europeandatajournalism.eu: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aeuropeandatajournalism.eu&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:handelsblatt.com (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ahandelsblatt.com+%28Statistik+OR+Destatis+OR+%22Statistisches+Bundesamt%22+OR+Zensus+OR+Mikrozensus+OR+Register+OR+Registermodernisierung+OR+Wahlrecht+OR+Bundeswahlleiterin+OR+Datenpolitik+OR+Staatsmodernisierung+OR+B%C3%BCrokratieabbau%29+when%3A14d&hl=de&gl=DE&ceid=DE:de",
-  "Google News: site:table.media Heads: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Atable.media+Heads&hl=de&gl=DE&ceid=DE:de",
-  "Google News: Destatis: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Destatis&hl=de&gl=DE&ceid=DE:de",
   "KI-Bewertung abgebrochen: Gemini-Kontingent erschöpft oder Dienst überlastet (HTTP 503). Rest folgt im nächsten Lauf."
  ],
  "quellen": [
@@ -22,10 +13,10 @@
    "kategorie": "Bundestag",
    "organisation": "hib",
    "streng": true,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 11,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532564+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068040+00:00"
   },
   {
    "name": "hib - Digitales und Staatsmodernisierung",
@@ -37,7 +28,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532580+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068051+00:00"
   },
   {
    "name": "hib - Inneres",
@@ -46,10 +37,10 @@
    "kategorie": "Bundestag",
    "organisation": "hib",
    "streng": false,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 2,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532586+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068054+00:00"
   },
   {
    "name": "hib - Wahlprüfung, Immunität und Geschäftsordnung",
@@ -61,7 +52,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532590+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068056+00:00"
   },
   {
    "name": "netzpolitik.org Ticker",
@@ -70,10 +61,10 @@
    "kategorie": "Presse",
    "organisation": "netzpolitik.org",
    "streng": true,
-   "letzter_lauf_neu": 1,
+   "letzter_lauf_neu": 10,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532594+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068058+00:00"
   },
   {
    "name": "Bundestag - Pressemitteilungen",
@@ -82,10 +73,10 @@
    "kategorie": "Bundestag",
    "organisation": "Bundestag",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532598+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068060+00:00"
   },
   {
    "name": "Bundestag - Drucksachen",
@@ -94,10 +85,10 @@
    "kategorie": "Bundestag",
    "organisation": "Bundestag",
    "streng": true,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 9,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532601+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068061+00:00"
   },
   {
    "name": "Bundestag - Wissenschaftliche Dienste",
@@ -109,7 +100,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532605+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068063+00:00"
   },
   {
    "name": "Bundesregierung - Pressemitteilungen",
@@ -119,9 +110,9 @@
    "organisation": "Bundesregierung",
    "streng": false,
    "letzter_lauf_neu": 1,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532609+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068065+00:00"
   },
   {
    "name": "Bundesregierung - Artikel",
@@ -130,10 +121,10 @@
    "kategorie": "Bundesregierung",
    "organisation": "Bundesregierung",
    "streng": true,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 5,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532612+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068066+00:00"
   },
   {
    "name": "heise online News",
@@ -142,10 +133,10 @@
    "kategorie": "Presse",
    "organisation": "heise online",
    "streng": true,
-   "letzter_lauf_neu": 9,
+   "letzter_lauf_neu": 42,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532616+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068068+00:00"
   },
   {
    "name": "BMWE - Pressemitteilungen",
@@ -157,7 +148,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532620+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068070+00:00"
   },
   {
    "name": "BMAS - Newsfeed",
@@ -166,10 +157,10 @@
    "kategorie": "Behörde",
    "organisation": "BMAS",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532624+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068071+00:00"
   },
   {
    "name": "BMF - Pressemitteilungen",
@@ -181,7 +172,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532627+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068073+00:00"
   },
   {
    "name": "BMBFSFJ - Pressemitteilungen",
@@ -193,7 +184,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532631+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068074+00:00"
   },
   {
    "name": "BMG - Pressemitteilungen",
@@ -205,7 +196,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532634+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068076+00:00"
   },
   {
    "name": "Auswärtiges Amt - Pressemitteilungen und Reden",
@@ -214,10 +205,10 @@
    "kategorie": "Behörde",
    "organisation": "Auswärtiges Amt",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532638+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068078+00:00"
   },
   {
    "name": "BMUKN - Pressemitteilungen",
@@ -229,7 +220,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532642+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068079+00:00"
   },
   {
    "name": "BMDS - Newsfeed",
@@ -238,10 +229,10 @@
    "kategorie": "Behörde",
    "organisation": "BMDS",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
-   "fehler": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-   "zuletzt_ok": "2026-11-25T01:27:48.781739+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068081+00:00"
   },
   {
    "name": "BfDI - Newsfeed",
@@ -252,7 +243,7 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "",
+   "fehler": "HTTPSConnectionPool(host='www.bfdi.bund.de', port=443): Read timed out. (read timeout=20)",
    "zuletzt_ok": "2026-11-26T01:01:10.532651+00:00"
   },
   {
@@ -262,10 +253,10 @@
    "kategorie": "Behörde",
    "organisation": "BSI",
    "streng": false,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 1,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532655+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068087+00:00"
   },
   {
    "name": "bpb - Aus Politik und Zeitgeschichte",
@@ -277,7 +268,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532659+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068089+00:00"
   },
   {
    "name": "Europäisches Parlament - Pressemitteilungen (EN)",
@@ -298,10 +289,10 @@
    "kategorie": "Europa",
    "organisation": "Rat der EU",
    "streng": false,
-   "letzter_lauf_neu": 2,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532665+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068093+00:00"
   },
   {
    "name": "Bertelsmann Stiftung - Pressemitteilungen",
@@ -313,7 +304,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532669+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068094+00:00"
   },
   {
    "name": "Bertelsmann Stiftung - Digitalisierung und Gemeinwohl",
@@ -325,7 +316,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532672+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068096+00:00"
   },
   {
    "name": "DIW Berlin - Pressemitteilungen (EN)",
@@ -337,7 +328,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532676+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068097+00:00"
   },
   {
    "name": "Google News: site:bundeswahlleiterin.de",
@@ -348,8 +339,8 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Abundeswahlleiterin.de&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716900+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068099+00:00"
   },
   {
    "name": "Google News: site:it-planungsrat.de",
@@ -361,7 +352,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532682+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068101+00:00"
   },
   {
    "name": "Google News: site:bmi.bund.de",
@@ -373,7 +364,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532685+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068102+00:00"
   },
   {
    "name": "Google News: site:bmftr.bund.de",
@@ -385,7 +376,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532689+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068104+00:00"
   },
   {
    "name": "Google News: site:bmv.de",
@@ -394,10 +385,10 @@
    "kategorie": "Behörde",
    "organisation": "BMV",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532693+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068105+00:00"
   },
   {
    "name": "Google News: site:bmvg.de",
@@ -409,7 +400,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532696+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068107+00:00"
   },
   {
    "name": "Google News: site:bmz.de",
@@ -421,7 +412,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532700+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068108+00:00"
   },
   {
    "name": "Google News: site:bmjv.de",
@@ -433,7 +424,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532703+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068110+00:00"
   },
   {
    "name": "Google News: site:bmwsb.bund.de",
@@ -445,7 +436,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532707+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068111+00:00"
   },
   {
    "name": "Google News: site:bmleh.bund.de",
@@ -457,7 +448,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532710+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068113+00:00"
   },
   {
    "name": "Google News: site:bib.bund.de",
@@ -469,7 +460,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532714+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068114+00:00"
   },
   {
    "name": "Google News: site:bva.bund.de",
@@ -481,7 +472,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532717+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068116+00:00"
   },
   {
    "name": "Google News: site:normenkontrollrat.bund.de",
@@ -493,7 +484,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532721+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068117+00:00"
   },
   {
    "name": "Google News: site:bka.de",
@@ -505,7 +496,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532724+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068119+00:00"
   },
   {
    "name": "Google News: site:rki.de",
@@ -517,7 +508,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532728+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068120+00:00"
   },
   {
    "name": "Google News: site:kba.de",
@@ -528,8 +519,8 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Akba.de&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716939+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068122+00:00"
   },
   {
    "name": "Google News: site:umweltbundesamt.de",
@@ -541,7 +532,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532733+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068123+00:00"
   },
   {
    "name": "Google News: site:bamf.de",
@@ -551,9 +542,9 @@
    "organisation": "BAMF",
    "streng": false,
    "letzter_lauf_neu": 1,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532737+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068125+00:00"
   },
   {
    "name": "Google News: site:bbsr.bund.de",
@@ -565,7 +556,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532740+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068126+00:00"
   },
   {
    "name": "Google News: site:bkg.bund.de",
@@ -577,7 +568,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532744+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068128+00:00"
   },
   {
    "name": "Google News: site:bitkom.org",
@@ -586,10 +577,10 @@
    "kategorie": "Presse",
    "organisation": "Bitkom",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 2,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Abitkom.org&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716952+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068129+00:00"
   },
   {
    "name": "Google News: site:sachverstaendigenrat-wirtschaft.de",
@@ -601,7 +592,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532749+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068131+00:00"
   },
   {
    "name": "Google News: site:fraunhofer.de",
@@ -610,10 +601,10 @@
    "kategorie": "Presse",
    "organisation": "Fraunhofer",
    "streng": false,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 3,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532753+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068132+00:00"
   },
   {
    "name": "Google News: site:wzb.eu",
@@ -624,8 +615,8 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Awzb.eu&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716960+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068134+00:00"
   },
   {
    "name": "Google News: site:ec.europa.eu/eurostat",
@@ -637,7 +628,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532758+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068135+00:00"
   },
   {
    "name": "Google News: site:germany.representation.ec.europa.eu",
@@ -646,10 +637,10 @@
    "kategorie": "Europa",
    "organisation": "EU-Kommission",
    "streng": false,
-   "letzter_lauf_neu": 1,
+   "letzter_lauf_neu": 2,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532762+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068137+00:00"
   },
   {
    "name": "Google News: site:curia.europa.eu",
@@ -660,8 +651,8 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Acuria.europa.eu&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716968+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068139+00:00"
   },
   {
    "name": "Google News: site:digital-strategy.ec.europa.eu",
@@ -670,10 +661,10 @@
    "kategorie": "Europa",
    "organisation": "EU Digital Strategy",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532768+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068140+00:00"
   },
   {
    "name": "Google News: site:data.europa.eu",
@@ -682,10 +673,10 @@
    "kategorie": "Europa",
    "organisation": "data.europa.eu",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532771+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068142+00:00"
   },
   {
    "name": "Google News: site:europeandatajournalism.eu",
@@ -696,8 +687,8 @@
    "streng": false,
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Aeuropeandatajournalism.eu&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.716976+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068143+00:00"
   },
   {
    "name": "Google News: site:euractiv.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -709,7 +700,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532778+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068145+00:00"
   },
   {
    "name": "Google News: site:background.tagesspiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -718,10 +709,10 @@
    "kategorie": "Presse",
    "organisation": "Tagesspiegel Background",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532782+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068147+00:00"
   },
   {
    "name": "Google News: site:handelsblatt.com (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -730,10 +721,10 @@
    "kategorie": "Presse",
    "organisation": "Handelsblatt",
    "streng": false,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Ahandelsblatt.com+%28Statistik+OR+Destatis+OR+%22Statistisches",
-   "zuletzt_ok": "2026-11-25T17:00:37.716984+00:00"
+   "letzter_lauf_neu": 4,
+   "letzter_lauf_treffer": 1,
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068148+00:00"
   },
   {
    "name": "Google News: site:faz.net (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -742,10 +733,10 @@
    "kategorie": "Presse",
    "organisation": "FAZ",
    "streng": false,
-   "letzter_lauf_neu": 3,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 15,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532789+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068150+00:00"
   },
   {
    "name": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -754,10 +745,10 @@
    "kategorie": "Presse",
    "organisation": "Süddeutsche Zeitung",
    "streng": false,
-   "letzter_lauf_neu": 3,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_neu": 16,
+   "letzter_lauf_treffer": 2,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532793+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068152+00:00"
   },
   {
    "name": "Google News: site:spiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -766,10 +757,10 @@
    "kategorie": "Presse",
    "organisation": "Spiegel",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 1,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532796+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068153+00:00"
   },
   {
    "name": "Google News: site:tagesspiegel.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
@@ -778,10 +769,10 @@
    "kategorie": "Presse",
    "organisation": "Tagesspiegel",
    "streng": false,
-   "letzter_lauf_neu": 1,
+   "letzter_lauf_neu": 4,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532800+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068155+00:00"
   },
   {
    "name": "Google News: site:politik-kommunikation.de Personalwechsel",
@@ -793,7 +784,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532803+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068157+00:00"
   },
   {
    "name": "Google News: site:zweite-reihe.com",
@@ -805,7 +796,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532808+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068158+00:00"
   },
   {
    "name": "Google News: site:table.media Heads",
@@ -814,10 +805,10 @@
    "kategorie": "Personal",
    "organisation": "Table.Media (Heads)",
    "streng": false,
-   "letzter_lauf_neu": 0,
+   "letzter_lauf_neu": 23,
    "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Atable.media+Heads&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.717004+00:00"
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068160+00:00"
   },
   {
    "name": "Google News: site:politico.eu Berlin Playbook Jobwechsel",
@@ -829,7 +820,7 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532814+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068161+00:00"
   },
   {
    "name": "Google News: Statistisches Bundesamt",
@@ -839,9 +830,9 @@
    "organisation": "",
    "streng": false,
    "letzter_lauf_neu": 1,
-   "letzter_lauf_treffer": 0,
+   "letzter_lauf_treffer": 1,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532818+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068163+00:00"
   },
   {
    "name": "Google News: Destatis",
@@ -850,10 +841,10 @@
    "kategorie": "Presse",
    "organisation": "",
    "streng": false,
-   "letzter_lauf_neu": 0,
-   "letzter_lauf_treffer": 0,
-   "fehler": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Destatis&hl=de&gl=DE&ceid=DE:de",
-   "zuletzt_ok": "2026-11-25T17:00:37.717012+00:00"
+   "letzter_lauf_neu": 2,
+   "letzter_lauf_treffer": 2,
+   "fehler": "",
+   "zuletzt_ok": "2026-11-26T15:25:05.068165+00:00"
   },
   {
    "name": "Google News: Bundeswahlleiterin",
@@ -865,10 +856,223 @@
    "letzter_lauf_neu": 0,
    "letzter_lauf_treffer": 0,
    "fehler": "",
-   "zuletzt_ok": "2026-11-26T01:01:10.532824+00:00"
+   "zuletzt_ok": "2026-11-26T15:25:05.068166+00:00"
   }
  ],
  "artikel": [
+  {
+   "url": "https://www.bundestag.de/mediathek?videoid=7668568",
+   "titel": "TOP Epl 06, 21 Inneres, Datenschutz, Informationsfreiheit",
+   "auszug": "112. Sitzung vom 26.11.2026, TOP Epl 06, 21: Inneres, Datenschutz, Informationsfreiheit",
+   "quelle": "hib - Inneres",
+   "kategorie": "Bundestag",
+   "organisation": "hib",
+   "datum": "2026-11-26T15:23:41.126279+00:00",
+   "treffer": [
+    "Datenschutz"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1238490",
+   "titel": "Regierung benennt Hürden bei der Verwaltungsdigitalisierung",
+   "auszug": "Digitales und Staatsmodernisierung/Antwort Die Bundesregierung will mit dem Programm \"Ende-zu-Ende-Digitalisierung\" wesentliche Verwaltungsleistungen bis Ende 2029 vollständig digital anbieten. Das geht aus einer Regierungsantwort hervor.",
+   "quelle": "hib - heute im bundestag (alle)",
+   "kategorie": "Bundestag",
+   "organisation": "hib",
+   "datum": "2026-11-26T13:48:00+00:00",
+   "treffer": [
+    "Digitalisierung",
+    "IT-Planungsrat",
+    "Modernisierungsagenda",
+    "Staatsmodernisierung"
+   ],
+   "themenfelder": [
+    "Relevante Akteure",
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNndjd0s3WEkwQVdWS3B0b2lnYzRsSWtpcTVvcnRvQTlmWTBkSWNZSWhpb0pFUXN0MUFWVk0zb2swTkg5S05hUTcyOUFJTDZjX2x0Y1VuMC1CYXZlRXVjRDdnYWpWbVBUaE9qS2taYV9WdlNjNDRuU2gwQzlMWGNmUGxBeUxhN3BoZVF0U1NyenlPckRzLThhdGFn?oc=5",
+   "titel": "Bundesamt für Migration und Flüchtlinge - Statistik - Asylzahlen Oktober 2026 - BAMF - Bundesamt für Migration und Flüchtlinge",
+   "auszug": "Bundesamt für Migration und Flüchtlinge - Statistik - Asylzahlen Oktober 2026 &nbsp;&nbsp; BAMF - Bundesamt für Migration und Flüchtlinge",
+   "quelle": "Google News: site:bamf.de",
+   "kategorie": "Behörde",
+   "organisation": "BAMF",
+   "datum": "2026-11-26T12:51:56+00:00",
+   "treffer": [
+    "Statistik"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOFVMZGsxY2pLRjgySjZDb2czbzExQU9SekxISF9RR0FpaFgwZFhTOVFnY014SllGS0diUGhDeVI5d2pqd1NoQzVGOWF3Y1lubkt6Tm05MF81NFMtTDdhLXZ1NmhobkxSektUbm9vZTg1djA3enVmdGJrMkM3MmZSNWlxT0FDa1gyYmRHeHJFZm5pTnZJY0E?oc=5",
+   "titel": "Statistisches Bundesamt: Reallöhne wachsen nur langsam - Wirtschaft - SZ.de - SZ.de",
+   "auszug": "Statistisches Bundesamt: Reallöhne wachsen nur langsam - Wirtschaft - SZ.de &nbsp;&nbsp; SZ.de",
+   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
+   "kategorie": "Presse",
+   "organisation": "Süddeutsche Zeitung",
+   "datum": "2026-11-26T11:17:56+00:00",
+   "treffer": [
+    "Statistisches Bundesamt"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://www.bundesregierung.de/breg-de/aktuelles/-europa-muss-die-systemfrage-zu-tiktok-stellen-staatsminister-weimer-und-staatssekretaer-proell-treiben-allianz-fuer-europaeische-loesung-weiter-voran-2462676",
+   "titel": "„Europa muss die Systemfrage zu TikTok stellen“ – Staatsminister Weimer und Staatssekretär Pröll treiben Allianz für europäische Lösung weiter voran",
+   "auszug": "Kultur- und Medienstaatsminister, Wolfram Weimer, und Österreichs Staatssekretär für Digitalisierung, Alexander Pröll, haben heute bei einem gemeinsamen Treffen im Bundeskanzleramt in Wien ihre Initiative „TikTok europäisch denken“ bekräftigt. Ziel ist eine europäische Eigentümerstruktur für das Europageschäft von TikTok und europäische Verantwortung für die zentrale technologische Infrastruktur – vom Empfehlungsalgorithmus bis zum Datenzugriff. TikTok erreicht in Europa rund 200 Millionen Mensc",
+   "quelle": "Bundesregierung - Pressemitteilungen",
+   "kategorie": "Bundesregierung",
+   "organisation": "Bundesregierung",
+   "datum": "2026-11-26T09:00:22+00:00",
+   "treffer": [
+    "Digitalisierung"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261126_agentische-KI.html",
+   "titel": "Offensive agentische KI verschärft Bedrohungslage",
+   "auszug": "Agentic Offensive Frameworks können mit selbstgewählten KI-Modellen betrieben und frei zugänglichen KI-Modellen weitgehend selbstständig Ziele angreifen. Das BSI hat im Rahmen des AISI Deutschland dieses Vorgehen untersucht und stellt erneut eine deutliche Verschärfung der Bedrohungslage im Cyberraum fest.",
+   "quelle": "BSI - Presse und Veranstaltungen",
+   "kategorie": "Behörde",
+   "organisation": "BSI",
+   "datum": "2026-11-26T09:00:00+00:00",
+   "treffer": [
+    "KI"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZG8yY2lXWmVIQTE0Y0J3dlhITVlIbkFTVmc1aWVxU0lEXzJWSTZiZ0xiVl84UjZrYVhIQ1NiR2R5YlFtVHZBRkJjbjFEWi0tNWFpa2ZGVXV0dFhHSnh1bmF0Sjk1ek4zaTc5VVh6LTZHWHdieGVMVEI4c0RQNmVua1E2OGpZbHha?oc=5",
+   "titel": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück",
+   "auszug": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück &nbsp;&nbsp; Statistisches Bundesamt",
+   "quelle": "Google News: Statistisches Bundesamt",
+   "kategorie": "Presse",
+   "organisation": "Statistisches Bundesamt",
+   "datum": "2026-11-26T07:05:35+00:00",
+   "treffer": [
+    "Statistisches Bundesamt"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Fc0NnSGEzVDNMYk50MTV6TVRtbkxaajdhWGxEXzNneWtEbzRnSk9PeWFaRElWNXJvUUFobEZNa1h3R0hYUVk1YWJremJPNDBwWjJMaGVjWnlyRi1vR3FVdXF3UVhvUS1QdTI3SW5XakJuRkxiQTVv?oc=5",
+   "titel": "Destatis: BIP +0,1 % im 3. Quartal 2026",
+   "auszug": "Destatis: BIP +0,1 % im 3. Quartal 2026 &nbsp;&nbsp; www.ntg24.de",
+   "quelle": "Google News: Destatis",
+   "kategorie": "Presse",
+   "organisation": "www.ntg24.de",
+   "datum": "2026-11-26T06:10:46+00:00",
+   "treffer": [
+    "Destatis"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTRaSVFRNHVuODQtN2dGM2s3NUpZLTZRaVBuQWtLRnZpWVl2cFZqYk05RHZGMG9jZHZQcFpINWFEc1lySjdYeWduNGNLdGRmLXZ4YTh4SDZYNWZHU2hTcW5kelZYcWtWbXhwaEF0UEFLODFVMnljVS1vZWxUVDlqdGpmRm55MU5YOVVlaW5kYjN5bExLc1E?oc=5",
+   "titel": "BIP Deutschland: Destatis korrigiert Wachstum auf 0,1 Prozent",
+   "auszug": "BIP Deutschland: Destatis korrigiert Wachstum auf 0,1 Prozent &nbsp;&nbsp; etailment",
+   "quelle": "Google News: Destatis",
+   "kategorie": "Presse",
+   "organisation": "etailment",
+   "datum": "2026-11-26T06:10:25+00:00",
+   "treffer": [
+    "Destatis"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXVFYlRSTDEtOGZNeThlNXRYNms1bmdoeDJ1bEIzLUNvWE9qdUJad2hUbmdBeGN4cW9Mdzd4R01mblh4X2xJU0Z1dko4RFdhc1NyMnFmMWRIVE9FQ05tYmg5UWoxTUdCbnozYjlITXd0TmIzbkQyR1U2UDkxOERoY3BOT09SY0RnNDl3RQ?oc=5",
+   "titel": "Was vom IT-Planungsrat bleibt (Meldung) | SZ Dossier - SZ.de",
+   "auszug": "Was vom IT-Planungsrat bleibt (Meldung) | SZ Dossier &nbsp;&nbsp; SZ.de",
+   "quelle": "Google News: site:sueddeutsche.de (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
+   "kategorie": "Presse",
+   "organisation": "Süddeutsche Zeitung",
+   "datum": "2026-11-26T06:03:33+00:00",
+   "treffer": [
+    "IT-Planungsrat"
+   ],
+   "themenfelder": [
+    "Relevante Akteure"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQ0J2Uk5FRGxCRm9QUlRDazh6MHUxVDcwWnh2cXlIc0g2NWVyR3JmQlljRTlYdE00NkZSdzJSR3RKdlhGc2NWNm1WOFk1YkV1Y0U3YVItRWlYcE9MQUJ3NWoyVXYtTjJtTmdVTURQczE1VkhVbXhmUVBkVDR6c1V3Nkp5dG9JQWtOVFVPX3JHRzJNLW9UcFVtcTlPR1JUQXprdTZmX3dfTW9acmg5OTlVc1RSNHZXVVg4aVAwUV8tNHA1WjBDaGV0ejJUSjMyRFlaeksxc0g1VG40M1U2U1h2YjZJVkRSVnd4TUJWbWdDcTJGMENjTDdaRXN3?oc=5",
+   "titel": "Studentische Hilfskraft für KI-gestützte Softwareentwicklung - Agentic AI und RAG (all genders) - Fraunhofer-Gesellschaft",
+   "auszug": "Studentische Hilfskraft für KI-gestützte Softwareentwicklung - Agentic AI und RAG (all genders) &nbsp;&nbsp; Fraunhofer-Gesellschaft",
+   "quelle": "Google News: site:fraunhofer.de",
+   "kategorie": "Presse",
+   "organisation": "Fraunhofer",
+   "datum": "2026-11-25T23:16:36+00:00",
+   "treffer": [
+    "KI"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
   {
    "url": "https://dserver.bundestag.de/btd/21/093/2109343.pdf",
    "titel": "Stand der Umsetzung und Wirkungsprüfung der Verbändeabfrage zum Bürokratierückbau (PDF)",
@@ -1084,6 +1288,25 @@
    "zusammenfassung": "Bericht zur parlamentarischen Sitzung über Digitalisierung und Staatsmodernisierung."
   },
   {
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU3NJb0Fsc2hDSjBiUHd5am9xSWtmZVo5dWxHNEFCRTgzZFRQQ1VFZjFWb3NqNUxabllGcWE3alFSVjdQczFkb29nRE01VUJfRTY5TEhadThlZjBBY1ZkTDhGeDJuSVpPMnI2Uy1ndW5TQVc2ZTNObmJlSERMWUI5bjlOS21OYnRkWlpDaHlHYkxzZ1NDRG1jZmphWENXdDlidVRJZW1SNmdlR3BZcFd4emFmeHlwangtWXZPU1FLTTlWTHFsWGpTamxsODBBQ2c?oc=5",
+   "titel": "Statistik gehackt: Wohl mehr als 700.000 russische Kriegstote in der Ukraine - FAZ",
+   "auszug": "Statistik gehackt: Wohl mehr als 700.000 russische Kriegstote in der Ukraine &nbsp;&nbsp; FAZ",
+   "quelle": "Google News: site:faz.net (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
+   "kategorie": "Presse",
+   "organisation": "FAZ",
+   "datum": "2026-11-24T14:36:12+00:00",
+   "treffer": [
+    "Statistik"
+   ],
+   "themenfelder": [
+    "Allgemein"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbm43b3pLMGNSUU9fclI5aUF0S1FoOU9mRmJiZEhWMWd2d2dPamtFMXJabzJBMk1zREVNamg3TU12YWxlV2M2WFZRTzMwNUFhTlVwcjJrbmdva19kN3oyQy14YlJHd1llbzhSdEhKMGZwR1FicWhMOFkxNFdGV2NjSDk5Nk1lTFp3Y1J4NU5PTFlLdWxPRExxamo3enJHTzdPT3YtRlJONENoWXEzVDBrSA?oc=5",
    "titel": "Statistik | VfB Stuttgart - Lille OSC | 6. Spieltag Ligaphase 2026/2027 - Spiegel",
    "auszug": "Statistik | VfB Stuttgart - Lille OSC | 6. Spieltag Ligaphase 2026/2027 &nbsp;&nbsp; Spiegel",
@@ -1279,6 +1502,25 @@
    "tonalitaet": "neutral",
    "thema": "KI in Verwaltung",
    "zusammenfassung": "Im Innenausschuss gab es eine kontroverse Anhörung zu einem Gesetzentwurf über den Einsatz von Künstlicher Intelligenz in der Migrationsverwaltung. Dabei standen Fragen des Datenschutzes und der Verwaltungsmodernisierung im Fokus."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbVRwZ2x2c3ZFdmctYjI3aF9ySFVVeW1mLUhXTE1keS1ubkRpSFc3cEpYMUlqVlRwN1RON3U5ckgxZGVzY1VkQ0JmNWU5V2NRWFo3SG0yV2tWLW5Ua2RSV3Y2ODdVZzloeldYeTZZYjJwXzJudTZyYm1XbUNVdnc2Y3RaTFZTVEd5cG5ySi1OdHlUNlU3YjlDTUExcXdmRDV1c1ZFR1BoUmJGWG5uR2UwTUdEaXpPN1l6NmlJLXc2VEk4Z1lnVExxWW53?oc=5",
+   "titel": "Regierung: Führt Bürokratieabbau in den wirtschaftlichen Blindflug? - Handelsblatt",
+   "auszug": "Regierung: Führt Bürokratieabbau in den wirtschaftlichen Blindflug? &nbsp;&nbsp; Handelsblatt",
+   "quelle": "Google News: site:handelsblatt.com (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
+   "kategorie": "Presse",
+   "organisation": "Handelsblatt",
+   "datum": "2026-11-23T13:58:00+00:00",
+   "treffer": [
+    "Bürokratieabbau"
+   ],
+   "themenfelder": [
+    "Relevante Themen"
+   ],
+   "relevanz": null,
+   "tonalitaet": "unbewertet",
+   "thema": "",
+   "zusammenfassung": ""
   },
   {
    "url": "https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2026/16_GPA_Brx_komm.html",
@@ -7696,6 +7938,157 @@
   "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTdsNS1USDJkYmdjTWxZc00zMjIwZGxDbWFoNWpXTDlkakw2ekNjM2dmQmVHUGlVSU4tQkxQeVczUGVVc2IwM0RXT3FLLThkT05fWDY3TGtVcW9SSXBxTUtObk5Kb2dmUVF3Q2Zpbng0djR3YXByZEk3dE1WQzFHd1hxR1lHdXdrdXdaeXpvZ1pGSW9pOXY2aXN0bGNFUW01VFJRc0VtdkVxMEhzcko3YS1Dc3RXNDZpMFE?oc=5": "2026-11-26T01:01:10.528065+00:00",
   "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZFlIYTRZTHdneXJTNnpUbmM5bnlILU81TFBGTlZhLTFqSHVaMjdXMEtWdjZqRF9uYldDOEM2YzZ3MEhKWWFtb1lXd28yUVo4WmNWNmdTeUtCWnpTTnFHdThpWGxZQzMwUFFLVS1PeWNINW5mLU5uUjMxQl9kV2ZhQVdwVEdLaWNmd19yMXhGWXVrajlJcEdjV3dwOHRlZE8xWEZ5SWZxQ0Rjb0NNeTBCdVR2R2xBa0xIX1hFaG1UdXpGRnctNW9B?oc=5": "2026-11-26T01:01:10.528065+00:00",
   "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORVR4U252Z0tWM29JdHA2RFBzck5QdzBOZ1Q5ekNBSTZmRFRLOW5IR09BQklXUmFoQnFzUmphMFVyek90R0V2dVV5MFBqUVkwUVNKYks5eVg1dkF2QllNUlVLQk02UW1rcTJ2LU5BQXVfX3lmTk5fbUc1aGRkVmNsMEltYkxpdDFnNC13WTlqS0JRdk9kVWtteXFpZ2NaQkR6R1NqY1pNbzRaUzcwVU1yb253ZWVaNDRPeVoycE1YYU85SmVNeWF2S0lxdHRaU2I0SXFpeEM4Qy1VaWhzLVZ4ejVrSQ?oc=5": "2026-11-26T01:01:10.528065+00:00",
-  "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RVFPcHllb3BySExkZldrVDNETllKNmVwZ21PaGpGXy1xS0Fza05LZDhzeVZZZ21XYS1VQm94XzVwMGV1NlFUUTRiT0R1UmNvQ1dkOTA5ZlJ5YUN3MmRsdFhaZ3MzNjFsWVk0?oc=5": "2026-11-26T01:01:10.528065+00:00"
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RVFPcHllb3BySExkZldrVDNETllKNmVwZ21PaGpGXy1xS0Fza05LZDhzeVZZZ21XYS1VQm94XzVwMGV1NlFUUTRiT0R1UmNvQ1dkOTA5ZlJ5YUN3MmRsdFhaZ3MzNjFsWVk0?oc=5": "2026-11-26T01:01:10.528065+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238500": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238488": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238498": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238486": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238496": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238484": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238494": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238492": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238284": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/hib/kurzmeldungen-1238282": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109376.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-26-11-2026-2": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-abc-news-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-mit-technology-review-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-golem-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-the-bureau-of-investigative-journalism-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-26-11-2026-3": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-caschys-blog-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-rbb-vom-26-11-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundestag.de/presse/pressemitteilungen/2026/pm-261126-liegenschaften-1238322": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109350.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109394.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109389.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109388.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/093/2109367.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/094/2109438.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/094/2109437.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/094/2109436.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://dserver.bundestag.de/btd/21/094/2109435.pdf": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundesregierung.de/breg-de/aktuelles/europaeische-woche-der-abfallvermeidung-2462620": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundesregierung.de/breg-de/aktuelles/doorstep-bk-bruessel-2462748": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-442800": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundesregierung.de/breg-de/aktuelles/fragen-antworten-mfr-2462532": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bundesregierung.de/breg-de/aktuelles/neuregelungen-dezember-2026-2462734": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/OpenAI-korrigiert-Abrechnungsfehler-GPT-6-2-Limits-sind-schneller-erreicht-11539469.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/tests/Tagesform-auf-der-Apple-Watch-Das-taugt-die-neue-Fitnessampel-11533694.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Starterlaubnis-fuer-eine-Million-SpaceX-Satelliten-Bereitet-mir-Bauchschmerzen-11539365.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Proxmox-VE-9-3-Neuerungen-bei-Storage-Netzwerk-und-Cluster-Verwaltung-11539299.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Warnung-vor-erheblichen-Folgen-Erfolgreicher-Cyberangriff-auf-die-FIFA-11539255.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/bestenlisten/deals/e-bike-und-e-scooter-angebote-zum-black-friday-echte-rabatte-bis-23-prozent/pf2d6ps": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/iX-Workshop-Mit-Keycloak-zum-sicheren-Identity-und-Access-Management-11526173.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Cyberangriff-auf-US-Behoerde-gegen-Finanzkriminalitaet-11539155.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/blog/Software-Testing-Wer-jedes-Problem-der-KI-uebergibt-verlernt-das-Denken-11538597.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Riemannsche-Vermutung-Claude-kuerzt-KI-Beweis-um-mehr-als-99-Prozent-11539145.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Tesla-Assisted-Driving-EU-Entscheidung-verschiebt-sich-auf-15-Dezember-11539133.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/hintergrund/Die-Authentifizierungsmethode-Trusted-Publishing-bei-npm-PyPI-und-crates-io-11504231.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Alter-macOS-Bug-Warum-die-Fenster-Ecken-in-Tahoe-so-rund-waren-11538321.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/ratgeber/Hardware-Kaufberatung-fuer-Aufruester-PC-Leben-verlaengern-in-der-Speicherkrise-11467901.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Google-laesst-Entwickler-fuer-den-Traffic-der-Anwender-bezahlen-11538829.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Zahlungsverfahren-Bluecode-unterstuetzt-Alipay-und-PayPay-Revolut-Blik-11537904.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/hintergrund/H2O-3-Open-Source-Plattform-fuer-maschinelles-Lernen-mit-Java-Unterstuetzung-11534444.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/ratgeber/Silent-Allrounder-Bauvorschlag-fuer-einen-fluesterleisen-Gaming-PC-11467907.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/iX-Workshop-Sicheres-Active-Directory-Adminrechte-mit-Tiering-schuetzen-11533352.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Cloudera-Mehr-infrastrukturelle-Unabhaengigkeit-fuer-Daten-und-KI-11538779.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/ratgeber/Kaufberatung-So-finden-Sie-die-passende-PC-Hardware-in-Zeiten-der-Speicherkrise-11400767.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Palo-Alto-Angriffe-auf-PAN-OS-Firewalls-mit-offenem-Managementzugang-beobachtet-11538805.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Sparkassen-bringen-Unterstuetzung-fuer-Google-Pay-11538771.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/meinung/Kommentar-zum-digitalen-Fuehrerschein-Eine-vertane-Chance-11538617.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/tests/Drucker-mit-Nachfuelltank-im-Test-Guenstig-drucken-fuer-Familie-und-Homeoffice-11457369.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Angriffswarnung-auf-Danfoss-Geraete-HPE-Juniper-Router-Mitel-MiCollab-und-XO-11538657.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Automatisieren-ohne-Programmieren-effizient-arbeiten-mit-dem-Mac-11534201.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Neuralink-FDA-genehmigt-Zulassungsstudie-fuer-Hirnimplantat-11538687.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/WhatsApp-fuehrt-geplante-Nachrichten-ein-11538643.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Ausserplanmaessiges-Update-fuer-Windows-Server-2025-behebt-Absturzfehler-11538601.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/ratgeber/Raspberry-Pi-Pico-W-Mit-eigener-Firmware-zum-treiberlosen-WLAN-Stick-11512691.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/i-Kfz-App-Digitaler-Fuehrerschein-startet-verzoegert-11538559.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Skull-and-Bones-als-AAAA-Ubisofts-Prahlerei-hatte-juristisches-Nachspiel-11538543.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Agentic-AI-verlaesslich-und-mit-dem-richtigen-Kontext-betterCode-Agentic-AI-11534498.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Europol-Ermittler-folgen-der-Krypto-Spur-illegaler-IPTV-Dienste-11538501.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Umfrage-Jeder-fuenfte-Haushalt-mit-ungenutztem-Streamingabo-11538505.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Klageschwemme-mit-KI-NRW-LSG-moechte-15-Euro-Gebuehr-11538487.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Ein-Ort-in-Oberbayern-uebt-den-Blackout-11538483.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/Donnerstag-Datenabfluss-bei-1Password-1-Million-Rechenzentren-im-All-erlaubt-11538479.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/heiseshow-Jensen-ist-zurueck-Ladybird-Browser-GTA-6-11538152.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/USA-genehmigen-1-Million-SpaceX-Satelliten-fuer-KI-Rechenzentren-im-Orbit-11538437.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.heise.de/news/1Password-Kundendaten-entfleucht-11538455.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.bmas.de/DE/Service/Presse/Meldungen/2026/ueberwachungsstelle-des-bundes-fuer-bitv-bietet-workshopserie-an.html": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.auswaertiges-amt.de/de/newsroom/2812966-2812966": "2026-11-26T15:25:05.064445+00:00",
+  "https://bmds.bund.de/aktuelles/reden/detail/bundestagsrede-zum-haushaltsgesetz-2027": "2026-11-26T15:25:05.064445+00:00",
+  "https://www.consilium.europa.eu/en/press/press-releases/2026/11/26/remarks-by-president-antonio-costa-at-the-doorstep-ahead-of-the-special-european-council-meeting-of-26-27-november-2026": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMWdHZEtmbEpQZVBad0RpdkNTY1c3N1pRVm9WbWVqbWdSOXpvaEhBSzBwa2x1d3ZmbEM3SXA1aUljaXZ4Q2tZdHEzOURRR3YycDhyd0w3MnRvOWFJZndwTUJ1LWRnblRuZ04xWk9nQWNZUlBlTHNhcDlvXzI3TmFQajhad0xrdFpCVzBZWHhkd21qdHVya25CRTVYMA?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEViV2RvMjNhQ0NfdUhLWlp3ZWZMU2prTkhfeFdJLWh3clg0SjdYQVhVcENTcWwtQVZXazdPdjBtWVhFazlOdm9wMFgwbVJER3NkaGZVVnh0MDZ2akI5WWw0Q0NDbU1RTHRLekc5aXhtai1WYXNydEdUdmhIUmFuX3lVQXR1TzZPdkJkeThWWW9STmF4OTNVNE9kQVE2MmNiZk9Ob2lmV2FHbHV6YkE3SVpR?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVliMzVvUFNNR0RjZjA0MnY0QzZyVzNQbEFNX3hmYnl5djRfUHhkNzh4dVluX2JZVFVUeU9PTkhTM0h2NlhDQUo4UlBkai1OckZiX24weUZBd2lwcFhkZWF4V0duTklPWl91UmV2aUZvTy16NVdjVmZNSnFONm1QMWxBYWFPbnNXNE1xRHhMcTNGV19QLV9PQ0lwenB1bW56aVE?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQR0puY0JBa0l1RUdpZ3lvSkZ3c1k1MGlIV1preUh1YmRPU3FpWWJrNDlrZXhhTTF0dEJvSjlNWmNqUXJpdDlYV0I3YVNoR0x0SURNMWlYbFZfS2dWQW9mTElnNHBmR0paY0d4Zmp1bzlfUkk2ajFkVktNbXo0OU1Tejd6LWt1NHpITE5uRjJfQzhMb0pTUHY2cXVmZEdITVFDNzNDMklybjRkU2p0T0h1R1FhSFpJRjcxMmNlTnRpZXVwN3lFdEp3MUtsblZLYUdMb0lscGRTQWxlZ0lEdWRhbk1NV3FlQzB3aEs3dUplc1ltUQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdWRuNDZvSXRGX0RxZXdxN0E5TVptdEVGTkFqbUdQb0FQa0hic2xBenB4UFR1UktLUFlXQ05YRE84TkhhajIwckVBOEFFemtlSnF3ZXkydnl3QURaNG9oQXV1RWpsbTBkbzJCdmFzLUxYZVpiNEVqdjZEU09oWWJTR09zZV9YNGRGcWlPQ2prazZVVkEwWnJOS3ppZllMNVpDVm5kUktKWkJTNG5vYWhUSzJRT2JmTzctT19qSDBYbWZwbkhjSlNWcVVBQnRsS09WemFtaHJYaFVZSFJJc0RiTGRiR1dqQThUalAw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMigAJBVV95cUxQM0pzeGw1UFBNbWZ0aTl4T0V1YklJb1hwU3hoZzlPb19fMlhrZ04wcF9lUmxnTC14QmlqX2kwb25jUTdoLUhJQkc0MU80cG9adlpISFVCUTN2WFNtN1h3N3VrTHplV0JOYjJCMnRGMlpIMGtYYnMzZE9ZbEE5MVZLZVBqMV80eHpyeUIySGdnVjZhcjRSY1lETUYzVmlwR3ZFbG1za09XRWczNUVITXRqdWRyMTNoM2FGOTdKUlJ4bXExOXBHV2pjemxCdUFDREtkN0NaVjBnSjJlWHFJUlVpbUNQRzRDRU5SSUN4OTlnRXJMV1hPSXhjNjRVRDR4TXlq?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMikAJBVV95cUxQbUNPTUtRcXlyRWxvU3d3a2FuUE9tZ000LXdrS1pXUlB1cDB5UjR2QWR4WlpjXzAwR1Z3dzVGdldYVXE1OEJlRHNhQjl0VEdVMG15N0FwZ0pJMzE2aHBidmFHN2FGQTJHeEhVejE2TFFGYmZCaUVFWkg2U1FVVEhqZVo5MGdHeHgzU0EzNml0MWEzM0pWWl82MGVuMG8wU2Noc0Q0cTVBalVhZXNOQnV6WTNLTENRVUZRbFBzbXgtenZnVmFVQjdOaVEyOURGdW4wSlVaWG51VnZSTEJNSklRVVQ1ZlJiMVN1WS04OGl1MUtIbFExUW05cHoxMXdpRUVKSkJsVndFZWZoVW9aVW80Zg?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZMFhMT1UtWkY3MUsyZmFlckE3eXNGcXlSZHhUc3JFZXJQYUl3dmNpeTNRR1BCYWttU25FbmdqUVpheFcwb0VwT2FoRUhrNWFHSXpMQkR2Q2R5cU5zaVltWGFhcG9YQUJZQnIxeGhvWkNmWGF1TUhja013?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE9oenpQRmZXMkVGVGtMWkR3dzhYRUFZdjJXZXJMOFVMSTlTdU1mckt3eENOR0lvSmlZVTZxQldNNlpXeE9TNkFIeVZ4Nm43TDBpR0RyY25kS3JRdU5ZOFRqN2dvbS1YSG5TUDhwaEJFalFOQQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wc1ZEUHVjU3N2Z0I3SERnUWhzRFFhdW1NZ1NsVXJITDlYTlZEaUJTeWNKRk5rMGp3a3pqbFlDTHNGYkJudl9oZ0R3cmhnb1hDRm83UzJLNVVYdG9DaFdfVWgxLXJpNEExWVhtaERwN2pyUEdGZVFN?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWEZNYzJNQUYzVC1xRnRGWTJQZ1R6bXFzYVNIb2sybS1OQlhCUWVtQmdoVjlpT21NVDRmR2hOdGhwMkpNNENTY0dOVjBDMkliT25feGR3aEVPM05uTkZfN1hWcDNmT3FYMmNHLTFBQnU0ajY5TndfWWI1eXhzQ0JNS0ViSHJtS3hlRlowVXFzXzNYU0xGSWNyVHAzdUEzYU80Wm02ODNSUjl5SHgtV2ZGWnpWcERxbE9ZUVRuaUFfUGk5S1hTVDNaMUNlMnB2R1V5ckZGMXVaSjhEY01URHpKNjRQTWJfQWQyVjRjUA?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdDFLcGwtWkNTemJydTZCOUl2bnJfaUdVekNhZ29RYjVtODFLd21obmdld1l0dWtEQlNlWldpNnFPQzdzSmU4dzZrcGJSUU04dUN4cDczQ0NaQjRQYnZqNG1MdWFmYlZULURZSG1PbUdROTVrNGNSVHM1VTJKdnpyMWN1UmYtU3E0dG9nbVJFMnZXTWVhd2ZZTnJoTXN1RzdhMkpPNFB3eGVBNDlnQXo3Q1Q3LVY0M3JXaXpLVnRmTUhnSThtaTlyVkJWVVRNek1WM0dR?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ0ZMWmNXX3c5TFVkTTlrT0tKQ0hlbW1MOURPbThDZDc0Qld3aGNQMjd4UVg5NVRuYnNjbHRoUTlWb2JTMC1WRlp3TlF3OFBrQmt2RGxDeVFUN3lZWWI0NTZnV00zNWhicEFuX2Zsd0V2ekp5ek9YWDJkT1pJT1g4ZXktR1VLZ0lkNzNJSTBRZmR3WEVYOXRheGt3VE9oWUZkeHFRRUx3?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYzh0MVd6aEFNRVRjYzJfenNpalk4cEVjanFVZGtqTDJmRTZPWVVGX1hvZlVkVXQxRkVqZ3NKTGtQUmNUbW53NXVzdVZvYjQ1dU1wbXF3aVVqYlhiSmFFVEQ3bGdNX3dtS05iaFdsRjR4bVpFdXdkdTZKel9MTWU1aFRWVmVQRFBycXdnMmVtbmJUXzZabFE1amlWZGpaalNpczY4Q3IwUXlUMHg5VkhVN3cxTnprd2M?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmRuY1hvajVPMC1YbEdaVU1fVEZVWkFEWkxZejBrSnRISHBmcmR6aUYxaE1TZ0E4NlZ6MU9hTWE4QUFwd2RSYnVQeXAtXzYyYmR2Q3BkdVY1YVdlWEpFMTUzdF9JN0l4QjdQUzhQSTBNcXItRk1kbkRIMjhFLVlWSktXdHJkQUJDMVpIRXNSdkFUN2x6dVg5WldSTmtnWloweTB3?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMHdPRHkwT0VIZGZrblQxaXZNZWVYLTZaSXpyQjQ1alVhQW1haERuM2VzWUd2cllLZldBRGhSTC1mTlNMTUI2NjBIZlU5dkRqdFVmYUlLd1d2UVpWQXZIa0Y4amQ5UmtlcmhwcVFhNUdaMXF0Y1NBa2o1UDVqR28yUVlidDBxTGp0dlNXV2szTThtNnpIMl9xVGhRand3ZHMyTkRBS1BlaVlidkJZVHdxVWZsQV9Ha1g3WHlYdTlFenBfNDFXcUc4VVViQ3g5a1c5?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxONnNWVDFEWkhtTzRpalJxX21fdm9XdnE5eWVha2RkUHdwcldEbVZNOTU2TUR1Qm11dk5NZzV1VlBfMGN0VWkzQl9ncUVVN3FEb1ByUEZBVXdsZzdiOS1pbDAwSTRUVmgySEl3YXJFV2cxUVE5Z2ktTFIybXBGSmZHZjRTam1PUUtkMWRCZzlPYjQwUDFOeEZWNl9DNTdkUFUyU1F1Qks5bC05aUhrZnFKbkFjRQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNFBSbHFZdUVlY0tvbEZXd3NWNXdRamxnUkRNRktZRkJDdmtlWUVQNG9qNzdrTkZPdEJNcUZhV2NFWDhsVmxkWXlnSVpGbFhLY1JpcE44eGZMZDlyUEV6NjdGMlpwTTRfeDNaNEFkZHRyZi1TaFZGRi1kSGFScWk1VVN0OGhfVDBDVkYtUFd4eGF2c0tIcngxbXROWnNOOFFqZmU0Umo2VEhBbEJ4enlhazM4cw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYWFTSUdIclZhYnI1UnkzaXFocEFMY1ItRHhFWWxCcTN5Sk83U1R6UGhHMHZ4cUQ5NGNFSzZQTFN2enMwb2NGTWJPMWFfSnJLTXFqY2N3TmhzUXZCZm45cGVMRE54S2xNTEJmODVuYVQzME1JQmhQSjVEbkRCZlk4R0ljWkJRbGpkNEJBeVJ6eHNSMEVwM2Z6RnRKV2kyVGxUUzd3R3NHRDZrRGRYMEo1clcwV25VbG1ZR2J1VHZpWUl4bGNaS1NOd2x6WV9MX0p4?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS0hPdWF2N2E5ZUlyYXd3RlVHTTVmT2owSmJ5bFpPNERJNlZQa0xUNkpaSnlaNlZRX211NXVtNG0zR0l3V29XT2dIOEVTSXpLQmJnblFxMkpRLXNlajdXejZnNFpxbmNnaFpMb1NYUEhya040ZG4tcU4zcTFmX09CaWtRb25nclJ0MkphaTBYcHdweVJFM1FEVXJXTlN5N016MXBOOFRza05fZW1mdWRMSmR5OGt3dw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVm9Nb2Y4cGtiMXgtM2JldjZDY0tQZzRGRmdMQVl3YzB4dXMyRkxvNUxvNHc0QnpjbmtyNzBSNjBmV2xsSHducTVsTUg3M3lIaTY4RzhFem1GVW5EcnhNODJDV3hmOVdudUhCTnlNcHFFYTY1ajZSX0VoQkNPTndiRC1jVVpoTW5Wbmh3aUU5TUQ1TDdjMDRSbUttNnR1Y1R0SlZsSzFVZGdteDFYYVdBVUtiUDNjbWxYcGgzX2JhX2gtN2xJVEVnMnV5UktvQW43WVYyNE53?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWURDSVpHZFV5UU5CRk50Qnl6eHoxTnhlZmh4MXpZUFlZYVpaS2JSVFQtaUt2QUlsSEYtcXFYMlBHOUlfWUVRa0M1ZHotZVBrSFJjQVhtZHFkaG1OWS1JV2R2STgxcERqb2FQQ0xtZWlkVU42bVBDcmV5RmhRSnZIVVJjSm1lMUNFbnpZbXRlVUktRnJ0NF81YV8zR2FkWWR6bVhwQXN3U2RkTldQaXVFQw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMigAJBVV95cUxNczBUOEJTWnhhOFNEbl9uRTQ1bWNWaDktemFRV1lXbFcwXzBBaF85SVV6SUR0LXRsZ0FZODBteVR6UmZad2Fza2FvbnVNR2lhN2lPSzFDdzlpaW45bV9jRHBMeHcwc2pQdTBuaXowQndCUjlFQUM2a3FjclRQQlJzWW9YNnpjZXJOLUZ3b2FxU0ZTNGlDOE9TRWxodjd6WEJlX2tGUVE2bU91akRJREJHUGlkelhHMG80TXNHRmFDVHdzdVRZcHZuRXl5ZnNvcXFFcWpNemdWV1R3c1VhUEw5VE11dmlVSUswZ2xFT1FHbklJcmc2Q2RYN0NfY2o2MFlw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR2ljSExScWRkS0Q5STFDRWdmbG5XSzd0MWxBVllkRjdwbklobTEwOTdsSDZHZVhPdmVXTUp4cWViaFc0amhGbU1oaTRMTW9fcThUZ2ZrYmFZdHJ2NGEwWTd6RkRQQVNYaEN6VWphajF2SFBjM2hFSy1VZjJaNWJjYlJaV0F0M0RYdnJmTEg5M0lYYnFiX0tYSlNSdmJKZHFFRG5RbUhMWFVsQVBHZTkyOVpiWE5HSjdMR3R2NXUxM0tCRmxlbkkwVnJ1UnZnZ29XY2FZd2FuVUtUZw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRlQyaGY3dERnS2lGTDJIVzJ3TUtuc2J1ZWEzZmtTNG9OOWJYcVNQSkJidFZSR0ZzN1hvVEZrY0xaVVV6a0tNSFNIdnh5NEhGSGZEQTNROXRBT25vV3pUempQQ2w2Tlp4WUJZREVWc3h4dGp1emllQnJWNjVSS04xUG1CelcwNzdsdzlHYWs1blBBT1dFeTEzQVVIUE5tUlJWTFFuR0k5UTBOclZ4STA1aGxVS0xoUTdmZDMzUzl1UnQ1eEFqRF9kaWNSYVFHNnBzUUo0XzJmWFNqdzhpOWtEWDV0b0k4Z2R1?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRmY0WHVySk45c2xLcnFKU0o0LVNqaV9zNEsyeWhiVXBpTDdha1pOMHp4MEotZ2ZyYWNna2ZHLXNMRGg0dEhZMl93bkFBOFA3TUtwUjBZdHdfZ0pNb3NBZDBMdEx2SEtLNGcxOU1yTGVHUFE4U3V6Rnhtek94VF9ydGpBNE91RmZfWHpCdEY4bDJJbVhXZm1NRmRTUXY4NVN1R0FGWFF6RXc5TGlNY2lhaWpWcHVXb01MRFU2YmhPc3NHS1R1MWJHQXdn?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUEZlYWM1dDYxNThLYV96MjI1TlRXcWNhS2hvU0pPaV96SG5iSk51QUFuc09CNW9kQ3daNjJUZERnUTNudXB3Rm9CUF9rZGhWTWU3SU9KY1ItcmlmUnpOMnlBcVBzMmFieEJsTUZCQVg5aWIwZG1qOE9CRlNTejBNMGJiNTlBa2tibGJpdjYyTDVxRnRaTHhvbkZ4TDB6cG9GbDdTZEVLdk03dnM1dnNnSFZ2allmUTF6MXdUUFhkLU42MlJQYTBIUQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT0lSOEpzNnVZU1dtMVBjWGt6NEoxZk5ubmMzdHRodFpFZUhlbjNMSVRZMXB3MTBLeF9tWWY0NlAyYzZqV1JSc0xfMDRILUZOOE9zdWQ3U1hLdl9YQm9UZDNaYVJOYXZKWEJ4RlhDTDUyVkljRDJwb2pxVGtQRVpVSlZ2ZmMwSkVJTHd6OTJzbw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUjRwQmpFVjhzUmY3OTFCYkJQUzd1SVdDZ0tOY1FNRXFsYnpOWUk2bkF5UzY1R2w0NXpsVFRzajFDeFV4WWtNY1pIc3F5bFNURURUSjZtcWhUZENnaVRRWUo2ZTZMZXE0WDl3YXpkUExzU1dVNVZzNUVvZXVDOXZWNTVsNFVrTnAza1pCWGlyelRSc2h1SURsaEVyZEUwekpHbkIzbUVKNjJ6YTJKVnRmMldrY2JPX2hlLTdSUm92VEM4X0h3WmNlZXpYQWpPREk3RFpYb3lCYWdhRGwyMUE?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMigAJBVV95cUxNT2owYjR2NndFR05YWmtkWUlDcFl1eUk3RkhJMmFFSnBPYlR6eHhLeDBXS1RUVF8xYUNMTUJsaExtX0JyM0hVdEk0MERMM3A3ZkNPNG9ZN201NUVZUDhVQXhXZnV2RTBhek8xN2NSa01JdnBhY2Q4YlFIb3A5YjZfM1VSeWM1NlBCSVFycEhoczd2WEZxbFdGX1pjZFFOMkpGendSTW95V1NxMmlsREJhN1djQVdqZl9LeGRQZjcwM2EzQU5QMURUb2NFOUxRZ1BpaV9ueWRFVnhhWi1sRVJTX0FuUDFlNzUzOFlka0V6TmxBX2M4RzhrbElFeGxVclUw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSzNJS0FQQ2dNbkRuUWRsSWx0ck8tQmQtazZJU2lraHM0bDBEZ3pRVHVhV0c5YU1kOGJPSzR3YzdpcS15VFV6V185YXlvcVB5Ty1vTGIyUDhzUm9WN0EySS1vdlkwbGtWMDFXWkxpNF95eXBYSU1GUmRacHVPT3Qzb0RSMDdoc3VUOHpWTGxNU1RNS0lzUnp4aVU2QVRYWGZpZUM0MVN4b3pHWGhNeTUteUlPRzRWc0Z1NS1CQnFvbmdqN09aWGlERmliMm9PQ2dtcC0taF9jNW9sQXlfaU5NajQtaUNYZWxXdnp3LXVZQ21UOTB2Q0pjeUFaN0NlVkRZMmozX2dn?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQkJRaUxyT0VSYVkwUVcweXVBUDJyX1g0dDRsazc0LUt5STFoREJkeWhXZzRJZENNODdWTEl3Mlpod05GeFMtRXNGNkEwLS1rb2pqdk9wOXNZSmw2SlVyX2k0WU1UcDNwQnFycUx2b2JCZmNBX3NSNjBQbHNBLW1sVkp5UDY5MUNEcFN1OElrVFdheEt4Nll5dGtDWVRFaGR0WThQakdVMmxZNlpyV0E3OHowdG5TTkZNblNpQVNZNnVaaXR5TWlNTmFBMTVrYkdHVTFZRUlWU2xNem9NM3BVMXpyb1VHY0toT2t6bDJUemQ0TUNVSGlpTW91RTJGZw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeGR6dV9uZUNZc3U4czNvNnpTdldrWFBSalZlQVFiQzRnSWJSVGJWYjZKb1Z4ZXlvYmZoQTl0a05YdEdpNFlCdVJDblgtTkpqZl9qeXdXTWg5S1BXYkVxeG5udmVudnVzcFFVZGVtR0RYWDNqb3ZyR0M4aGhoNDZ2SHBBTjFnZGpTYmlwZ0M3ZFBMVVhlWERSSE93Z2V3bFdBenJ3bWNhRzN4ZDRxeGVnV2JBeFNSbVB6OEtXUWtDMmY2akVzR3oxQWM0V2hBTm9LQ25zUQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVjF5U2FQYlJvMmJMZ2taVHBpMnlRaHBtVDhOOEtsbW81X25SMFR4OWN5LU9BWktsVl9hTkY3eHMwenhNTlFFWGVxdk5nTHBWX0Zvb1VpTWtab0JNaU5xZEQ4Zjk3Ml9Zd1dJR0hUUlhBUWNxMEowOEFOMk82UjFqZjkwWnliRmNNenVCWEl3N3ZDcDhxcklZN1lZMFZLb0VUeExMdV9mQThEdWJ1U3ZyNVdyai1KZmtZZVQzWWlZTjVfMnNtUHpYSk44UlF5aVFkb0hoVmZVbmpJQ2tq?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWC13aUE5dGhRYlhENXNvanVrVnhVNzBHTDVhU0p0MFU1OUtZUE5hTHB6Zlg1Yl9EdEEySHp2VloxUUV6eTlGX3hyQmN3LXhtbnJ3M1pLM0ZWakw4S2NPTi1OTGs5RjAtR25vbzg2dU5mTHo2R0FJQlZfUi1OLUQ5aDc0dVl3bU8zcGF5cUxnaU9CSWM0eEdKRTNacGZCdzRyQnZVRnZLbGJxNjg3VkVSMmJubDdsdGhKSmFnNGk2b3NDVWU0M2lsdFkzZ2tCWVVqMXdTOURxUTFPV0V0WHRKWDRsZE9yR3MzNmNJaTJ3?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaUxJeTYzb1YyX2hTd2dDRnhOXzFFcm1VeU9TS0hXVkYwY3pQYzlIMkdhMDZWNjFzT0RxMnk0dkF6dzJGbmotZGxyTU9NeGJXdUJuME1EdmZNLWVZel9kODBxNmhGVHFxdkp5U1FZNklTNEJ2eDFwRi0wZUNyY1YxMG1kVFZjaXhaUEN5am84dW1EM2hURGlsMHpTUFJMcHlaWnZB?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE82NmJLaWE3eE93OHd4X0Q3bHJQNWNESFRjM19HSE9FbnFkRVNnS1lXTEIxXzdSSUdWTmZQdl9ndUF4ektZWTJDNC16c2VmLXVoWnFTQ3d4eDRnTGVTclZCSXNzZ2FfNzJYaU9Tb3Uya3RfaHdJ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcUZVbUtJRTFoMVh3ejBlR3FFbUF5YkdDQzliQ242RWhZaWg2MVlxMWxDeC1hRURVb0NGLWI4eUJneGxlUjhBaDNuNHZVSmJ0Zm15c2cyU0Q0azNreFA1UzRVWmJyTXpHYmRIZy16dk5GRzV1YUV1X1YtQlZLZFgwTDhVSktFcWhVT3FIci1fTXd0MXhhaGdPVm15RUJrWFU?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMigAJBVV95cUxNZ0RCR2FGT1hUN0JDSXBsMXczYklveGpaWU9jcnA3Zk1NWGs2MkhhVXN2UkZrc0FSNFIxLVJUZzNxcVBNUzJFTzBzWFo3dlE0bk1Mb2FtLWdfSlJPN3VZbDNKVVNnbWFkLUV4eEJfNDNKYlVEOEhOaVdOODVFLUt2enUwV1NTSnQxenNLWlpwaWsxbk1Sa3pQZTA1Mnp4VTNaSzc1NFlfUm9WYkk4OHJoMEF2SmFjSmszMEQ0S0VXTWp1WVBpemQ1UkdacWJiUk5xUnNqbDl6dldzQWswcHNYU0RWMUhFY0ctdnR2cXluMGZPZUxlVHdQQ3RBcnJhczhm?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVDc0aFQwTW8wemhrTFNzQm5hd0RXRGt0X2NDdnE5SnU5QlZRZE9mbjR3dG5QUV9SZy1neEtQeUhFR1IyMVBVZkdUWG5IWm12R1k5blJHaW4tQ19aNUVmSktWcE5TVlZTcmhEMFdZc2g2N1ZJQzM0MUFkeGtMcklFbVVGeklKNUo2UGRwazdHLXVvZ3VZdzV1R21xVTMyVmxRMXpGM2R1NjVta3dfV1JzX3R1VFJxaHZ4bElZOTdSMjJBX0RpZDFN?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmdqVXhHeTNuRlBjcHdVSFZWVWh4c2VjNWVJMWZhQXMyY0c1LUgwMVVxTDczVWlMLUI3bl9tU3RlbzVteWptazV2WjhnVHpDSHd3Q2MySk1mSkVyOWVxVmhwUHl2bzVHMGpRa2stbUpTczhKcnpfQzVkVzdZLUJfWUJNVm1GYjYy?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQk5Sd2RQSEk4X0dNR3ExOUtTUFF6NlpSenRJdkl0UXlTc0tpM1VMay1BUTdTOWtfdURYU1l1S3pMSmd4QlFjeVhaZVJ5UmZzTFFxSF9DeHF5emNiUFJYM0ZIWXVQVmpMY0p0MFVsOGlRUGUwUDZzTGxseVRhZTd1c2ozcHQtX1ZwWjVIQ0J2a2E5RjZOQUhtenJKOWFoZ3drT2xCb2ItYjRQUUdKSXVFTjZmdWFTQUVHcjlqVEtkMnpQUVJMVm84cTlfelF2Y2hwZ0NIeUF1Vl9Sb0tuenJoUzNmOTFZNHM?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZUVicmZRTjk5bTR5REF3clUzXy1iYnp0R1pfX3BteFRkOERtcmtJMUQwZkRoS1ZacFlISk1remRSMk1oSzFFUll0YVM3WHMtZ2FkSDR2VHlCOFpZWUZWNjJXVF9tNHBYeUxTMlRudnRobHBxNEhoc0hSRWlTUm1mWXhMellSTmQyUzhmYkxkRm0zenAyVUVyemNCZUZDclZHYkpUbmU5OUxHRlg1UEc0YUNpMWFnSENlSU9VM1lkenBmUTFUUVRGcVlBMlloRlB0TVlENi1VZHNIYVZnN1g1Sks4UkVQRm8?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMinAJBVV95cUxQNTZaXzNleWJMbkUwd2hvQXBWZHNjUnYzdUlRQUlGa21qMlhPNGpQUG5oV0lmODNLSzNORXBrLU9rdVFsYmZjbzRxSEtDMWQ3R0UyUWNyd1d4bG9BcTczV0ppd1BmNXdMSkNobVo1aF84ZUNZVmplc1Zockc3Wi10eV96VFB3cEp0NWNoSndkNEFMeG56MU9qTDB0Vjk1NUNxTnRJeF9ZRzdJMW81Slk0ZXo1LTVJakJWdXREUS1PTGI4RGZ5VDljbzRjbl9YR19mZTVqa0wwNjVnZ1pseThVZThUaTBFXy1CNS1taEhsOFlhbGRCZ1FzVHRPcWZ3M3lBSDRSMXcxVkhjOTB6VnBLdHAzZ2xVbWFUcGM0LQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTTBQalF0Y3RmXzBHWkxRWWJUa1hsN3Z0OFNEelBQODk1WFhFc1VQNERZMUNROHgtbmN0bm96cnRTQ3BmV3BqSVhnd0RCeEFiMHUtR095Rmd6X1p4M21oN1hBUk12TnFRUGVFckNaUWlHWGs5ZlJYX3lXcmJ1UWh1RnRkb2ZBZVZXbDVITzQ2Q2dMQlNmbjl4dE5Cbk41T1pvbXFZQXZObDI5ZTRNSkVOMDJxRQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaDVNLV9abW9Md3FuZXFSNlNUa29nUnBHTkx5OUJSQzN1bm01RTRnY0xiR0p4ZnQwdlpuQmtNWjN3dGJSaTRaQjc3bnRuUEVUdHBULVVTSTdSS21RTllsTnJpTHBUcXdyckE1T2h0OGZWN2dOYlpuRFRUOWdBV0NmVjNDSXQ4VTg0b1U0Qko4Q1kzSVNwa3c2NC1lcGt4X2RETXRQQXVrbEQzbDJRUlRQM3Rn?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9idmxkcHNSM2djQzlLTUEyTjA3U2tibk1GVTdmbGhpaGNTdmJ4eWMwMEFFZEdVZTdsOXVXcXdIUHhQbEd0Y0xCVzBNLThyc2V1NWs2b0F4TXp0YzlX?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2aC04b3NDTXBZSU0zNVFjSnJrZ3VmS2pNSFo0ZGJULWNrSUFzdWo1dUgzUWVyQWxJbjNvcUx5NVFRSzMwTjgyNUhwaFI0T3o3Rl81Ng?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBEQVRHRnluWTZ5ZVZNb2Y2S29BWjVhdXRySkk1aWhaSGs5WE96MVRrNmVmcVlyemlMVWNfdDhWVmdLRjZLMElLTWZGb2lIdw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE41S0NPRDdOSzl3V1pNLWtvME1kUkhWdXFZX1dhMUFyaTR0MzB5OE1jMnBjTGVZaU1OTTZqZ0d3MG5sUFVxTUhlbS1SN0Q3T0hIVXctRFNaOXFrVnAyZ0E?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGSUdIYW4tMTVDVXd1SUVjOVpYVzRWMlFyM2V4UmhuMnlvZjZia3hTZ2M0Umk4Nk1XbWVSQVBzcTNSTUViVkh5Tjd3QjNPN0s4ZHcyTWNWQTZqSHc?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MWVRODZDT2xqUG9jZkE4NmFtejIwYUJ0aTFIbFJoalhYYU5BbmhtSG40UHNyQm5xMVVFeDdydWxZTnhrSllnaUhrOWxqWlNC?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pYXRRX3JSU2c1VmdUMFRkQmlUN3pjQi1KZmFtWm96alRZcno0cFJXV25adUVPYS1QRUxZMmVmZDJudFFKTjA5WFRlcUFhUTJGYnc?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfTjJtbDR3bmUzRXpuTVBPMV9Xd1VpenVlNW5ndGl2ZDhqZWpYVVVRNm9vTzQtRGJUaFlCS29YZENpaDR3Tl9aX3BQam9QUGxyOXM0WmJ6a1M?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBWRk50MU1KNVJFbFlYOVpFVjJwOURTVXg4dnNHaDhONWRmUE9taTB1NHRVQkFoVlhWTjluejB5aUNRZ3hyMG1jUA?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5oN3RvTXc2ZzJRZ2FBYVdSNEN6amZOS0lmOHd4OU5mNTZjblMybXZaRGZYSVMwWU9sSWktUnotT3VmaHlCRm0w?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03R0FyVjdNalNTaXBldHd3VVNDTkZNb1F3SjJVMGN2NXlWTjlRTzFYQnhOeGprMEdweF9xM0JuWkJfaFdDMTQyV0ZLS1dkblFXSHp5TFlNSQ?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlFBbUpSRnpFNWNSeXY5VWFiLXY5U29Wd1o3Q0V5aGEzRlljc0VSTHF4RmVJNDdrbUdwSHFwaXI1VmtrMml4Qy16WnIyamhRSzNyUUp2V05VczMwNWJkMVlPOGJ2TXhLbEFBMzFJa2lGNklraThrMGE4UVJPSzA1U2wxVzB4dkllUmVwRGpYOHBQLXlj?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KdEdSU3E3S0MxLXIzVUtuMG10Vno3aTcyT3FiQXVIamR2dnNiTUtkWDhoQ0Z1S2dUbjJILXMta0NSM1NrMDFwZlVpeXVBY2o3UWhVNzhn?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RSFJ4RjFfeUs4bFI4OXlhY1Y2bXpGMEZUcXdfQXU4c3VwMlJHbjdkekZYM2R1d0RoRkZYaDVXcXI5bUZndnlpQnl1Y0VsTVdQNGc?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96YktLWk5ld1c3M1Q1ci1vTHZqMmR6TFprbUI2QldkLURsMzJSTksyZkZrMVk5Y0VyaUVYMEdWSmFLQjBzbzk3aXJmMUNUeng2ZFk3TA?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSkRhNUpvLU9TSVhVQzJnU2dtV1VNLXJSM0k4VUhDX0FRdm02RGFlclRqa3c3cmtuTjNldWc1d2twbnJJTnZuM2oxel9IR0J4aTVhaTIwQWFJLUJMLUlWZlY3UklrSlFCelBEVFFUb1RjQ0JQUWFNcjRURTQtS0lqRFFUZENSS1RZVnFSNjNKSkd0SWRVSEdfRmRpOWNrTWFTeXFBN05fZVViVm5hYlhTMmNjcVI5dw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTE5LMVdUYUdZQ1UwajYwSHd6SmljaXhTSS1vOVlMV0ZYaUxlNm5yc1R4aHM0Z280eFRyaDhPVDZsZ0UwY09GYjUyRFNzdTI4Y21hSGRhdUdRRWcza2VDS0F6aEUzUHI0TjlQblZYRjlYRDBONmx1TWIzSklQa3EtdlhCcEpDZEE0NE9TSUR5eC1tWl9sRFRlb1Bn?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13cHNUeHJfZWs1QVlGTzdocXhDNEd3eXFDWmhmYXpwVkZ3UEtQTmNHbTZsT3B0WVptYzVDeXJWSVpnSndWRFA1T012N0l6V0lGQ0phQW1naHg1Vk1t?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zZWdzcVNSOVpWQ3JOd1hDeU00cTZJU1FYekdhZ1JfR0V4bUR3dEw2QWZKTHp4eWRjSzljdW80cUFXQWRZMmoySWdRQ0d6Vjg?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPck5SeE1faE5LemFneFB0RzAteU9wQmkxUTdSMmVmVFN1N2p2MkQwVWRLOVc4ekotQkMxMkxHQzBIeHhvNW8zVVJhc0hkRVRQb05IblNqQ0I4ZHhYQUljeEZKZVNIV3d4azEtRGdzRzhxNkZlRHZFVExkaFRlTjlDbFVhOUFQSjlwejBkLUhTRlRDRFhETmRhb2xDVHBHUENVVUttQnJsdGhVejJGbklLVWhZMWFLeHAxWkFN?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03bGZlMHhzV1NrNEVveXl1aUZ6TmNpZ3FpYjdKdDQ5T2hiVk5XbFhMMW1yVjVHNWF2WkpCalJadkNleWNGaWtjNlVNeXdvQlJWbVI4?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jSjJPWWNzMlFrN2diTXlqUkVSRkNXNUlVclcxb1otaEtFcTNNVWZ1NFpZN0VsZmg0RGRZdTRYUmxmWTVsRUVDVGJoRktUbW4xZXZYT2xwd1BhWmpWOHhDZmp0aU9rOUV5WmxGVGxHNkRzTjJDQkN3MGVjdw?oc=5": "2026-11-26T15:25:05.064445+00:00",
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0FNYzFhaDZQSUh6TUV6N0N5WUJuQkQ5XzYwNVNxSHo5NGRLMDg5aGZJd29RVG5JcGRxaEFXMDQwLXRKVkd3ek4wSTJsSkZxdG1pbFd0alJpY0ZBZldtU3c4U1FoNlZhb0lzOFdnZGxKOVgtOHpDeVdYcXVKZTlNSkFjWG9HSEIxbnphenlvTkZCQlRWVXI2aHkzMEc3UnJHN2NybnRVMjM?oc=5": "2026-11-26T15:25:05.064445+00:00"
  }
 }
