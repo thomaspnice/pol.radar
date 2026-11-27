@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-27T16:27:26.068284+00:00",
+ "aktualisiert": "2026-11-27T16:27:50.993646+00:00",
  "fehler": [],
  "quellen": [
   {
@@ -857,44 +857,6 @@
  ],
  "artikel": [
   {
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yZVBNZTBPakdwOUtKaFFhb3l6RXBtMk0tYlRPM0pucUFjRmE0ZGFMVHVGVjVLdi13ekFlMXJfVTlpUzVKYmxLaHk0VDdMMFRzdUhLcVNlUVFuem1GOENmQXNkSTB1YUNTZ1VtU1FOV2lWMkh6LUhTV2RFYw?oc=5",
-   "titel": "Unsere Stellenangebote - Abteilungsleitung \"Statistik\" (m/w/d) - Kraftfahrt-Bundesamt (KBA)",
-   "auszug": "Unsere Stellenangebote - Abteilungsleitung \"Statistik\" (m/w/d) &nbsp;&nbsp; Kraftfahrt-Bundesamt (KBA)",
-   "quelle": "Google News: site:kba.de",
-   "kategorie": "Behörde",
-   "organisation": "KBA",
-   "datum": "2026-11-27T10:51:21+00:00",
-   "treffer": [
-    "Statistik"
-   ],
-   "themenfelder": [
-    "Allgemein"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWE1HYzBVdlBfOHR1SlFIRks1ZVF3bkxvQ3loa3pnRVF2djFiNW5ybW9iVUNfbm1QQVdyaVRsdU4zMFI4c29ZS0RsYjdxRk9vMlNKR2tieUNib0k1emg5RXpFQlgwZ3dCRVNnc2NPVjZicFBDWHo4Rlg3VDlQTFZNQlBHQlVWdk1sOUVMVjFoenA3SzZ5eVJiMDVwZTJQMUE0VWF1VGw2MWJmck9XdEh2SWViaElFcXdkbncyeThn?oc=5",
-   "titel": "Jede und jeder Vierte würde die Weihnachtsgeschenke einer KI überlassen - Bitkom e. V.",
-   "auszug": "Jede und jeder Vierte würde die Weihnachtsgeschenke einer KI überlassen &nbsp;&nbsp; Bitkom e. V.",
-   "quelle": "Google News: site:bitkom.org",
-   "kategorie": "Presse",
-   "organisation": "Bitkom",
-   "datum": "2026-11-27T09:54:19+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://www.bfdi.bund.de/SharedDocs/Kurzmeldungen/DE/2026/21_Treffen-der-Berlin-Group.html",
    "titel": "Berlin Group verabschiedet Arbeitspapier zu synthetischen Daten",
    "auszug": "Synthetische Daten waren eines der Hauptthemen beim 78. Treffen der Internationalen Arbeitsgruppe für Datenschutz in der Technologie (IWGDPT), auch bekannt als „Berlin Group“.",
@@ -908,10 +870,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "neutral",
+   "thema": "Synthetische Daten",
+   "zusammenfassung": "Die 'Berlin Group' hat ein Arbeitspapier zu synthetischen Daten verabschiedet. Das Thema berührt die Datenpolitik und den Datenschutz."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFp5OUpWN2ZndDNIcHlOTjhCSnVmZTlFZ1c5dTVoWUpsVmlhbnR2OTFweGxsaEp5X3lzeUhaY01qRmltZTRvenc1OUVUd1JSQTM4ZXl4OGJmdzRaREItSjNLS0FFVTlnSGlKU2I4YnJYRXpvOXh6N2t0UDhhX1hzLUZFdUdvMzhrYzVyaF92QmpVUjZvOVV5TGl5OHE1RkI2OVlyVUNSam5QUWx5SmRaa2J6Q2oyUE9zOFR0eUdWMkpTMUE?oc=5",
@@ -927,30 +889,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.heise.de/news/Freitag-SAPs-massiver-Stellenabbau-wegen-KI-FBI-Falle-fuer-Ransomware-Betrueger-11539951.html",
-   "titel": "Freitag: SAPs massiver Stellenabbau wegen KI, FBI-Falle für Ransomware-Betrüger",
-   "auszug": "KI bedroht 10.000 SAP-Stellen + Betrug an Ransomware-Opfern + Südostasien ohne Nvidias KI-Server + Temu in Europa für Verbraucherschutz + Datenschutz-Podcast",
-   "quelle": "heise online News",
-   "kategorie": "Presse",
-   "organisation": "heise online",
-   "datum": "2026-11-27T05:15:00+00:00",
-   "treffer": [
-    "Datenschutz",
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 95,
+   "tonalitaet": "neutral",
+   "thema": "Arbeitslosenquote Destatis",
+   "zusammenfassung": "Das Statistische Bundesamt berichtet über den Anstieg der Arbeitslosenquote in Deutschland im Oktober. Dies betrifft direkt die amtliche Statistik."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWpSSFpMQVdrcV9kVHR4SHVFTzZvUk1aVV9wQUpSYWNLdEl3YVlLVGFoSEdxcVpQMEZ6TlpqVzhDbU1CTU1PWE4xZUFJQkxfVnJRTGgxMTlPbDlJUDJlRk9VWXFkTmwyLTBkM191aDgyYXRjUnkzQ3B5VVJyWVZrTnBYOVExRzFIZzdLNTBXbVRvQ0w5djRXZDZ6ZDU3LVF5cGUzMHJXU29MUQ?oc=5",
@@ -966,10 +908,10 @@
    "themenfelder": [
     "Gesetzgebung und rechtliche Rahmenbedingungen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 90,
+   "tonalitaet": "positiv",
+   "thema": "Forschungsdatengesetz",
+   "zusammenfassung": "Der neue Referentenentwurf zum Forschungsdatengesetz stößt auf positive Resonanz. Das Gesetz ist zentral für Datenpolitik und amtliche Statistik."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ROTRjOGxvODczN0FzTURFckhUYVBPcWUwYmx4RFBhdTVqUnpfREJaZ1JhblZXbHE2UFpiUTlSVmlGM3JvYTJjZndLU3lGd3g4RE5Ed2NrLUZNcWxhc0luTzRuZm9yYVBsNTNPNXlBMENveFVIX1Z1dk8zbEpFMUk?oc=5",
@@ -986,10 +928,10 @@
    "themenfelder": [
     "Bundeswahlleiterin"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Aktives Wahlrecht",
+   "zusammenfassung": "Informationen der Bundeswahlleiterin zum Thema aktives Wahlrecht. Die Meldung betrifft direkt die Wahlorganisation."
   },
   {
    "url": "https://www.heise.de/news/Datenschutzkonferenz-Zeitdruck-bei-EU-Digitalrecht-Streit-um-Forschungsdaten-11539609.html",
@@ -1007,10 +949,10 @@
     "Gesetzgebung und rechtliche Rahmenbedingungen",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 65,
+   "tonalitaet": "neutral",
+   "thema": "Datenschutz und Scoring",
+   "zusammenfassung": "Die Datenschutzkonferenz berät über Scoring-Regeln und das Forschungsdatengesetz. Die Themen überschneiden sich mit der Datenpolitik."
   },
   {
    "url": "https://www.heise.de/news/IT-Planungsrat-Deutschland-Stack-und-EUDI-Wallet-sollen-Verwaltung-verzahnen-11539657.html",
@@ -1030,10 +972,10 @@
     "Relevante Akteure",
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "positiv",
+   "thema": "Verwaltungsmodernisierung",
+   "zusammenfassung": "Der IT-Planungsrat plant mit gemeinsamen Basisdiensten und Architekturen wie dem D-Stack die Vereinfachung der digitalen Verwaltung ab 2027. Dies berührt direkt die Themenfelder Dateninfrastruktur und Verwaltungsmodernisierung."
   },
   {
    "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1238490",
@@ -1205,10 +1147,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 70,
+   "tonalitaet": "neutral",
+   "thema": "Künstliche Intelligenz",
+   "zusammenfassung": "Die Nutzung von Künstlicher Intelligenz in deutschen Unternehmen soll im Jahr 2026 auf 37 Prozent steigen. Dies ist relevant im Kontext der amtlichen Statistik zur Technologieverbreitung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTUZFZ3dqUDNhRHB0R2FnYzJ6RW95WkdTalZkZXpsNmphYjFTMUpUUGQwMWNwMVhyWlhSeG9GZTdzRE14TWpqSkVBNGhBWTdSMXhiUUNjYTFxUXFEUWhRZTlLckctUHRpOW1rSC1VSjVodlJWbFpuUzg2a2JEeTNKckFXYmdicW9QSk0wOU5saEYtWlk4YlpRd2N6Q1JpRG10NmFVQ24xN0ViVWo4UG5ldGg4ZkhtS29RTWxmTmdZRHRqQQ?oc=5",
@@ -1224,10 +1166,10 @@
    "themenfelder": [
     "Relevante Akteure"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 80,
+   "tonalitaet": "neutral",
+   "thema": "IT-Planungsrat",
+   "zusammenfassung": "Der IT-Planungsrat hat weitere Entscheidungen zur Förderung einer bürgerfreundlichen digitalen Verwaltung getroffen. Die Meldung betrifft zentrale Akteure und Maßnahmen der Verwaltungsmodernisierung."
   },
   {
    "url": "https://dserver.bundestag.de/btd/21/093/2109343.pdf",
@@ -1281,10 +1223,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 50,
+   "tonalitaet": "neutral",
+   "thema": "KI-Verordnung",
+   "zusammenfassung": "Die EU informiert über die Umsetzung und Gestaltung der europäischen KI-Verordnung. Das Thema berührt die digitale Regulierung, steht jedoch in keinem direkten Bezug zu Destatis."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wLXRxVUI3Ry02cXExdkhERnJFU1lmWk85MFpzdnZlQlZrWkZIV19yVEpuR1ppRHhTOXlvS0NvVHBYNzR3eU9JQ1FuMHMyQ3dyTDFfdG84ZU51NlV3Z1JQNkV3?oc=5",
@@ -1300,10 +1242,10 @@
    "themenfelder": [
     "Relevante Akteure"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 75,
+   "tonalitaet": "neutral",
+   "thema": "Digitale Barrierefreiheit",
+   "zusammenfassung": "Der IT-Planungsrat beschließt Maßnahmen zur Servicestelle digitale Barrierefreiheit. Dies fällt in den Bereich der Verwaltungs- und Staatsmodernisierung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BaDRoT3Fuang2amFqdm4wdUM3V2pWR040d2NHbERzZ0s0NERUV1hkNUFESVJYSlMzbHFrVjdCcnZWQm9Xay10QzhETWVFRnNVZlAyOHByZDdfb2ZFMTVXdkxR?oc=5",
@@ -1319,10 +1261,10 @@
    "themenfelder": [
     "Relevante Akteure"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 80,
+   "tonalitaet": "neutral",
+   "thema": "EUDI-Wallet",
+   "zusammenfassung": "Der IT-Planungsrat behandelt die Bund-Länder-Governance für die EUDI-Wallet. Dies ist ein wichtiger Baustein der digitalen Infrastruktur und Verwaltungsmodernisierung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaW9yRUpLTnVRQmlkUkc4MVQ4bHZtbTNaNUVtd1ZWU0JWbjRnYmVuckdvTUNvbEphS1NhQ1JLMUJrM0NYSHNXUUVPMlIxeGJ5TVV5aUZjeGNuY1pnQ0o2TE84bWo3S1FON2NpaWdzR1ljVTNXN1ZoTkhzVWJPZHhuRXF4aw?oc=5",
@@ -1338,10 +1280,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 95,
+   "tonalitaet": "neutral",
+   "thema": "Wirtschaftswachstum",
+   "zusammenfassung": "Das Statistische Bundesamt hat die Wachstumszahlen auf 0,1 Prozent korrigiert. Die Meldung betrifft direkt die Kernaufgaben der amtlichen Statistik."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHJTRHQ3M1Q5TkZ4ejBTQ0tiTlg1RGhqeENWNGVKWVk5SWtsUXYtbHVYRW9HZWYtdFc2M2cxY0tzN21POXBWdnh1ekZEY0FoVDBDYUVkY1gyY21NT0MzMXZZN2lpZjcyUDRMN0ZwYy1BeXBja09HcUlPcjVWQ3RldXdMekkxek84TldDWWpaUUZ2cjJ6WWhKV3pmRzh4MW92LTM4bHNEWVpFZUdBcXln?oc=5",
@@ -1476,10 +1418,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 95,
+   "tonalitaet": "neutral",
+   "thema": "Verbraucherpreise",
+   "zusammenfassung": "Laut Daten von Destatis sind Notebooks im Jahresvergleich um 14,9 Prozent teurer geworden. Der Artikel bezieht sich direkt auf Veröffentlichungen der amtlichen Statistik."
   },
   {
    "url": "https://netzpolitik.org/ticker/ticker-news-von-golem-vom-24-11-2026",
@@ -3102,23 +3044,6 @@
    "zusammenfassung": "Das Statistische Bundesamt veröffentlicht Daten zu 13,2 Millionen Behandlungen in Notfallambulanzen für das Jahr 2025."
   },
   {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-09-11-2026",
-   "titel": "Ob Menschen beim Dating im Silicon Valley erfolgreich (…)",
-   "auszug": "Ob Menschen beim Dating im Silicon Valley erfolgreich sind, hängt auch davon ab, wie sie zu KI stehen. Dabei können sowohl Ablehnung als auch Nutzung der Sprachmodelle förderlich sein. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzpolitik.org jetzt mit einer Spende unterstützen: https://netzpolitik",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-09T10:00:27+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcW5mZGFqeV81TGR0aFo5ZTVVdTg4N0JQS1hTZ3hFRVNiLWtZUVFvUUgwTFRGdkw3dWc0NHR0c1pycGYxSWhpQUh0QUkwRnVWc3cwUFQ4U2hBc1BYV3Q4QjZiZE5EZGVaNzNkU0w2NF9UN216eFBreW1BVnZGY3V6cThlQnZsOUNBQ0pzcTc1TGdyaGt3cXJGYkd3?oc=5",
    "titel": "Marktüberwachungsbehörden im Rahmen der KI-Verordnung - Shaping Europe’s digital future",
    "auszug": "Marktüberwachungsbehörden im Rahmen der KI-Verordnung &nbsp;&nbsp; Shaping Europe’s digital future",
@@ -3132,10 +3057,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "neutral",
+   "thema": "KI-Verordnung",
+   "zusammenfassung": "Informationen zu Marktüberwachungsbehörden im Rahmen der europäischen KI-Verordnung. Es fehlt der direkte Bezug zu nationalen Verwaltungsstrukturen von Destatis."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZEc0QTNVbUFWWTNGVTE5djNMZW5DcjFYdEpJNFJLbUQ5ZkRqYk5MRnR6NjdieTE4c0xqQ0M1RFBuX0E1VDlNS2xqa043dF93NUJlUmJqekpLTWlKcWV0UU9VSE4yVmJuRzJ4elpqY0NWTWtzcVdxdjFaUkphZm9iWnkzMA?oc=5",
@@ -3149,10 +3074,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Amtliche Statistik",
+   "zusammenfassung": "Das Statistische Bundesamt veröffentlicht aktuelle Exportzahlen für September 2026. Dies ist ein zentrales Produkt der amtlichen Statistik."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FRDZMVXVDdkJKYmZDUnRmLS1nNUhJQlVFUVJfY3I1NHJKNWlQS3VTNG1rWXdWandzV2pHM0lpMVhCbUhoU3VkTTFOdHR3dnNPdHlfNWJ3YkRwZzluYlVQUkRwd1RuZmhweTBja0VjX3BTX0daNW5GTlBR?oc=5",
@@ -3166,97 +3091,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-eu-parlament-vom-06-11-2026",
-   "titel": "KI-Systeme benachteiligen Frauen auf mehreren Ebenen, etwa (…)",
-   "auszug": "KI-Systeme benachteiligen Frauen auf mehreren Ebenen, etwa bei Job-Bewerbungen und in der Gesundheitsversorgung. Das geht aus einer vom EU-Parlament in Auftrag gegebenen Studie hervor. Beim Schutz vor Diskriminierung müsse der Gesetzgeber nachbessern. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzp",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-06T13:41:51+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-openai-vom-06-11-2026",
-   "titel": "Nach heftigem Widerstand gegen Rechenzentren in den (…)",
-   "auszug": "Nach heftigem Widerstand gegen Rechenzentren in den USA will KI-Konzern OpenAI Anwohner:innen mehr entgegenkommen: Stromkosten übernehmen, Arbeitsplätze schaffen, Transparenz herstellen über Lärm, Wasser- und Stromverbrauch. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzpolitik.org jetzt mit einer ",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-06T11:33:15+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-404-media-vom-06-11-2026",
-   "titel": "Meta macht einen Rückzieher: Ursprünglich wollte sich der (…)",
-   "auszug": "Meta macht einen Rückzieher: Ursprünglich wollte sich der US-Konzern großzügige Rechte zur KI-Verwertung verlinkter Inhalte einräumen. Nach heftigem Widerstand liegt das jetzt auf Eis. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzpolitik.org jetzt mit einer Spende unterstützen: https://netzpolitik",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-06T10:19:02+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-rte-vom-05-11-2026",
-   "titel": "Gleich zwei UN-Sonderberichterstatter:innen machen sich Sorgen um (…)",
-   "auszug": "Gleich zwei UN-Sonderberichterstatter:innen machen sich Sorgen um die Unabhängigkeit der irischen Datenschutzbehörde. Die ist für die großen Tech-Konzernen zuständig und wird von einer ehemaligen Meta-Lobbyistin mitgeleitet. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzpolitik.org jetzt mit einer ",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-06T08:41:37+00:00",
-   "treffer": [
-    "Datenschutz"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tYkFMWXV2MUtzX2xmMTBIblI2NWJXMW1RakFWNl9FU1lrUmNqSGo0Sjh5QmtaRXQ4eXZUSmlra1VMa0tXTWRNWThHSWU3Y2VsUC1VUWh6QnZJQ212YTFjbXFWUnF2djNKUFE?oc=5",
-   "titel": "GenAI4EU: Förderung generativer KI-Anwendungen in Europa - Shaping Europe’s digital future",
-   "auszug": "GenAI4EU: Förderung generativer KI-Anwendungen in Europa &nbsp;&nbsp; Shaping Europe’s digital future",
-   "quelle": "Google News: site:digital-strategy.ec.europa.eu",
-   "kategorie": "Europa",
-   "organisation": "EU Digital Strategy",
-   "datum": "2026-11-06T08:00:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Außenhandelsstatistik",
+   "zusammenfassung": "Das Statistische Bundesamt publiziert aktuelle Daten zum deutschen Außenhandel. Die Meldung betrifft direkt die amtliche Statistik."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFwUGo0NG1RTnY5WFV0ZzRGVkZvOGRGamV4eGc1eUNCTmc0RWNHNWUwQkk4UklTSEFsTVFHc2t5VUxYWDMwTVF6TVBHMVdXUGhRUm81Vy12SEhtRTAyTHR0azBEemF6cUhZMWFFUlM4M1EyeFBYTUNVZnNCTlJIYlpHcGk?oc=5",
@@ -3270,64 +3108,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-05-11-2026",
-   "titel": "„Die mächtigste Technologie unserer Zeit liegt in (…)",
-   "auszug": "„Die mächtigste Technologie unserer Zeit liegt in den Händen weniger Männer, die offen mit autoritären Kräften paktieren“, kritisiert Soziologin und Ethnologin Tanja Kubes im taz-Interview. Ihr neues Buch „Code &amp; Care“ handelt von feministischer KI und Gerechtigkeit. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. S",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-05T18:00:05+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://www.bundesumweltministerium.de/pressemitteilung/daten-kreislaeufe-gesellschaft-gemeinsam-digitale-transformation-der-kreislaufwirtschaft-gestalten",
-   "titel": "Daten. Kreisläufe. Gesellschaft. – Gemeinsam digitale Transformation der Kreislaufwirtschaft gestalten.",
-   "auszug": "Wie können Digitalisierung, Daten und KI dazu beitragen, Stoffkreisläufe zu schließen und die Wettbewerbsfähigkeit Deutschlands zu stärken? Darüber wurde beim Side-Event des Bundesumweltministeriums zum Digital-Gipfel diskutiert.",
-   "quelle": "BMUKN - Pressemitteilungen",
-   "kategorie": "Behörde",
-   "organisation": "BMUKN",
-   "datum": "2026-11-05T17:28:00+00:00",
-   "treffer": [
-    "Digitalisierung",
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://netzpolitik.org/ticker/ticker-news-von-cnbc-vom-05-11-2026",
-   "titel": "Die Siege der US-Demokraten bei den Midterms (…)",
-   "auszug": "Die Siege der US-Demokraten bei den Midterms sind „ein Schlag für die Tech-Milliardäre“, die Hunderte Millionen US-Dollar in die Unterstützung KI-freundlicher Republikaner investiert haben, kommentiert der Sender für Wirtschaftsnachrichten CNBC. ––– Wir machen die Arbeit, die sonst keiner macht. Wir lesen Gesetzentwürfe im Original, befreien Dokumente, graben uns in Recherchen und warnen als Sachverständige vor neuer Überwachung. Deine Unterstützung macht das möglich. Spende jetzt. – netzpolitik",
-   "quelle": "netzpolitik.org Ticker",
-   "datum": "2026-11-05T17:00:44+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 100,
+   "tonalitaet": "neutral",
+   "thema": "Produktionsindex September",
+   "zusammenfassung": "Das Statistische Bundesamt meldet für September 2026 einen Anstieg der Produktion um 0,7 Prozent zum Vormonat. Dies betrifft direkt die amtliche Statistik."
   }
  ],
  "gesehen": {
@@ -3660,7 +3444,7 @@
   "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVnNuTDhfYkFLVmNQTHN2RXVBaHV0UGVZQkVGc3V3U0p3bjYybzMwbHJnUzF6ekJhX1AwQklCRFN3VExoQWptb3RKdWdQaERpY3RhRnZ4R0RHM2dIRDJxdi0zUmpnY1ZoSVg5VGl3R2N4WFhWTXdPTkRQb1BtemV2T3F3M0h0QlJEeks0MEpya191aVNPcGdUWWExSEQxNUlua04zOTl4Yw?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzBicW1tWkFwaC1ZeG4zTEZVRExrRWdqVkVBSW9mQ3V1ZFlHejdXQWtLNEV2NnRkVnk5eGJLdThvSVJMYnk3cHNrYUJza1pOMF9DeUtMOTdkU1c0akRmUGZwb0pudlhOckFOckoyV0ZkMEV4QWN1THh5QUE5bGdOLWVkbl9hZnJmdnZJdlpGZm1HMzgwY0R1TUMzWTlwa0huV25rRHBPZk5fRmJhdm9Bb3M0UkdhbzdoSjJxdE9Cd1pwb2M?oc=5": "2026-11-19T13:46:09.976089+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-transparency-international-eu-vom-11-11-2026": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-openai-vom-06-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-openai-vom-06-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://www.heise.de/news/Nach-den-Adobe-Klonen-ArtCraft-laesst-KI-auf-GitHub-Backlogs-los-11528115.html": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Synchronisation-Netflix-erhoeht-Folgeverguetung-KI-Streit-bleibt-ungeloest-11528133.html": "2026-11-26T16:45:50.986949+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233860": "2026-11-26T16:45:50.986949+00:00",
@@ -3706,7 +3490,7 @@
   "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-de-enquete-antisemitismus-1232590": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-heise-online-vom-18-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Bitkom-Mehr-KI-Nutzung-bei-Symptomen-Vorbehalte-gegenueber-KI-wachsen-ebenfalls-11529059.html": "2026-11-26T16:45:50.986949+00:00",
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZEc0QTNVbUFWWTNGVTE5djNMZW5DcjFYdEpJNFJLbUQ5ZkRqYk5MRnR6NjdieTE4c0xqQ0M1RFBuX0E1VDlNS2xqa043dF93NUJlUmJqekpLTWlKcWV0UU9VSE4yVmJuRzJ4elpqY0NWTWtzcVdxdjFaUkphZm9iWnkzMA?oc=5": "2026-11-19T13:46:09.976089+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZEc0QTNVbUFWWTNGVTE5djNMZW5DcjFYdEpJNFJLbUQ5ZkRqYk5MRnR6NjdieTE4c0xqQ0M1RFBuX0E1VDlNS2xqa043dF93NUJlUmJqekpLTWlKcWV0UU9VSE4yVmJuRzJ4elpqY0NWTWtzcVdxdjFaUkphZm9iWnkzMA?oc=5": "2026-11-27T16:27:50.988216+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233766": "2026-11-20T15:17:44.723371+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-techcrunch-vom-18-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-10-11-2026": "2026-11-26T16:45:50.986949+00:00",
@@ -3714,16 +3498,16 @@
   "https://netzpolitik.org/ticker/ticker-news-von-rbb24-vom-17-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Mehr-Datenschutz-bei-Gemini-KI-Training-untersagen-und-Verlauf-behalten-11529670.html": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb1F6MmY3czRNRFpTeFhmbnNITG1NUGtKTVlFeG1ub0x0Z09tNV9ubDBicUJ3Sk90MHotNEFYS2pJbERocGtmdVZ6Z2c5d1FTMjRsTDFtUUstRmw4Z2xpckpaaHFDTXdNNE9rV2ZfbV9nUHNOZkN1aFlacTRFakRjLUZOdURZTms?oc=5": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-404-media-vom-06-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-404-media-vom-06-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://www.heise.de/news/Klage-gegen-OpenAI-Kalifornien-sieht-oeffentliche-Sicherheit-gefaehrdet-11527400.html": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-09-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-the-verge-vom-09-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://www.heise.de/news/X-stoppt-Grok-KI-Training-mit-Drittanbieterdaten-auf-Druck-aus-Irland-11528427.html": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-gizmodo-vom-13-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1232714": "2026-11-19T16:15:35.870791+00:00",
   "https://www.heise.de/news/Copilotforce-Microsoft-macht-Copilot-zur-Bedienoberflaeche-fuer-Salesforce-11529752.html": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVB6OHZQV2JndklySy1rVDBzNU8xSnc5LXBsci1uSGNPVzQ4ZG5sWWNiY2ZXbm5POFlHcDU0V1Q2RktwUk9ISkRUbU1BUmdhS3VRMzhNMkZEamJ3VEQ2X2pmakwxRHl0UkdMeXVwZFczcFAxMzd6dzE3TU1VWnVGalJ5MEtRZ3l0aWk1U0tIbk80ZVNySnRzZ2JZR2JBb0pTQ2g4?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-wahlpruefung-1211292": "2026-11-19T16:15:35.870791+00:00",
-  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFwUGo0NG1RTnY5WFV0ZzRGVkZvOGRGamV4eGc1eUNCTmc0RWNHNWUwQkk4UklTSEFsTVFHc2t5VUxYWDMwTVF6TVBHMVdXUGhRUm81Vy12SEhtRTAyTHR0azBEemF6cUhZMWFFUlM4M1EyeFBYTUNVZnNCTlJIYlpHcGk?oc=5": "2026-11-19T13:46:09.976089+00:00",
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzFwUGo0NG1RTnY5WFV0ZzRGVkZvOGRGamV4eGc1eUNCTmc0RWNHNWUwQkk4UklTSEFsTVFHc2t5VUxYWDMwTVF6TVBHMVdXUGhRUm81Vy12SEhtRTAyTHR0azBEemF6cUhZMWFFUlM4M1EyeFBYTUNVZnNCTlJIYlpHcGk?oc=5": "2026-11-27T16:27:50.988216+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233604": "2026-11-20T15:17:44.723371+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZS14VHNzeUZ1bXdHWmpVY3ZUaEJZODB4ZXQwLUFBTGdiLUF1VmxvZUM3M25COVFjVlNZQm81dTNtTHZwajF2LXhjUkt2Q1lvM2Z3U1ZhMFhJRXFaNlBVYnlnanRkcXVsYUhseFU1QWR4dmF4OUo1MmRfSGhNWEZqNVRnd1Y?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233852": "2026-11-26T16:45:50.986949+00:00",
@@ -3731,7 +3515,7 @@
   "https://www.bundestag.de/resource/blob/1230840/TO-38-Sitzung.pdf": "2026-11-20T15:17:44.723371+00:00",
   "https://www.heise.de/news/Anthropic-und-Cisco-integrieren-Claude-Mythos-5-in-AI-Defense-11529932.html": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-giga-vom-18-11-2026": "2026-11-26T16:45:50.986949+00:00",
-  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FRDZMVXVDdkJKYmZDUnRmLS1nNUhJQlVFUVJfY3I1NHJKNWlQS3VTNG1rWXdWandzV2pHM0lpMVhCbUhoU3VkTTFOdHR3dnNPdHlfNWJ3YkRwZzluYlVQUkRwd1RuZmhweTBja0VjX3BTX0daNW5GTlBR?oc=5": "2026-11-19T13:46:09.976089+00:00",
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FRDZMVXVDdkJKYmZDUnRmLS1nNUhJQlVFUVJfY3I1NHJKNWlQS3VTNG1rWXdWandzV2pHM0lpMVhCbUhoU3VkTTFOdHR3dnNPdHlfNWJ3YkRwZzluYlVQUkRwd1RuZmhweTBja0VjX3BTX0daNW5GTlBR?oc=5": "2026-11-27T16:27:50.988216+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-techspot-vom-16-11-2026-2": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTEZiZXJ4MGY0VllYUDBRdkJleThSWXpENGpDS0llMEZORjc2SzNpV2VxS0p3UkxUZDVLdGtYUDNaWWk0b0h0MXg3aUtnZjFIOE9JYktpYWM2VTBJcVNEd2phSzltcndPTm9rcmRtczB6VlowbE16X0szdTVIS244TGtHbGdBZjA?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/hintergrund/KI-beweist-dass-Quantencomputer-nicht-allmaechtig-sind-11521373.html": "2026-11-23T17:49:27.866491+00:00",
@@ -3748,7 +3532,7 @@
   "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5djJOMGhpc09vZ0VmRnVMejd3YlZzaGk0RFE1YUR2UmN4ZzZrX3NqR3dhMFJMemRvbHhhajhwN05YdFVINzdVVXFaRkY2cWM4TnVvNjFoUkp4aTdSV1hyYVZ0TWM3QUJJS3NpSkVMRjBYQ0xyMVItbGowUQ?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Gemini-4-Neon-macht-Googles-Spitzenmodell-Konkurrenz-11530483.html": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Windows-Server-2028-Oeffentliche-Vorschau-verfuegbar-11528845.html": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-cnbc-vom-05-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-cnbc-vom-05-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTEJfVmR1ci1SZHZXNjhwbEtqVnpXYTFqYk9xUXhyNWdObTdiMWJQTWFsaHJBX1dheTVDbm9zZG9SSWxvR0psaGgyRmFVMDBNRTRxRnNrMTNhcjB0TEVJc0ktMUlIeVlEVkdrY09sbjNmY2dQZzFucHI1THJjWmZ6MmxVWlpDaVZIZWV0bzlQMkNSRElPMkt0N2V6amh3ZzA?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNUdxTWV6eUdPMGlxNGIzRUhvNGN1SnQtdG1GendzQUJZSU9zX2tpV2wzTTMzd3o5cVBIMk00czh6aGtzd3ZMNkRFMnNvZzJVVW5HcnJ6VjB3cnJOTXlaNklrUlJLWktyWHRvbmMyd3V6Umc1a0ZHcHdhMW1pSWRXWXo5T3RtM2c?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSEJLeW03WUtoTHVuX0dLSXBXdFJDY0pjXzZvak1UeGhSekJrREl1eXVfQmdvbUVjY25iSHZ2S1JOazlZc0hNYjVjdi1uai1FSFdNZ21QcUtTcXZjQTlQcEFyVjhJZUlhYzZVdzhjbDVpUjZ6ZXB3ZWQ1QTFKS2htMFBlcjFVNGM?oc=5": "2026-11-26T16:45:50.986949+00:00",
@@ -3763,13 +3547,13 @@
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZWN2RHFIZFNPN3JFR2Z4R0ctaHNCMVN2d0ZPeEp5N0JVZDdzRmtiMFBTbVJMX29rRnFwRHdncEZFZHJEeDROT0llYlAxSzFtclFsajB1aTlzY29BZVoyeWVBY2d0RnFxcElNWE5oTk5sMGNOUjIzN3VncHdibHV3U2pTQWs?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-the-washington-post-vom-18-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-the-guardian-vom-17-11-2026-2": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-eu-parlament-vom-06-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-eu-parlament-vom-06-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-lto-vom-18-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/tests/Claude-als-Office-Ersatz-Wie-weit-Anthropics-eingebaute-Werkzeuge-schon-reichen-11521250.html": "2026-11-26T16:45:50.986949+00:00",
   "https://www.bundestag.de/resource/blob/1232288/TO-38-Sitzung-1-Ergaenzungsmitteilung.pdf": "2026-11-19T16:15:35.870791+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-t3n-vom-09-11-2026-2": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-der-hamburgische-beauftragte-fuer-datenschutz-und-informationsfreiheit-vom-16-11-2026": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-rte-vom-05-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-rte-vom-05-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-der-spiegel-vom-16-11-2026": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/Microsoft-Ignite-26-Azure-wird-agentischer-und-Windows-rueckt-in-die-Cloud-11529788.html": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-golem-de-vom-12-11-2026": "2026-11-26T16:45:50.986949+00:00",
@@ -3786,7 +3570,7 @@
   "https://www.bundestag.de/presse/hib/kurzmeldungen-1233792": "2026-11-20T15:17:44.723371+00:00",
   "https://www.heise.de/news/Microsofts-KI-Framework-verteilt-Malware-So-bekamen-Angreifer-Zugang-11530977.html": "2026-11-26T16:45:50.986949+00:00",
   "https://www.heise.de/news/KI-Modelle-markieren-Zivilisten-als-militaerische-Ziele-11529550.html": "2026-11-26T16:45:50.986949+00:00",
-  "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-05-11-2026": "2026-11-19T13:46:09.976089+00:00",
+  "https://netzpolitik.org/ticker/ticker-news-von-taz-vom-05-11-2026": "2026-11-27T16:27:50.988216+00:00",
   "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYWdtaUtUbGg1RWtHVk5BUkNfbFlycjRPMzYxUHRUNjAxOWJLTG1FRVNLZWU1WUJKR1FtdnJ2LWdxX1R0Z2FTRF9tVENvTmhveVFndXd1UDRWLUI1cXR0SzZ6MHNTWW1jRnFueHg5eUVxRWVRc1JVVTBRaHhTMDZoRW9lN1E?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmRCSHkxY0NYb1d3b1pJSHFDWm13UXVHUHJRa09SY1pJY0dONjg4cnlzMHEyTHhKLVVJVWo5czZENWdaU290V25hRmEzS1JLQWs5dXRzWW9LUVNtb3lJQ3dUVGtYYm4xbk9kUnRZVGlTcW44dERnaWhnRGVnOWFXZWQtZHcydw?oc=5": "2026-11-26T16:45:50.986949+00:00",
   "https://netzpolitik.org/ticker/ticker-news-von-the-guardian-vom-18-11-2026-2": "2026-11-26T16:45:50.986949+00:00",
@@ -6524,6 +6308,25 @@
   "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdkdMSXd6TnRmdkFiUl90ZmFPN0JnYzJZWlUwTWpfMXdnSk9kV0NDU0dpSzB3MldQand2V2dYd2JzS1Vfb2NKd08yWGNMeWt0aTNNUl83MTRjQjRzNWdLdl82cGJnZkRWZHZHZTlLYUd4Ny1LOGR5ZG9BVVdrS284TEQ5RFA2RXpiT0xWbFJEZzlrNnpSUnpWM2ZTNnFKVU41akc0ZWhDd2pReUQ0cWtzeExvV2g4ZTlWTUlHSnVIRXBwNm03ZV9KdC1NTzIxaWZF?oc=5": "2026-11-27T16:27:26.063558+00:00",
   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVZxeHpmeW5XcFlIdlVLS2lTbHJmTXk5MzE2Vkp5dXlnTG5OVGRrWHI1RDhrNWFhR2xrakJOcjg5VXNYWHRsR1JOSDJ4UzVrTF90ejJkcmtTNldkd0wyV1VfLVJDRVVnWGpicnZGMVpVams5R3NocWgxXzlKRE9PNmZzcFUtdFdSOHhkZlBhOHZKc3pOXzA0OEtxNktmZU03NlE4d192V2VaNWlVM1pzZEdvTTVYbi1HazYzWHdQb0NhVkU3d2hxcg?oc=5": "2026-11-27T16:27:26.063558+00:00",
   "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTWFVR0hQamZPUEhNMnFCcDhiMTJvSldmdTVFSXNiRGdPSGYtZkV5Q1h2S2lVaWdYQk5aV1RXN0JIU0ZQOUMydnctaHJUTjBnT0NZeVVEZ2k0ejE0VzRNajRhN3RsWmxyRGtyLXMxWmV1S3Fuc09tblUyT0l0bm1GeXFsOW1NR2t0Z1UzcEl2bUgxSXBYUm5hV0ZXNkhSZjFNX0p0cXFVaE84T2dRRXZYQ1B6endXUmI0VklQNjJNbjd3UnBTMHRvQjhhbGNpVVprakhtT2hhWkx4MTVIVmc?oc=5": "2026-11-27T16:27:26.063558+00:00",
-  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11UDBUNm9YdDY5QWVkZFdGSVhoNlVaZ3ctWVRYaWFnbHVwLU1SNEdvdmRHLUtQaXJsRWhxSzNSeHVMSktuMTBoalhLdnAzV1ZadDFuX0FnaUFqVzYx?oc=5": "2026-11-27T16:27:26.063558+00:00"
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11UDBUNm9YdDY5QWVkZFdGSVhoNlVaZ3ctWVRYaWFnbHVwLU1SNEdvdmRHLUtQaXJsRWhxSzNSeHVMSktuMTBoalhLdnAzV1ZadDFuX0FnaUFqVzYx?oc=5": "2026-11-27T16:27:26.063558+00:00",
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yZVBNZTBPakdwOUtKaFFhb3l6RXBtMk0tYlRPM0pucUFjRmE0ZGFMVHVGVjVLdi13ekFlMXJfVTlpUzVKYmxLaHk0VDdMMFRzdUhLcVNlUVFuem1GOENmQXNkSTB1YUNTZ1VtU1FOV2lWMkh6LUhTV2RFYw?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWE1HYzBVdlBfOHR1SlFIRks1ZVF3bkxvQ3loa3pnRVF2djFiNW5ybW9iVUNfbm1QQVdyaVRsdU4zMFI4c29ZS0RsYjdxRk9vMlNKR2tieUNib0k1emg5RXpFQlgwZ3dCRVNnc2NPVjZicFBDWHo4Rlg3VDlQTFZNQlBHQlVWdk1sOUVMVjFoenA3SzZ5eVJiMDVwZTJQMUE0VWF1VGw2MWJmck9XdEh2SWViaElFcXdkbncyeThn?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://www.bfdi.bund.de/SharedDocs/Kurzmeldungen/DE/2026/21_Treffen-der-Berlin-Group.html": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFp5OUpWN2ZndDNIcHlOTjhCSnVmZTlFZ1c5dTVoWUpsVmlhbnR2OTFweGxsaEp5X3lzeUhaY01qRmltZTRvenc1OUVUd1JSQTM4ZXl4OGJmdzRaREItSjNLS0FFVTlnSGlKU2I4YnJYRXpvOXh6N2t0UDhhX1hzLUZFdUdvMzhrYzVyaF92QmpVUjZvOVV5TGl5OHE1RkI2OVlyVUNSam5QUWx5SmRaa2J6Q2oyUE9zOFR0eUdWMkpTMUE?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://www.heise.de/news/Freitag-SAPs-massiver-Stellenabbau-wegen-KI-FBI-Falle-fuer-Ransomware-Betrueger-11539951.html": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWpSSFpMQVdrcV9kVHR4SHVFTzZvUk1aVV9wQUpSYWNLdEl3YVlLVGFoSEdxcVpQMEZ6TlpqVzhDbU1CTU1PWE4xZUFJQkxfVnJRTGgxMTlPbDlJUDJlRk9VWXFkTmwyLTBkM191aDgyYXRjUnkzQ3B5VVJyWVZrTnBYOVExRzFIZzdLNTBXbVRvQ0w5djRXZDZ6ZDU3LVF5cGUzMHJXU29MUQ?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ROTRjOGxvODczN0FzTURFckhUYVBPcWUwYmx4RFBhdTVqUnpfREJaZ1JhblZXbHE2UFpiUTlSVmlGM3JvYTJjZndLU3lGd3g4RE5Ed2NrLUZNcWxhc0luTzRuZm9yYVBsNTNPNXlBMENveFVIX1Z1dk8zbEpFMUk?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://www.heise.de/news/Datenschutzkonferenz-Zeitdruck-bei-EU-Digitalrecht-Streit-um-Forschungsdaten-11539609.html": "2026-11-27T16:27:50.988216+00:00",
+  "https://www.heise.de/news/IT-Planungsrat-Deutschland-Stack-und-EUDI-Wallet-sollen-Verwaltung-verzahnen-11539657.html": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOckxoZ0lSMVhEdTdmSHFYZXVuNlJZWC1iS1UtQWxLblVyTDZsNW5VT3lfQjI3Vldua0tNNVZLLUpnR0s4UHlWUWIwNW1MYnRyNTBGNkMxd1JmaXVwR1pRZTROX1gzc2xoQWJmZWtVV0NRZkFrTTRsSkZ0T3U2N3g1bDVLaU1zYVk1dUZ1WkxsWWhzbU1IbFA0Rm84ejVhWWxmNmo1WWp6dGJJZVBad0JSTg?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTUZFZ3dqUDNhRHB0R2FnYzJ6RW95WkdTalZkZXpsNmphYjFTMUpUUGQwMWNwMVhyWlhSeG9GZTdzRE14TWpqSkVBNGhBWTdSMXhiUUNjYTFxUXFEUWhRZTlLckctUHRpOW1rSC1VSjVodlJWbFpuUzg2a2JEeTNKckFXYmdicW9QSk0wOU5saEYtWlk4YlpRd2N6Q1JpRG10NmFVQ24xN0ViVWo4UG5ldGg4ZkhtS29RTWxmTmdZRHRqQQ?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BOWZWc18waG82Tmh3eTNtWlNldTdvZUNCX01BNU0yODJIbzUzM1ExcjNrenZRVDVIbEd6R2VPZEVzQWhERDN2OUpjVUZuRnNHbU1LbTRxOWplQWMtZ3ozdUZTOEFPVWtSRTVHSmFuREhKUUVUQWMtTkRYTE5UUQ?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wLXRxVUI3Ry02cXExdkhERnJFU1lmWk85MFpzdnZlQlZrWkZIV19yVEpuR1ppRHhTOXlvS0NvVHBYNzR3eU9JQ1FuMHMyQ3dyTDFfdG84ZU51NlV3Z1JQNkV3?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BaDRoT3Fuang2amFqdm4wdUM3V2pWR040d2NHbERzZ0s0NERUV1hkNUFESVJYSlMzbHFrVjdCcnZWQm9Xay10QzhETWVFRnNVZlAyOHByZDdfb2ZFMTVXdkxR?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaW9yRUpLTnVRQmlkUkc4MVQ4bHZtbTNaNUVtd1ZWU0JWbjRnYmVuckdvTUNvbEphS1NhQ1JLMUJrM0NYSHNXUUVPMlIxeGJ5TVV5aUZjeGNuY1pnQ0o2TE84bWo3S1FON2NpaWdzR1ljVTNXN1ZoTkhzVWJPZHhuRXF4aw?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4NjJxdGNTQzlXMkgtcl9WbDkyVDNhcjBJQ01UaHJoMWZoQ2VYaktpQkIzY0duaXg3ZDQ2Z21zTy15cjBRZFBHZ0xjQWFVZUZLejdRaFIzeDR6VE9YNk16Tzg2bFJpMnN6VDBpMFBJeG8?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcW5mZGFqeV81TGR0aFo5ZTVVdTg4N0JQS1hTZ3hFRVNiLWtZUVFvUUgwTFRGdkw3dWc0NHR0c1pycGYxSWhpQUh0QUkwRnVWc3cwUFQ4U2hBc1BYV3Q4QjZiZE5EZGVaNzNkU0w2NF9UN216eFBreW1BVnZGY3V6cThlQnZsOUNBQ0pzcTc1TGdyaGt3cXJGYkd3?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tYkFMWXV2MUtzX2xmMTBIblI2NWJXMW1RakFWNl9FU1lrUmNqSGo0Sjh5QmtaRXQ4eXZUSmlra1VMa0tXTWRNWThHSWU3Y2VsUC1VUWh6QnZJQ212YTFjbXFWUnF2djNKUFE?oc=5": "2026-11-27T16:27:50.988216+00:00",
+  "https://www.bundesumweltministerium.de/pressemitteilung/daten-kreislaeufe-gesellschaft-gemeinsam-digitale-transformation-der-kreislaufwirtschaft-gestalten": "2026-11-27T16:27:50.988216+00:00"
  }
 }
