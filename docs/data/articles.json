@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-28T15:20:24.979439+00:00",
+ "aktualisiert": "2026-11-28T15:20:31.881377+00:00",
  "fehler": [
   "BMDS - Newsfeed: HTTPSConnectionPool(host='bmds.bund.de', port=443): Read timed out. (read timeout=20)",
   "BfDI - Newsfeed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
@@ -874,29 +874,10 @@
    "themenfelder": [
     "Allgemein"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZDhpT2JXVDBlNmxBOU13QnpoMlRfNVRtcnFGMlZSTTFNTHdscFZ4NEtZTXljWTdscFJTMGY2eUtqbFBYSG5SbTd4WUEzaFVncjl4cU8wbHdXNHBKTU1GYWZIRlp6cVpUemF3X0xWUDFpUXBUX1NCMTB2M0FnN1BjR0xCX0xvY3ZnOWxiZHJRbmF6ZFUzWDdaVHQ3LXBzSFg3V3lraFB3aUo2dW1vdlVONHJ3UEkxbk9ROXJoR2RnQjFfcmwyT2EzeDJvNU5Ja1l6ZlhkWjdqa1FadjRmZkcySEtGeFVuUWJjbW9MZGlnQ2dNZw?oc=5",
-   "titel": "Agentic Flooding: Wie KI die Sozialgerichte überlastet und welche Lösungsansätze es gibt - FAZ",
-   "auszug": "Agentic Flooding: Wie KI die Sozialgerichte überlastet und welche Lösungsansätze es gibt &nbsp;&nbsp; FAZ",
-   "quelle": "Google News: site:faz.net (Statistik OR Destatis OR \"Statistisches Bundesamt\" OR Zensus OR Mikrozensus OR Register OR Registermodernisierung OR Wahlrecht OR Bundeswahlleiterin OR Datenpolitik OR Staatsmodernisierung OR Bürokratieabbau) when:14d",
-   "kategorie": "Presse",
-   "organisation": "FAZ",
-   "datum": "2026-11-27T19:26:37+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 85,
+   "tonalitaet": "neutral",
+   "thema": "Verbraucherpreisstatistik",
+   "zusammenfassung": "Das Statistische Bundesamt berichtet über Preisentwicklungen bei Unterhaltungselektronik wie Fernsehern und Laptops. Dies betrifft direkt die amtliche Preisstatistik."
   },
   {
    "url": "https://www.bfdi.bund.de/SharedDocs/Kurzmeldungen/DE/2026/21_Treffen-der-Berlin-Group.html",
@@ -951,10 +932,10 @@
    "themenfelder": [
     "Relevante Themen"
    ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
+   "relevanz": 40,
+   "tonalitaet": "neutral",
+   "thema": "KI und Datenschutz",
+   "zusammenfassung": "Der Tagesspiegel gibt einen Ausblick auf politische Konferenzen und das Thema datenschutzkonforme KI. Der Bezug zum Beobachtungsziel ist eher indirekt über Digitalisierung."
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWpSSFpMQVdrcV9kVHR4SHVFTzZvUk1aVV9wQUpSYWNLdEl3YVlLVGFoSEdxcVpQMEZ6TlpqVzhDbU1CTU1PWE4xZUFJQkxfVnJRTGgxMTlPbDlJUDJlRk9VWXFkTmwyLTBkM191aDgyYXRjUnkzQ3B5VVJyWVZrTnBYOVExRzFIZzdLNTBXbVRvQ0w5djRXZDZ6ZDU3LVF5cGUzMHJXU29MUQ?oc=5",
@@ -1082,25 +1063,6 @@
    "zusammenfassung": "Das Bundesamt für Migration und Flüchtlinge hat die Asylzahlen für Oktober 2026 veröffentlicht. Obwohl es sich um amtliche Statistik handelt, betrifft es nicht unmittelbar das Statistische Bundesamt."
   },
   {
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQWNQNFBSdWNoc25rQ3Y0aUxKX2JHOEZEQXhjUllQUWd4RjlhWENxV2wtdllrTE0zTXd3Rm05NjV5TE00TWM5eTNQU2pDOFY2M0dMNzRHa2NHNF9jNjRMb3cyZHV4Tl9mQkFiWFVsYTNTN1RxaTVacFRCYVlJVmdRdHZZbTIzRUtDemtIRlVXZjVEaTQ?oc=5",
-   "titel": "EU-Icons für die Kennzeichnung von KI-generierten Inhalten | Gestaltung der digitalen Zukunft Europas - Shaping Europe’s digital future",
-   "auszug": "EU-Icons für die Kennzeichnung von KI-generierten Inhalten | Gestaltung der digitalen Zukunft Europas &nbsp;&nbsp; Shaping Europe’s digital future",
-   "quelle": "Google News: site:digital-strategy.ec.europa.eu",
-   "kategorie": "Europa",
-   "organisation": "EU Digital Strategy",
-   "datum": "2026-11-26T11:39:30+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
-  },
-  {
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOFVMZGsxY2pLRjgySjZDb2czbzExQU9SekxISF9RR0FpaFgwZFhTOVFnY014SllGS0diUGhDeVI5d2pqd1NoQzVGOWF3Y1lubkt6Tm05MF81NFMtTDdhLXZ1NmhobkxSektUbm9vZTg1djA3enVmdGJrMkM3MmZSNWlxT0FDa1gyYmRHeHJFZm5pTnZJY0E?oc=5",
    "titel": "Statistisches Bundesamt: Reallöhne wachsen nur langsam - Wirtschaft - SZ.de - SZ.de",
    "auszug": "Statistisches Bundesamt: Reallöhne wachsen nur langsam - Wirtschaft - SZ.de &nbsp;&nbsp; SZ.de",
@@ -1137,25 +1099,6 @@
    "tonalitaet": "neutral",
    "thema": "Digitalpolitik und TikTok",
    "zusammenfassung": "Staatsminister Weimer und Staatssekretär Pröll treiben eine europäische Lösung und Eigentümerstruktur für TikTok voran. Das Thema berührt die europäische Datenpolitik und Infrastruktur, ist jedoch keine Kernstatistik."
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa3h4M0pZX3g4MWxibjVkQThnMGJqbTI4b3hsVHc0aEM3Yi04TzFjYURHWEdiV3dqa0JnSkt3X0Y5NmVTcWVUNl83SnVMOG5QSXpTZTl3Z3R4aXh6NHh4YTM2QzFUdWlTck1PbzY5S3Q0N3A4NFI3c2JKNl9VMUI0ZA?oc=5",
-   "titel": "KI-Kompetenz - Fragen & Ampere; Antworten - Shaping Europe’s digital future",
-   "auszug": "KI-Kompetenz - Fragen & Ampere; Antworten &nbsp;&nbsp; Shaping Europe’s digital future",
-   "quelle": "Google News: site:digital-strategy.ec.europa.eu",
-   "kategorie": "Europa",
-   "organisation": "EU Digital Strategy",
-   "datum": "2026-11-26T08:00:00+00:00",
-   "treffer": [
-    "KI"
-   ],
-   "themenfelder": [
-    "Relevante Themen"
-   ],
-   "relevanz": null,
-   "tonalitaet": "unbewertet",
-   "thema": "",
-   "zusammenfassung": ""
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZG8yY2lXWmVIQTE0Y0J3dlhITVlIbkFTVmc1aWVxU0lEXzJWSTZiZ0xiVl84UjZrYVhIQ1NiR2R5YlFtVHZBRkJjbjFEWi0tNWFpa2ZGVXV0dFhHSnh1bmF0Sjk1ek4zaTc5VVh6LTZHWHdieGVMVEI4c0RQNmVua1E2OGpZbHha?oc=5",
@@ -6529,6 +6472,11 @@
   "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeHFJdldKZ1ZXVlJEZFZDMUFZcExpRHdDSUExWHlzRmZ4LWRyblhuYzRZQndjcXVwX3VIdHVtLXVOLUhkMWNLVmJ5dy0wejk5NkNyekY4a2dHSmd2Qmw1dXNEQVpOQWwwbDZuOGh2OXBncmpGUERHejN2SHJhTV9ubVpNUDlFcXZfVXJXd05Zbnd0QWs2c3RmTVhSNzZqRk1qNTd3aDBQV2s4azJkbEhRakVITm0?oc=5": "2026-11-28T15:20:24.974861+00:00",
   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSzk2SXRwLXpxNklyMjA5dVFqQ1JSQjNfNEgwaFdxY3ZXWUlLVTc1R3g1V2piSG9KX2J5cHgzQjI4cDhwTGtTQkxuUEgtRVEwZUMwd2pUQks4Q2U2SHpkdEtLQ0k2Q1pBdDdlSnQ3U0pLc3FXWE5MdnNxN0dYY09CeUx1dnFNdkJKZ2pmZUsxVFBHN0JZNnZiSFpoaHhJRklTNW8zWjdsajdJQVU?oc=5": "2026-11-28T15:20:24.974861+00:00",
   "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeTctaXdiMVpGa2g4NE1jN3BSMnRDWGtpQzNYRHFQSjFfb0JsNFpZTTBfOVVhdmc0QW1Ob2xnbEd3VXhlYTY2czFOOG5aZDl4YTkyN3BJMWRwY1JkbXg0eXRBSnNnSmhkelJzd2NzeWxOM0FrVkdzeUJLblREUVZpeGFCSnk3NHVZU0l0ZGhvMnJfZ0JJOXZueDRlQktKNHZCaWlaRw?oc=5": "2026-11-28T15:20:24.974861+00:00",
-  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0telFZbWVEMzNYaDNMekNYelVKME1VSG91c292UlV4bGJYQ2hXSGN2M1BDbDFsbWNpMEJkbXFRQkJQMlhzaEhvZjdIRGtsSGhWaWtVTw?oc=5": "2026-11-28T15:20:24.974861+00:00"
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0telFZbWVEMzNYaDNMekNYelVKME1VSG91c292UlV4bGJYQ2hXSGN2M1BDbDFsbWNpMEJkbXFRQkJQMlhzaEhvZjdIRGtsSGhWaWtVTw?oc=5": "2026-11-28T15:20:24.974861+00:00",
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdkpRRDJQdWNHUGZPU055eE5sN0J1eVF5MFVNQm1xZG9hOVZPTEJXcDd5bzFRU3RQSmZxTnVzQkNEV2gxa1FYdE5ibVpQeDBNMWt1MkU3aUw1TktIcWNYcU5NM1NhZHFFWVU2ZC1YWUJRYTM4VmtPQ2dNUmFJcWxUa3BZajVObzlGU0t6ZmlpeHZ3eWZQMGNDdGR5eGJta29wbjFyLWZWbnFGZw?oc=5": "2026-11-28T15:20:31.875800+00:00",
+  "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZDhpT2JXVDBlNmxBOU13QnpoMlRfNVRtcnFGMlZSTTFNTHdscFZ4NEtZTXljWTdscFJTMGY2eUtqbFBYSG5SbTd4WUEzaFVncjl4cU8wbHdXNHBKTU1GYWZIRlp6cVpUemF3X0xWUDFpUXBUX1NCMTB2M0FnN1BjR0xCX0xvY3ZnOWxiZHJRbmF6ZFUzWDdaVHQ3LXBzSFg3V3lraFB3aUo2dW1vdlVONHJ3UEkxbk9ROXJoR2RnQjFfcmwyT2EzeDJvNU5Ja1l6ZlhkWjdqa1FadjRmZkcySEtGeFVuUWJjbW9MZGlnQ2dNZw?oc=5": "2026-11-28T15:20:31.875800+00:00",
+  "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQkpVMVc0ZmM4YlQxV181andSUXJFNVctcE5BTWJBVXJrR3hVUUJXbzhiOHVsUVNMSV9lRmRJN1NfdGN1QkdfSWtjeWFsclZQMTcxSUdzREtWbkFzR0tMYlNoenVPWGpZUnhEdXc3T3Y3TEtGcFpyT2czS0tBS2tOM01QYk83aHdERU11bnNqRDBkWnNCZWE1UXYtaUstY1JvMy1MSUZBQVJQMWtycml2dUhFT2hrcWhNb0FEMjVzbVZOdF9vZEhubFhB?oc=5": "2026-11-28T15:20:31.875800+00:00",
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQWNQNFBSdWNoc25rQ3Y0aUxKX2JHOEZEQXhjUllQUWd4RjlhWENxV2wtdllrTE0zTXd3Rm05NjV5TE00TWM5eTNQU2pDOFY2M0dMNzRHa2NHNF9jNjRMb3cyZHV4Tl9mQkFiWFVsYTNTN1RxaTVacFRCYVlJVmdRdHZZbTIzRUtDemtIRlVXZjVEaTQ?oc=5": "2026-11-28T15:20:31.875800+00:00",
+  "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa3h4M0pZX3g4MWxibjVkQThnMGJqbTI4b3hsVHc0aEM3Yi04TzFjYURHWEdiV3dqa0JnSkt3X0Y5NmVTcWVUNl83SnVMOG5QSXpTZTl3Z3R4aXh6NHh4YTM2QzFUdWlTck1PbzY5S3Q0N3A4NFI3c2JKNl9VMUI0ZA?oc=5": "2026-11-28T15:20:31.875800+00:00"
  }
 }
